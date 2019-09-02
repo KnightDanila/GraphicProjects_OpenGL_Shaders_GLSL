@@ -1,41 +1,51 @@
-# Lab1
+[ENG](#Eng) --- [UKR](#Ukr)
+<a name="Eng"></a>
 
-Install the software
+# Lab work 1!
 
-## Software
->## <span style="background-color:yellow">Git</span>
->https://git-scm.com/downloads
+## Download OpenGL libs
+GLFW - https://www.glfw.org/download.html  
+GLEW or GLAD:  
+GLEW - http://glew.sourceforge.net/  
+GLAD - https://glad.dav1d.de/  
 
----
+## Task
+1. Learn the base opportunities of OpenGL. Understand the features of the GLFW library linking.
+2. Using the application template (RAINBOW)[https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson1/Task01Src] - review and run the code, and complete the following tasks.
+3. Use glfwWindowHint (...) to connect OpenGL 3.3 or another version supported by your GPU.
+4. Add "Hello OpenGL" output to the console.
+5. Create a 640x480 glfwCreateWindow (...) window, named "Lesson 01 - RAINBOW".
 
->## <span style="background-color:yellow">Markdown Editors</span>
->### for Starter (the best for markdown learning)
->>Haroopad  
-http://pad.haroopress.com/user.html
 
->### for Pro
->>Notepad++  
-https://notepad-plus-plus.org/download/v7.7.1.html  
->>>+Plugins  
-MarkdownViewer++  
-https://github.com/nea/MarkdownViewerPlusPlus
-
->### for Balanced Minimalist
->>Markdownify  
-https://markdownify.js.org/
 
 ## Books
-### About Git
-1. [Pro Git book [en]](https://git-scm.com/book/en)
-2. [Pro Git book [ru]](https://git-scm.com/book/ru)
-3. [GitMagic Stanford.edu [en]](http://www-cs-students.stanford.edu/~blynn/gitmagic/book.pdf)
-4. [GitMagic Stanford.edu [ru]](https://wiki.dieg.info/_media/git_magic_ben_lynn_russian.pdf)
+### About OpenGL
+1. [OpenGLBook - A Free OpenGL Programming Book [en]](http://openglbook.com/)
+2. [The OpenGL® Programming Guide 9th Edition [en]](http://www.opengl-redbook.com/)
 
-### About Git
-1. https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
-4. https://education.github.com/git-cheat-sheet-education.pdf
-5. https://about.gitlab.com/images/press/git-cheat-sheet.pdf
-https://www.atlassian.com/dam/jcr:8132028b-024f-4b6b-953e-e68fcce0c5fa/atlassian-git-cheatsheet.pdf
 
-### All About Markdown
-https://github.com/KnightDanila/markdown-cheatsheet
+
+<a name="Ukr"></a>
+
+# Лабораторна робота №1
+
+## Завантажити OpenGL бібліотеки:
+GLFW - https://www.glfw.org/download.html  
+GLEW or GLAD:  
+GLEW - http://glew.sourceforge.net/  
+GLAD - https://glad.dav1d.de/  
+
+## Завдання
+1. Ознайомитись з можливостями графічної бібліотеки OpenGL. Розібратися з особливостями підключення бібліотеки GLFW.
+2. За допомогою шаблону програми (RAINBOW)[https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson1/Task01Src] - розглянути та запустити код, та віконати наступні завдання.
+3. За допомогою функції glfwWindowHint(...) підключити OpenGL 3.3 чи іншої версії, яку підтримує ваш GPU.
+4. Додати у консоль вивід "Hello OpenGL".
+5. Створити вікно glfwCreateWindow(...) розміром 640х480, та назвою "Lesson 01 - RAINBOW".
+
+
+
+
+## Книги
+### Про OpenGL
+1. [OpenGLBook - A Free OpenGL Programming Book [en]](http://openglbook.com/)
+2. [The OpenGL® Programming Guide 9th Edition [en]](http://www.opengl-redbook.com/)
