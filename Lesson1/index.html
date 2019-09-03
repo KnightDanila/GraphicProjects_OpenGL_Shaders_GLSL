@@ -13,6 +13,7 @@ and open the template in the editor.
 
         <link rel="stylesheet" href="../js/libs/reveal.js/css/reveal.css">
         <link rel="stylesheet" href="../js/libs/reveal.js/css/theme/night.css">
+        <link href="../js/libs/highlight.js/styles/arduino-light.min.css" rel="stylesheet" type="text/css"/>
 
         <!--<script src="../js/libs/jquery/jquery.js" type="text/javascript"></script>-->
         <link href="../theme/style.css" rel="stylesheet" type="text/css"/>
@@ -51,9 +52,9 @@ and open the template in the editor.
                 <section>
                     <br>
                     <h3>
-                        Git
+                        OpenGL
                     </h3>
-                    <img src="../data/Git-logo.png" class="stretch plain" alt="" />
+                    <img src="../data/OpenGL-logo.png" class="stretch plain" alt="" />
                     <br>
                     Lesson 1
                     <br>
@@ -63,132 +64,127 @@ and open the template in the editor.
                     </div>
                 </section>
 
-                <!--Joint development-->
+                <!--History-->
                 <section>
                     <section>
-                        Development, History, Joint development (Совместная разработка)
+                        History
                     </section>
                     <section>
-                        <h3>How development begins</h3>
+                        <h3>1980</h3>
                     </section>
                     <section>
-                        <h3>Idea</h3>
-                        <img class="stretch plain" src="data/idea.gif" alt=""/>
+                        <h3>Silicon Graphics (SGI)</h3>
+                        <img class="stretch plain" src="data/img/SGI_wordmark.svg.png" alt=""/>
                     </section>
                     <section>
-                        <h3>Plan</h3>
-                        <img class="stretch plain" src="data/To-do-list-panda.jpg" alt=""/>
+                        <img class="stretch plain" src="data/img/irix os.png" alt=""/>
                     </section>
                     <section>
-                        <h3>Analysis</h3>
-                        <img class="stretch plain" src="data/Books_2.gif" alt=""/>
+                        <h3>Silicon Graphics (SGI)</h3>
                     </section>
                     <section>
-                        <h3>Design</h3>
-                        Use your Idea and Knowledge from Analysis to Design your Idea and make it more unique 
-                        <br>And also Design an Implementation
-                        <br>Shortly: How to bring your Idea to Life...
-                        <img class="stretch plain" src="data/Books_2.gif" alt=""/>
+                        IRIS GL (Integrated Raster Imaging System Graphics Library) is a proprietary graphics API created by Silicon Graphics (SGI) in the early 1980s
                     </section>
                     <section>
-                        <h3>Implementation</h3>
-                        <img class="stretch plain" src="data/PC_Hackerman (3).gif" alt=""/>
-                    </section>
-                    <section>
-                        <h3>Testing & Integration</h3>
-                        <img class="stretch plain" src="data/Books_2.gif" alt=""/>
-                    </section>
-                    <section>
-                        <h3>Maintenance - OR - New Ideas</h3>
-                        <img class="stretch plain" src="data/idea.gif" alt=""/>
-                    </section>
-                    <section>
-                        <h3>Development Cycle</h3>
-                        <div class="col-container stretch">
-                            <img class="plain col" src="data/Cycle_SftwareDev-Feature-HUSS.jpg"  alt=""/>
-                            <div class = "col" style="text-align: left;">
-                                <p class="fragment fade-right">1. Idea</p>
-                                <p class="fragment fade-right">2. Plan</p>
-                                <p class="fragment fade-right">3. Analysis</p>
-                                <p class="fragment fade-right">4. Design</p>
-                                <p class="fragment fade-right">5. Implementation</p> 
-                                <p class="fragment fade-right">6. Testing & Integration</p>    
-                                <p class="fragment fade-right">7. Maintenance</p>    
-                            </div>
-                        </div>
-                        <br>
-                    </section>
-
-                    <section>
-                        <h3>History</h3>
-                    </section>
-                    <section>
-                        <img class="stretch plain" src="data/floppy-disk.jpg" alt=""/>
-                    </section>
-                    
+                        <h3>1992</h3> 
+                        <h3>
+                            OpenGL
+                        </h3>
+                        <img src="../data/OpenGL-logo.png" class="stretch plain" alt="" />
+                    </section>                                
                 </section>
 
-                <!--Topic What is a VCS-->
+                <!--DirectX VS OpenGL-->
                 <section>
                     <section>
-                        <h3>What is a VCS - Version Control System</h3>
-                        <img src="data/PIC_Memory.png" style="background-color: rgb(255,255,255);" alt="" />
-                        <a target="_blank" href="https://en.wikipedia.org/wiki/User:KnightDanila">https://en.wikipedia.org/wiki/User:KnightDanila</a>
-                        <br>E:\Learn It\GAMES-Programming\Web-Programming\Audio\test
+                        <h3>DirectX VS OpenGL</h3>
+                    </section>
+
+                    <section>
+                        <img class="stretch plain" src="data/img/khronos-group-members-2016.png" alt=""/>
+                        <video width="320" height="240" controls>
+                            <source src="data/video/Bonecoll1 - OpenGL vs DirectX.mp4" type="video/mp4">
+                            Your browser does not support the <code>video</code> tag.
+                        </video>
+                    </section>              
+
+
+                </section>
+
+                <!--CPU & GPU & Shaders-->
+                <section>
+                    <section>
+                        <h3>CPU & GPU</h3>
+                        <img src="data/img/CPU-GPU.jpg" alt=""/>
                     </section>
                     <section>
-                        Bad
+                        <h3>CPU Vs GPU</h3>
                     </section>
                     <section>
-                        Good
+                        <h3>CPU</h3>
+                        (((1+1)*10)*100)*1000
                     </section>
                     <section>
-                        Better
-                        <img src="data/phd101212s_notFinal.doc.gif" alt=""/>
+                        <h3>GPU</h3>
+                        pixel(x,y) = mesh(x,y) + mesh(x,y).texture(x,y) + ...(x,y);
                     </section>
                     <section>
-                        The Best
-                        <img src="data/phd101212s_notFinal.doc.gif" alt=""/>
+                        <h3>CPU & GPU</h3>
+                        <img src="data/img/54176dc2ec16c-Vivante-Sept-Fig1.jpg" alt=""/>
+                        ALU - arithmetic and logic unit. (h254)
+                        CU - control unit - how to respond to the instructions that have been sent to the processor.
                     </section>
                     <section>
-                        <img src="data/VCS.png" alt=""/>
+                        <h3>GPU</h3>
+                        <img class="stretch plain" src="data/img/Graphics-Card-5.jpg" alt=""/>
+                    </section>
+                    <section>
+                        <img src="data/img/intel-hd-2000-v2656-gpucapsviewer-opengl.jpg" alt=""/>
+                    </section>
+                    <section>
+                        <img src="data/img/OpenGL-extensions.png" alt=""/>
                     </section>
                 </section>
 
-                <!--Topic Patch VS Addon-->
+                <!--OpenGL-->
                 <section>
                     <section>
-                        <h3>Patch VS Addon</h3>
-                        <img src="data/PIC_Memory.png" style="background-color: rgb(255,255,255);" alt="" />
-                        <a target="_blank" href="https://en.wikipedia.org/wiki/User:KnightDanila">https://en.wikipedia.org/wiki/User:KnightDanila</a>
-                        <br>E:\Learn It\GAMES-Programming\Web-Programming\Audio\test
+                        <h3>OpenGL</h3>
+                        <mark>GLUT</mark>, FreeGLUT, <mark>GLFW</mark> <br>
+                        <mark>GLEW, GLAD,</mark> glLoadGen, GLXW, libepoxy
+                        <img src="../data/OpenGL-logo.png" class="stretch plain" alt="" />
                     </section>
                     <section>
-                        <h3>Patch</h3>
-
-                        A patch is a set of changes to a computer program or its supporting data designed to update, fix, or improve it.
-                        This includes fixing security vulnerabilities and other bugs, with such patches usually being called bugfixes or bug fixes,
-                        [better source needed] and improving the functionality, usability or performance.
+                        <img class="stretch plain" src="data/gif/PFTC_Barbossa.gif" alt=""/>
+                        Кодекс - это просто свод указаний, а не жёстких законов.
                     </section>
                     <section>
-                        <h3>Addon - AddOn</h3>
-
-                        These add-ons usually add new program data, objects, modules, or an extended storyline to an already-released program. 
-                    </section>
-                </section>
-
-                <!--Topic Git-->
-                <section>
-                    <section>
-                        <h3>Git</h3>
-                        <img src="../data/Git-logo.png" class="stretch plain" alt="" />
+                        <img class="stretch plain" src="data/img/OpenGL-Specification-ENG.png" alt=""/>
                     </section>
                     <section>
-                        Git is a distributed version-control system for tracking changes in source code during software development.
-                        It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. 
-                        Its goals include speed, data integrity, and support for distributed, non-linear workflows.
+                        <img class="stretch plain" src="data/img/OpenGL-Specification.png" alt=""/>
                     </section>
-                    <section>Vertical Slide 2</section>
+                    <section>
+                        <h3><mark>GLUT</mark>, FreeGLUT, <mark>GLFW</mark></h3>
+                        GLUT - 1998 <br>
+                        GLFW - for now
+                    </section>
+                    <section>
+                        <pre class="cpp"><code>
+                        // define the function's prototype
+                        typedef void (*GL_GENBUFFERS) (GLsizei, GLuint*);
+                        // find the function and assign it to a function pointer
+                        GL_GENBUFFERS glGenBuffers  = (GL_GENBUFFERS)wglGetProcAddress("glGenBuffers");
+                        // function can now be called as normal
+                        unsigned int buffer;
+                        glGenBuffers(1, &buffer);
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h3><mark>GLEW, GLAD,</mark> glLoadGen, GLXW, libepoxy</h3>
+                        GLEW - OpenGL Extension Wrangler Library <br>
+                        GLAD - Multi-Language GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
+                    </section>
                 </section>
 
                 <!--Topic Benefits & Advantages-->
@@ -199,17 +195,60 @@ and open the template in the editor.
                     <section>                       
                         <h3>Benefits & Advantages</h3>
                         <div style="text-align: left;">
-                            <p class="fragment fade-right">1. What is a Git and How to Use it</p>
-                            <p class="fragment fade-right">2. Markdown - lightweight markup language</p>
-                            <p class="fragment fade-right">3. Github account</p>
-                            <p class="fragment fade-right">4. Online Resume</p>
-                            <p class="fragment fade-right">5. Personal static webpage</p>                        
-                        </div></section>
+                            <p class="fragment fade-right">1. Base OpenGL knowledge</p>
+                            <p class="fragment fade-right">2. GLSL - high-level shading language</p>
+                            <p class="fragment fade-right">3. Base 3D vfx methods</p>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>What for???</h3>
+                    </section>
+                    <section>
+                        <h3>Black Wing Foundation</h3>
+                        <img class="fragment fade-right" src="data/img/BWF-Logo.png" alt=""/>
+                    </section>
+                    <section>
+                        <h3>AMC Bridge</h3>
+                        <img class="fragment fade-right" src="data/img/AMCBridge-Logo.jpg" alt=""/>
+                    </section>
                 </section>
 
                 <section>
+                    <section>
+                        <h3>Lab Work 1</h3>
+                    </section>
+                    <section>     
+                        <pre class="cpp"><code>
+glfwWindowHint(GLFW_SAMPLES, 4); // 4x Сглаживание
+glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3); // Мы хотим использовать OpenGL 3.3
+glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+</code></pre>
+                    </section>
+                    <section>
+                        glfwWindowHint - имеет очень простую сигнатуру, первым аргументом необходимо передать идентификатор параметра, который подвергается изменению, а вторым параметром передается значение, которое устанавливается соответствующему параметру.
+                    </section>
+                </section>
+                <section>
+                    <pre class="cpp"><code>
+GLFWwindow * 	glfwCreateWindow (int width, int height, const char *title, GLFWmonitor *monitor, GLFWwindow *share)
+</code></pre> 
+                </section>
+                <section>
+                    <pre class="cpp"><code>
+GLFWwindow* window; // (В сопроводительном исходном коде эта переменная является глобальной)
+window = glfwCreateWindow( 640, 480, "Lesson 01", NULL, NULL);
+</code></pre>
+                </section>
+                <section>
+                <pre class="cpp"><code>
+glfwTerminate();
+</code></pre>
+                </section>
+
+
+                <section>
                     Thanks for your attention :)<br>
-                    <img src="data/THANK_amazon_corgi_surprise_dribbble.gif" alt=""/>
+                    <img src="../data/THANK_amazon_corgi_surprise_dribbble.gif" alt=""/>
                 </section>
 
             </div>
@@ -294,7 +333,13 @@ and open the template in the editor.
                 parallaxBackgroundHorizontal: null,
                 parallaxBackgroundVertical: null,
                 // The display mode that will be used to show slides
-                display: 'block'
+                display: 'block',
+
+                dependencies: [
+                    {src: '../js/libs/highlight.js/highlight.min.js', async: true, callback: function () {
+                            hljs.initHighlightingOnLoad();
+                        }}
+                ]
             });
         </script>
         <!--<script src="theme/keysActions.js" type="text/javascript"></script>-->
@@ -304,14 +349,11 @@ and open the template in the editor.
 
                 timer1 = new SimpleTimer();
                 timer1.init("Timer1");
-
                 slideNumberFieldDisplay();
             };
-
             Reveal.addEventListener('BirdAI', function () {
                 iframeWP.iframeWPSetHref('../../BirdAI/test_1.html');
             }, false);
-
             // Update slide number to reflect actual horizontal/vertical slide numbers (indexh/indexv are zero-based)
             Reveal.addEventListener('slidechanged', function (event) {
                 slideNumberFieldDisplay();
@@ -320,8 +362,6 @@ and open the template in the editor.
                 var slideNumberField = document.querySelector('.reveal .slide-number'),
                         slideNumber = (Reveal.getIndices().h + 1) + "." + (Reveal.getIndices().v + 1) + '/' + Reveal.getTotalSlides(),
                         interval;
-
-
                 // Unable to set innerHTML straightaway without use of setInterval() as element may be re-created after event
                 interval = window.setInterval(
                         function () {
