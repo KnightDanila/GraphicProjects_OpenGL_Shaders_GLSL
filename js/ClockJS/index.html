@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ClockJS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="SimpleTimer.css" rel="stylesheet" type="text/css"/>
+        <script src="SimpleTimer.js" type="text/javascript"></script>
+    </head>
+    <body>
+
+        <h1>SimpleTimer.js & SimpleTimer.css</h1>
+        <div id="Timer1" class="simpleTimer simpleTimer-white simpleTimer-alignCenter simpleTimer-fly simpleTimer-box">timer1</div>
+        <br>
+        <div id="Timer2" class="simpleTimer simpleTimer-green simpleTimer-alignLeft simpleTimer-fly simpleTimer-box">timer2</div>
+        <br>
+        <div id="Timer3" class="simpleTimer simpleTimer-black simpleTimer-alignRight simpleTimer-fly simpleTimer-box">timer3</div>
+        <script>
+            document.body.onload = function () {
+                timer1 = new SimpleTimer();
+                timer1.init("Timer1");
+
+                setTimeout(function () {
+                    timer2 = new SimpleTimer();
+                    timer2.init("Timer2");
+                }, 1000);
+
+                setTimeout(function () {
+                    timer3 = new SimpleTimer();
+                    timer3.init("Timer3");
+                }, 2000);
+            };
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18.12.2017, 21:19:29
+    Author     : KnightDanila
+*/
+
+.simpleTimer {
+    font-size: 2.5em;
+    display: inline-block;
+}
+
+.simpleTimer-fly{
+    position: absolute;
+}
+/*Align*/
+.simpleTimer-alignTop{
+    top: 0px;
+}
+.simpleTimer-alignCenter{
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+}
+.simpleTimer-alignCenter-beta{
+    text-align: center;
+    right: 0px;
+    left: 0px;
+}
+.simpleTimer-alignLeft{
+    left: 0px;
+}
+.simpleTimer-alignRight{
+    right: 0px;
+}
+
+/*ColorStyles*/
+.simpleTimer-white {
+    background-color: black;
+    color: white;
+}
+.simpleTimer-black {
+    background-color: white;
+    color: black;
+}
+.simpleTimer-green {
+    background-color: black;
+    color: greenyellow;
+}
+
+/*Border*/
+.simpleTimer-box{
+    padding: 8px;
+    border: 4px solid #ecf5ff;
+}
