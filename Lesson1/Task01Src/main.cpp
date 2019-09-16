@@ -28,17 +28,22 @@
 
 #pragma comment(lib, "libs\\GL_AL\\glfw3.lib")
 #pragma comment(lib, "libs\\GL_AL\\glut32.lib")
-#pragma comment(lib, "libs\\GL_AL\\glut32.dll")
+//#pragma comment(lib, "libs\\GL_AL\\glut32.dll")
 #pragma comment(lib, "libs\\GL_AL\\alut.lib")
 #pragma comment(lib, "libs\\GL_AL\\glew32.lib")
 #pragma comment(lib, "libs\\GL_AL\\glew32s.lib")
+
+// VS2013+ - bugfix - Thanks Bolsunov Dmitry
+#pragma comment(lib, "msvcrt.lib")
+#pragma comment(lib, "msvcmrt.lib")
+#pragma comment(lib, "legacy_stdio_definitions.lib")
 
 
 #include "libs\GL_AL\glew.h"
 //#include "libs\GL_AL\glew.c"
 //#include <glad/glad.h>
-
 #include "libs\GL_AL\glfw3.h"
+
 #include "libs\GL_AL\glut.h"
 
 
