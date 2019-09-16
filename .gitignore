@@ -1,2 +1,17 @@
 /nbproject/private/
 Task*SrcReady/
+
+# Build results
+[Dd]ebug/
+
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
