@@ -13,5 +13,5 @@ https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL
 
 # Inspiration
 
-MarbleMarcher - https://codeparade.itch.io/marblemarcher
+MarbleMarcher - https://codeparade.itch.io/marblemarcher  
 .kkrieger - https://www.youtube.com/watch?v=2NBG-sKFaB0
