@@ -13,6 +13,7 @@ and open the template in the editor.
 
         <link rel="stylesheet" href="../js/libs/reveal.js/css/reveal.css">
         <link rel="stylesheet" href="../js/libs/reveal.js/css/theme/night.css">
+        <link href="../js/libs/highlight.js/styles/arduino-light.min.css" rel="stylesheet" type="text/css"/>
 
         <!--<script src="../js/libs/jquery/jquery.js" type="text/javascript"></script>-->
         <link href="../theme/style.css" rel="stylesheet" type="text/css"/>
@@ -51,11 +52,11 @@ and open the template in the editor.
                 <section>
                     <br>
                     <h3>
-                        OpenGL - PATTERN FOLDER
+                        OpenGL
                     </h3>
                     <img src="../data/OpenGL-logo.png" class="stretch plain" alt="" />
                     <br>
-                    Lesson 0
+                    Lesson 2
                     <br>
                     <br>
                     <div style="font-size: xx-large;">
@@ -63,23 +64,131 @@ and open the template in the editor.
                     </div>
                 </section>
 
-                <!--Topic N-->
+                <!--Arch-->
                 <section>
                     <section>
-                        <h3>Topic N</h3>
+                        <h3>Context-Renderer (and also Scene, Mesh, Camera in future)</h3>
+                    </section>
+                    <section>Context - Window, Texture, File</section>
+                    <section>Renderer - translate date in Context</section>
+                    <section>Renderer(&Context)</section>
+                </section>
+
+                <!--3 OOP-->
+                <section>
+                    <section>
+                        <h3>3 OOP</h3>
+                    </section>
+                    <section>инкапсуляция, наследование и полиморфизм</section>
+                    <section>Encapsulation, Data Abstraction, Polymorphism and Inheritance/section>
+                    </section>
+                </section>
+
+                <!--Arch-->
+                <section>
+                    <section>
+                        <h3>Arch</h3>
+
+                        <br>E:\Learn It\GAMES-Programming\Engine\MyEngine\CORE_SimpleCore
+                    </section>
+
+                    <section>
+                        <img class="stretch plain" src="data/UML_Main1.jpg" alt=""/>
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/UML_Main2.jpg" alt=""/>
+                    </section>
+                </section>
+
+                <!--Windows-->
+                <section>
+                    <section>
+                        <h3>Windows</h3>
+                    </section>
+                </section>
+
+                <!--FlyWeight-->
+                <section>
+                    <section>
+                        <h3>FlyWeight</h3>
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/Flyweight1.gif" alt=""/>
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/Flyweight2.jpg" alt=""/>
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/Flyweight3.png" alt=""/>
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/Flyweight4.png" alt=""/>
+                    </section>
+
+                </section>
+
+                <!--Triangles-->
+                <section>
+                    <section>
+                        <h3>Triangles</h3>
                         <img src="data/PIC_Memory.png" style="background-color: rgb(255,255,255);" alt="" />
                         <a target="_blank" href="https://en.wikipedia.org/wiki/User:KnightDanila">https://en.wikipedia.org/wiki/User:KnightDanila</a>
                         <br>E:\Learn It\GAMES-Programming\Web-Programming\Audio\test
                     </section>
-                    <section>Vertical Slide 1</section>
-                    <section>Vertical Slide 2</section>
+                    <section>
+                        <img class="stretch plain" src="data/Triangle.png" alt=""/>
+                    </section>
+
                 </section>
-                
+
+                <!--VBO-->
+                <section>
+                    <section>
+                        <h3>VBO</h3>
+                        <img src="data/PIC_Memory.png" style="background-color: rgb(255,255,255);" alt="" />
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/User:KnightDanila">https://en.wikipedia.org/wiki/User:KnightDanila</a>
+                        <br>E:\Learn It\GAMES-Programming\Web-Programming\Audio\test
+                    </section>
+                    <section> <img class="stretch plain" src="data/VBO.png" alt=""/></section>
+
+                </section>
+
+
+                <!--Why Box?-->
+                <section>
+                    <section>
+                        <h3>Why Box?</h3>
+                    </section>
+                    <section>
+
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/Box1_1536060440_csgo-mp5-sd-for-cs-1_6.jpg" alt=""/>
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/Box2_c4boxespdetect.jpg" alt=""/>
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/Box3_f56989768a50710b.jpg" alt=""/>
+                    </section>
+
+                    <section>
+                        U:\My_Video\
+                    </section>
+                </section>
+
+                <!--TOR-->
+                <section>
+                    <section>
+                        <h3>TOR</h3>
+
+                        <br>E:\Learn It\GreatWork\GraphicProjects_OpenGL_Shaders_GLSL\temp\LabsOpenGL\Lab1.docx
+                        <br>E:\Learn It\GAMES-Programming\Engine\Engines\Doom\DOOM-3-master.zip
+                    </section>
+                </section>
+
                 <section style="text-align: left;">
-                    <h3>List</h3>
-                    <br> 1. Elem
-                    <br> 2. Elem
-                    <br><mark>3. ElemMark</mark> 
+                    <img class="stretch plain" src="data/TimeFun.png" alt=""/>
                 </section>
 
                 <section>
@@ -175,7 +284,13 @@ and open the template in the editor.
                 parallaxBackgroundHorizontal: null,
                 parallaxBackgroundVertical: null,
                 // The display mode that will be used to show slides
-                display: 'block'
+                display: 'block',
+
+                dependencies: [
+                    {src: '../js/libs/highlight.js/highlight.min.js', async: true, callback: function () {
+                            hljs.initHighlightingOnLoad();
+                        }}
+                ]
             });
         </script>
         <!--<script src="theme/keysActions.js" type="text/javascript"></script>-->
@@ -185,14 +300,11 @@ and open the template in the editor.
 
                 timer1 = new SimpleTimer();
                 timer1.init("Timer1");
-                
                 slideNumberFieldDisplay();
             };
-
             Reveal.addEventListener('BirdAI', function () {
                 iframeWP.iframeWPSetHref('../../BirdAI/test_1.html');
             }, false);
-            
             // Update slide number to reflect actual horizontal/vertical slide numbers (indexh/indexv are zero-based)
             Reveal.addEventListener('slidechanged', function (event) {
                 slideNumberFieldDisplay();
@@ -201,8 +313,6 @@ and open the template in the editor.
                 var slideNumberField = document.querySelector('.reveal .slide-number'),
                         slideNumber = (Reveal.getIndices().h + 1) + "." + (Reveal.getIndices().v + 1) + '/' + Reveal.getTotalSlides(),
                         interval;
-
-
                 // Unable to set innerHTML straightaway without use of setInterval() as element may be re-created after event
                 interval = window.setInterval(
                         function () {
