@@ -3,7 +3,7 @@
 ## Presentations and Labs
 https://knightdanila.github.io/GraphicProjects_OpenGL_Shaders_GLSL/
 
-## Inspiration
+## Inspiration :unicorn:
 
 MarbleMarcher - https://codeparade.itch.io/marblemarcher  
 .kkrieger - https://www.youtube.com/watch?v=2NBG-sKFaB0
