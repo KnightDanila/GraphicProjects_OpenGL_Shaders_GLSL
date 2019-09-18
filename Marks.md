@@ -1,17 +1,16 @@
 # ПА-16-2 (2)
 
-			1	2
-Болсунов Дмитрий 	+	
-Книш Михайло		+	
-Моргунов Дмитрий	+	
+|Name|1|2|
+| --- | --- | --- |
+|Болсунов Дмитрий 		|+||
+|Книш Михайло			|+||
+|Моргунов Дмитрий		|+||
+|Влада Дорожко			|+||
+
+# ???
+|Name|1|2|
+| --- | --- | --- |
+|Михаил		|+||
 
 
 
-
-
-
-
-# Inspiration
-
-MarbleMarcher - https://codeparade.itch.io/marblemarcher
-.kkrieger - https://www.youtube.com/watch?v=2NBG-sKFaB0
