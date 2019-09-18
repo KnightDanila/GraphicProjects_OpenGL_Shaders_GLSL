@@ -1,7 +1,7 @@
 # GraphicProjects_OpenGL_Shaders_GLSL Lessons
 
 ## Presentations and Labs
-https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL
+https://knightdanila.github.io/GraphicProjects_OpenGL_Shaders_GLSL/
 
 ## Inspiration
 
@@ -26,6 +26,7 @@ https://www.glfw.org/docs/latest/window_guide.html#window_size
 https://github.com/JoeyDeVries/LearnOpenGL  
 https://www.youtube.com/watch?v=WMiggUPst-Q  
 https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL  
+http://www.opengl-tutorial.org/beginners-tutorials/tutorial-4-a-colored-cube/
 UML - https://docs.nomagic.com/pages/viewpage.action?pageId=38044261
 
 
