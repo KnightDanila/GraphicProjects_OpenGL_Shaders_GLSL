@@ -3,20 +3,16 @@
 
 # Lab work 2!
 
-## Download libs
-GLFW - https://www.glfw.org/download.html  
-
-
 ## Task
-1. Using the application template Task02Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson2/Task02Src] - review and run the code, and complete the following tasks.
-2. Create your unique OpenGL engine name - like an abbreviation of your name.  
+1. Create your unique OpenGL engine name - like an abbreviation of your name.  
 For example GSC - Grigorovich Sergiy Constantinovic [(GSC Game World)](https://en.wikipedia.org/wiki/GSC_Game_World)
 ```
-namespace GSC
+namespace GSC{
+}
 ```
-
-
-3. Use glfwWindowHint (...) to connect OpenGL 3.3 or another version supported by your GPU.
+2. Using the application template Task02Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson2/Task02Src] - write and run the code with our namespace.
+3. Use UML diagram for help:
+![UML](data/UML_Main1.jpg)
 4. Add output to the console:
 ```
 Hello OpenGL
