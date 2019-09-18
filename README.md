@@ -1,5 +1,9 @@
 # GraphicProjects_OpenGL_Shaders_GLSL Lessons
 
+# Presentations and Labs
+
+https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL
+
 
 
 These links and info for Author only (or for you too I am only a text not a cop):  
