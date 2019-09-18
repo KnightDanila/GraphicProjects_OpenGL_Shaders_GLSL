@@ -21,14 +21,6 @@ Author: Vasya Pupkin
 5. Create a 640x480 glfwCreateWindow (...) window, named "Lesson 01 - RAINBOW - Vasya Pupkin AC-13-03".
 
 
-
-## Books
-### About OpenGL
-1. [OpenGLBook - A Free OpenGL Programming Book [en]](http://openglbook.com/)
-2. [The OpenGL® Programming Guide 9th Edition [en]](http://www.opengl-redbook.com/)
-
-
-
 <a name="Ukr"></a>
 
 # Лабораторна робота №1
@@ -48,14 +40,8 @@ GLAD - https://glad.dav1d.de/
 Hello OpenGL
 Author: Vasya Pupkin
 ```
-.
 5. Створити вікно glfwCreateWindow(...) розміром 640х480, та назвою "Lesson 01 - RAINBOW - Вася Пупкін ПК-13-03".
 
 
 
 
-## Книги
-### Про OpenGL
-1. [OpenGLBook - A Free OpenGL Programming Book [en]](http://openglbook.com/)
-2. [The OpenGL® Programming Guide 9th Edition [en]](http://www.opengl-redbook.com/)
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/
