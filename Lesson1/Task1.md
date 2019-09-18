@@ -58,3 +58,4 @@ Author: Vasya Pupkin
 ### Про OpenGL
 1. [OpenGLBook - A Free OpenGL Programming Book [en]](http://openglbook.com/)
 2. [The OpenGL® Programming Guide 9th Edition [en]](http://www.opengl-redbook.com/)
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/
