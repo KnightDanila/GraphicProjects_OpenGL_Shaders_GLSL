@@ -13,6 +13,7 @@ and open the template in the editor.
 
         <link rel="stylesheet" href="../js/libs/reveal.js/css/reveal.css">
         <link rel="stylesheet" href="../js/libs/reveal.js/css/theme/night.css">
+        <link href="../js/libs/highlight.js/styles/arduino-light.min.css" rel="stylesheet" type="text/css"/>
 
         <!--<script src="../js/libs/jquery/jquery.js" type="text/javascript"></script>-->
         <link href="../theme/style.css" rel="stylesheet" type="text/css"/>
@@ -74,12 +75,22 @@ and open the template in the editor.
                     <section>Vertical Slide 1</section>
                     <section>Vertical Slide 2</section>
                 </section>
-                
+
                 <section style="text-align: left;">
                     <h3>List</h3>
                     <br> 1. Elem
                     <br> 2. Elem
                     <br><mark>3. ElemMark</mark> 
+                    <h3>Code</h3>
+                    <pre class="cpp"><code>
+                        // define the function's prototype
+                        typedef void (*GL_GENBUFFERS) (GLsizei, GLuint*);
+                        // find the function and assign it to a function pointer
+                        GL_GENBUFFERS glGenBuffers  = (GL_GENBUFFERS)wglGetProcAddress("glGenBuffers");
+                        // function can now be called as normal
+                        unsigned int buffer;
+                        glGenBuffers(1, &buffer);
+                        </code></pre>
                 </section>
 
                 <section>
@@ -175,7 +186,13 @@ and open the template in the editor.
                 parallaxBackgroundHorizontal: null,
                 parallaxBackgroundVertical: null,
                 // The display mode that will be used to show slides
-                display: 'block'
+                display: 'block',
+
+                dependencies: [
+                    {src: '../js/libs/highlight.js/highlight.min.js', async: true, callback: function () {
+                            hljs.initHighlightingOnLoad();
+                        }}
+                ]
             });
         </script>
         <!--<script src="theme/keysActions.js" type="text/javascript"></script>-->
@@ -185,14 +202,11 @@ and open the template in the editor.
 
                 timer1 = new SimpleTimer();
                 timer1.init("Timer1");
-                
                 slideNumberFieldDisplay();
             };
-
             Reveal.addEventListener('BirdAI', function () {
                 iframeWP.iframeWPSetHref('../../BirdAI/test_1.html');
             }, false);
-            
             // Update slide number to reflect actual horizontal/vertical slide numbers (indexh/indexv are zero-based)
             Reveal.addEventListener('slidechanged', function (event) {
                 slideNumberFieldDisplay();
@@ -201,8 +215,6 @@ and open the template in the editor.
                 var slideNumberField = document.querySelector('.reveal .slide-number'),
                         slideNumber = (Reveal.getIndices().h + 1) + "." + (Reveal.getIndices().v + 1) + '/' + Reveal.getTotalSlides(),
                         interval;
-
-
                 // Unable to set innerHTML straightaway without use of setInterval() as element may be re-created after event
                 interval = window.setInterval(
                         function () {
