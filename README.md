@@ -18,7 +18,7 @@ MarbleMarcher - https://codeparade.itch.io/marblemarcher
 #### ENG
 https://learnopengl.com/ 
 #### RUS
-http://www.opengl-tutorial.org/ru/
+http://www.opengl-tutorial.org/ru/  
 https://habr.com/ru/post/310790/
 
 ## Other
