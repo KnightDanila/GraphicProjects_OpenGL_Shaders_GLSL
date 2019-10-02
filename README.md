@@ -26,7 +26,7 @@ https://eax.me/opengl-vbo-vao-shaders/
 These links and info for Author only (or for you too I am only a text not a cop):  
 Learn It All
 
- 
+VBO & VAO - https://www.youtube.com/watch?v=WMiggUPst-Q
 https://www.glfw.org/docs/latest/window_guide.html#window_size  
 https://github.com/JoeyDeVries/LearnOpenGL  
 https://www.youtube.com/watch?v=WMiggUPst-Q  
