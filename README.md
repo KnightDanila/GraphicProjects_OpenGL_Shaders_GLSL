@@ -16,7 +16,7 @@ MarbleMarcher - https://codeparade.itch.io/marblemarcher
 
 ### URLs - Web Courses
 #### ENG
-https://learnopengl.com/ 
+https://learnopengl.com/  
 https://www.youtube.com/user/ThinMatrix/videos  
 #### RUS
 http://www.opengl-tutorial.org/ru/  
