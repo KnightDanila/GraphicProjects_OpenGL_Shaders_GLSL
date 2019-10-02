@@ -19,6 +19,7 @@ MarbleMarcher - https://codeparade.itch.io/marblemarcher
 https://learnopengl.com/ 
 #### RUS
 http://www.opengl-tutorial.org/ru/
+https://habr.com/ru/post/310790/
 
 ## Other
 These links and info for Author only (or for you too I am only a text not a cop):  
