@@ -14,14 +14,17 @@ MarbleMarcher - https://codeparade.itch.io/marblemarcher
 2. [The OpenGL® Programming Guide 9th Edition [en]](http://www.opengl-redbook.com/)
 3. [Khronos-OpenGL-Refpages](https://www.khronos.org/registry/OpenGL-Refpages/gl4/)
 
-
-
+### URLs - Web Courses
+#### ENG
+https://learnopengl.com/ 
+#### RUS
+http://www.opengl-tutorial.org/ru/
 
 ## Other
 These links and info for Author only (or for you too I am only a text not a cop):  
 Learn It All
 
-https://learnopengl.com/  
+ 
 https://www.glfw.org/docs/latest/window_guide.html#window_size  
 https://github.com/JoeyDeVries/LearnOpenGL  
 https://www.youtube.com/watch?v=WMiggUPst-Q  
