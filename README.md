@@ -17,10 +17,11 @@ MarbleMarcher - https://codeparade.itch.io/marblemarcher
 ### URLs - Web Courses
 #### ENG
 https://learnopengl.com/ 
+https://www.youtube.com/user/ThinMatrix/videos  
 #### RUS
 http://www.opengl-tutorial.org/ru/  
-https://habr.com/ru/post/310790/
-https://eax.me/opengl-vbo-vao-shaders/
+https://habr.com/ru/post/310790/  
+https://eax.me/opengl-vbo-vao-shaders/  
 
 ## Other
 These links and info for Author only (or for you too I am only a text not a cop):  
