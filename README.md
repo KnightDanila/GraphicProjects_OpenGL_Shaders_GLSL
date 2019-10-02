@@ -20,6 +20,7 @@ https://learnopengl.com/
 #### RUS
 http://www.opengl-tutorial.org/ru/  
 https://habr.com/ru/post/310790/
+https://eax.me/opengl-vbo-vao-shaders/
 
 ## Other
 These links and info for Author only (or for you too I am only a text not a cop):  
