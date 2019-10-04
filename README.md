@@ -24,6 +24,7 @@ https://www.pdfiles.com/pdf/ - Ctrl+F Learning Modern 3D Graphics Programming
 http://www.opengl-tutorial.org/ru/  
 https://habr.com/ru/post/310790/  
 https://eax.me/opengl-vbo-vao-shaders/  
+https://code.google.com/archive/p/gl33lessons/  
 
 ## Other
 These links and info for Author only (or for you too I am only a text not a cop):  
