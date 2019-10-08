@@ -20,10 +20,14 @@ https://learnopengl.com/
 https://www.youtube.com/user/ThinMatrix/videos  
 https://alfonse.bitbucket.io/oldtut/index.html  
 https://www.pdfiles.com/pdf/ - Ctrl+F Learning Modern 3D Graphics Programming  
+http://nehe.gamedev.net/  
 #### RUS
 http://www.opengl-tutorial.org/ru/  
 https://habr.com/ru/post/310790/  
 https://eax.me/opengl-vbo-vao-shaders/  
+https://code.google.com/archive/p/gl33lessons/  
+http://www.gamedev.ru/code/articles/tags/OpenGL  
+
 
 ## Other
 These links and info for Author only (or for you too I am only a text not a cop):  
