@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Presentation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../favicon.ico">
+
+        <link rel="stylesheet" href="../js/libs/reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="../js/libs/reveal.js/css/theme/night.css">
+        <link href="../js/libs/highlight.js/styles/arduino-light.min.css" rel="stylesheet" type="text/css"/>
+
+        <!--<script src="../js/libs/jquery/jquery.js" type="text/javascript"></script>-->
+        <link href="../theme/style.css" rel="stylesheet" type="text/css"/>
+
+        <!--<link href="theme/iframeWebpagePreview/iframeWebpagePreview.css" rel="stylesheet" type="text/css"/>-->
+        <!--<script src="theme/iframeWebpagePreview/iframeWebpagePreview.js" type="text/javascript"></script>-->
+
+        <link href="../js/ClockJS/SimpleTimer.css" rel="stylesheet" type="text/css"/>
+        <script src="../js/ClockJS/SimpleTimer.js" type="text/javascript"></script>
+        <!--<link href="theme/xClose.css" rel="stylesheet" type="text/css"/>-->
+    </head>
+    <body id="MainPresentation">
+        <div id="Timer1" class="simpleTimer simpleTimer-white simpleTimer-alignLeft simpleTimer-fly simpleTimer-box">timer1</div>
+
+        <div class="reveal">
+            <div class="slides">
+                <!--<section>
+                    Single Horizontal Slide
+                </section>-->
+                <!--<section>
+                        <section>Vertical Slide 1</section>
+                        <section>Vertical Slide 2</section>
+                </section>-->
+
+                <section>
+                    <h2>Fullscreen mode</h2>
+                    <p>
+                        Just press »F« on your keyboard to show your presentation in fullscreen mode. Press the »ESC« key to exit fullscreen mode.
+                    </p>
+                    <h2>Overview mode</h2>
+                    <p>
+                        Press "Esc" or "o" keys to toggle the overview mode on and off. While you're in this mode, you can still navigate between slides, as if you were at 1,000 feet above your presentation.
+                    </p>
+                </section>
+
+                <section>
+                    <br>
+                    <h3>
+                        OpenGL
+                    </h3>
+                    <img src="../data/OpenGL-logo.png" class="stretch plain" alt="" />
+                    <br>
+                    Lesson 3
+                    <br>
+                    <br>
+                    <div style="font-size: xx-large;">
+                        Author: Egoshkin Danila Igorevich
+                    </div>
+                </section>
+
+                <!--GLM-->
+                <section>
+                    <section>
+                        <h3>GLM</h3>
+                    </section>
+                    <section>
+                        <h3>GLM - OpenGL Mathematics</h3>
+                        <img class="stretch plain" src="data/logoGLM.png" alt=""/>
+                    </section>
+                    <section>
+                        <pre class="cpp"><code>
+#include <.../glm/glm.hpp>
+#include <.../glm/gtc/type_ptr.hpp>
+
+using namespace glm;
+
+void foo(){
+	vec4 v(0.0f);
+	mat4 m(1.0f);
+	...
+	glVertex3fv(value_ptr(v))
+	glLoadMatrixfv(value_ptr(m));
+}                        
+</code></pre>
+                    </section>
+                    <section>
+                        <pre class="cpp"><code>
+#include <.../glm/glm.hpp>
+#include <.../glm/gtc/matrix_transform.hpp>
+
+void foo(){
+	glm::vec4 Position = glm::vec4(glm:: vec3(0.0f), 1.0f);
+	glm::mat4 Model = glm::translate(glm::mat4(1.0f), glm::vec3(1.0f));
+	Model = glm::rotate(Model,45,0,1,0);
+	glm::vec4 Transformed = Model * Position;
+}                
+</code></pre>
+                    </section>
+
+                </section>
+
+                <!--Camera-->
+                <section>
+                    <section>
+                        <h3>Camera</h3>
+                    </section>
+                    <section>
+                        <ol>
+                            <li>
+                                Local space (or Object space)
+                            </li>
+                            <li>
+                                World space
+                            </li>
+                            <li>
+                                View space (or Eye space)
+                            </li>
+                            <li>
+                                Clip space
+                            </li>
+                            <li>
+                                Screen space
+                            </li>    
+                        </ol>
+                    </section>
+                    <section>
+                        <img src="data/Camera_coordinate_systems.jpg" class="stretch plain" alt=""/>
+                    </section>
+                    <section>
+                        <img src="data/Camera_perspective_orthographic.png" class="stretch plain" alt=""/>
+                    </section>
+                    <section>
+                        <img src="data/Camera1kjf3e.gif" class="stretch plain" alt=""/>
+                    </section>
+                    <section>OOP Theory</section>
+                    <section>virtual class, interface, abstract class</section>
+                    <section>
+                        <pre class="cpp"><code>
+// An abstract class 
+class Test 
+{    
+    // Data members of class 
+public: 
+    // Pure Virtual Function 
+    virtual void show() = 0; 
+    
+   /* Other members */
+}; 
+                        </code></pre>
+                        A pure virtual function (or abstract function) in C++ is a virtual function for which we don’t have implementation, we only declare it. A pure virtual function is declared by assigning 0 in declaration.
+                        <br>*But why class Test - is an abstract class? (P.S. // Data members of class )
+                    </section>
+                    <section>
+                        <h3>virtual class = interface</h3>
+                        virtual class = interface -  the class is purely a definition, and has no actual implementation
+                        <pre class="cpp"><code>
+class Test
+{
+public:
+    // Pure Virtual Function 
+    virtual void show() = 0; 
+    virtual bool openFile(const char *filename) = 0;
+    virtual bool closeFile() = 0;
+ 
+    virtual ~Test() {} // make a virtual destructor in case we delete an IErrorLog pointer, so the proper derived destructor is called
+};
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h3>abstract class</h3>
+                        <pre class="cpp"><code>
+class Test
+{
+    string text = "Hello" 
+public: 
+    virtual void show(){
+        printf("%s", text.c_str());
+    }; 
+    virtual bool openFile(const char *filename) = 0;
+
+    virtual ~Test() {} // make a virtual destructor in case we delete an IErrorLog pointer, so the proper derived destructor is called
+};</code></pre>
+                        <ol>
+                            <li>abstract classes may contain state (data members) and/or implementation (methods)</li>
+                            <li>abstract classes can be inherited without implementing the abstract methods (though such a derived class is abstract itself)</li>
+                        </ol>
+                    </section>
+                </section>
+
+                <!--Arch-->
+                <section>
+                    <section>
+                        <h3>Controller - Device</h3>
+
+                        <br>E:\Learn It\GAMES-Programming\Engine\MyEngine\CORE_SimpleCore
+                    </section>
+
+                    <section>
+                        <img class="stretch plain" src="data/UML_Main1.jpg" alt=""/>
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/UML_Main2.jpg" alt=""/>
+                    </section>
+                </section>
+
+                <!--Windows-->
+                <section>
+                    <section>
+                        <h3>Windows</h3>
+                    </section>
+                </section>
+
+                <!--FlyWeight-->
+                <section>
+                    <section>
+                        <h3>FlyWeight</h3>
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/Flyweight1.gif" alt=""/>
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/Flyweight2.jpg" alt=""/>
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/Flyweight3.png" alt=""/>
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/Flyweight4.png" alt=""/>
+                    </section>
+
+                </section>
+
+                <!--Triangles-->
+                <section>
+                    <section>
+                        <h3>Triangles</h3>
+                        <img src="data/PIC_Memory.png" style="background-color: rgb(255,255,255);" alt="" />
+                        <a target="_blank" href="https://en.wikipedia.org/wiki/User:KnightDanila">https://en.wikipedia.org/wiki/User:KnightDanila</a>
+                        <br>E:\Learn It\GAMES-Programming\Web-Programming\Audio\test
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/Triangle.png" alt=""/>
+                    </section>
+
+                </section>
+
+                <!--VBO-->
+                <section>
+                    <section>
+                        <h3>VBO - Vertex Buffer Object</h3>
+                        <img  class="stretch plain" src="data/Movie_IronMan_WireFrame.gif" alt=""/>
+                    </section>
+                    <section> 
+                        <img class="stretch plain" src="data/VBO.png" alt=""/>
+                    </section>
+                </section>
+
+
+                <!--Why Box?-->
+                <section>
+                    <section>
+                        <h3>Why Box?</h3>
+                        <img class="stretch plain" src="data/Box0_Portal_ScornfulTiredCoot-small.gif" alt=""/>
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/Box1_1536060440_csgo-mp5-sd-for-cs-1_6.jpg" alt=""/>
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/Box2_c4boxespdetect.jpg" alt=""/>
+                    </section>
+                    <section>
+                        <img class="stretch plain" src="data/Box3_f56989768a50710b.jpg" alt=""/>
+                    </section>
+
+                    <section>
+                        U:\My_Video\
+                    </section>
+                </section>
+
+                <!--TOR-->
+                <section>
+                    <section>
+                        <h3>TOR</h3>
+
+                        <br>E:\Learn It\GreatWork\GraphicProjects_OpenGL_Shaders_GLSL\temp\LabsOpenGL\Lab1.docx
+                        <br>E:\Learn It\GAMES-Programming\Engine\Engines\Doom\DOOM-3-master.zip
+                    </section>
+                </section>
+
+                <section style="text-align: left;">
+                    <img class="stretch plain" src="data/TimeFun.png" alt=""/>
+                </section>
+
+                <section>
+                    Thanks for your attention :)<br>
+                    <img class="stretch plain" src="../data/THANK_amazon_corgi_surprise_dribbble.gif" alt=""/>
+                </section>
+
+            </div>
+        </div>
+
+        <script src="../js/libs/reveal.js/js/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+                // Display controls in the bottom right corner
+                controls: true,
+                // Display a presentation progress bar
+                progress: true,
+                // Set default timing of 2 minutes per slide
+                defaultTiming: 120,
+                // Display the page number of the current slide
+                slideNumber: true,
+                // Push each slide change to the browser history
+                history: false,
+                // Enable keyboard shortcuts for navigation
+                keyboard: true,
+                // Enable the slide overview mode
+                overview: true,
+                // Vertical centering of slides
+                center: true,
+                // Enables touch navigation on devices with touch input
+                touch: true,
+                // Loop the presentation
+                loop: false,
+                // Change the presentation direction to be RTL
+                rtl: false,
+                // Randomizes the order of slides each time the presentation loads
+                shuffle: false,
+                // Turns fragments on and off globally
+                fragments: true,
+                // Flags if the presentation is running in an embedded mode,
+                // i.e. contained within a limited portion of the screen
+                embedded: false,
+                // Flags if we should show a help overlay when the questionmark
+                // key is pressed
+                help: true,
+                // Flags if speaker notes should be visible to all viewers
+                showNotes: false,
+                // Global override for autolaying embedded media (video/audio/iframe)
+                // - null: Media will only autoplay if data-autoplay is present
+                // - true: All media will autoplay, regardless of individual setting
+                // - false: No media will autoplay, regardless of individual setting
+                autoPlayMedia: null,
+                // Number of milliseconds between automatically proceeding to the
+                // next slide, disabled when set to 0, this value can be overwritten
+                // by using a data-autoslide attribute on your slides
+                autoSlide: 0,
+                // Stop auto-sliding after user input
+                autoSlideStoppable: true,
+                // Use this method for navigation when auto-sliding
+                autoSlideMethod: Reveal.navigateNext,
+                // Enable slide navigation via mouse wheel
+                mouseWheel: false,
+                // Hides the address bar on mobile devices
+                hideAddressBar: true,
+                // Opens links in an iframe preview overlay
+                previewLinks: false,
+                // Transition style
+                transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+                // Transition speed
+                transitionSpeed: 'default', // default/fast/slow
+
+                // Transition style for full page slide backgrounds
+                backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+
+                // Number of slides away from the current that are visible
+                viewDistance: 3,
+                // Parallax background image
+                //parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+                // Parallax background size
+                //parallaxBackgroundSize: '1600px 1200px', // CSS syntax, e.g. "2100px 900px"
+
+                // Number of pixels to move the parallax background per slide
+                // - Calculated automatically unless specified
+                // - Set to 0 to disable movement along an axis
+                parallaxBackgroundHorizontal: null,
+                parallaxBackgroundVertical: null,
+                // The display mode that will be used to show slides
+                display: 'block',
+
+                dependencies: [
+                    {src: '../js/libs/highlight.js/highlight.min.js', async: true, callback: function () {
+                            hljs.initHighlightingOnLoad();
+                        }}
+                ]
+            });
+        </script>
+        <!--<script src="theme/keysActions.js" type="text/javascript"></script>-->
+        <script>
+            document.body.onload = function () {
+                //iframeWP.iframeWPInit("MainPresentation");
+
+                timer1 = new SimpleTimer();
+                timer1.init("Timer1");
+                slideNumberFieldDisplay();
+            };
+            Reveal.addEventListener('BirdAI', function () {
+                iframeWP.iframeWPSetHref('../../BirdAI/test_1.html');
+            }, false);
+            // Update slide number to reflect actual horizontal/vertical slide numbers (indexh/indexv are zero-based)
+            Reveal.addEventListener('slidechanged', function (event) {
+                slideNumberFieldDisplay();
+            });
+            function slideNumberFieldDisplay() {
+                var slideNumberField = document.querySelector('.reveal .slide-number'),
+                        slideNumber = (Reveal.getIndices().h + 1) + "." + (Reveal.getIndices().v + 1) + '/' + Reveal.getTotalSlides(),
+                        interval;
+                // Unable to set innerHTML straightaway without use of setInterval() as element may be re-created after event
+                interval = window.setInterval(
+                        function () {
+                            slideNumberField.innerHTML = slideNumber;
+                            clearInterval(interval);
+                        }, 10);
+            }
+
+        </script>
+
+
+
+    </body>
+</html>
