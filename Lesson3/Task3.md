@@ -32,21 +32,16 @@ Author: Vasya Pupkin
 
 
 ## Завдання
-1. Створіть своє унікальне ім'я двигуна OpenGL - як абревіатуру вашого імені.
-Наприклад GSC - Григорович Сергій Константинович [(GSC Game World)](https://en.wikipedia.org/wiki/GSC_Game_World)
-```
-namespace GSC{
-}
-```
-2. Використовуючи шаблон програми Task02Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson2/Task02Src] - запишіть та запустіть код з вашим простором імен.
+1. Ознайомитись з можливостями графічної бібліотеки GLM. Розібратися з особливостями підключення бібліотеки GLM.
+2. Використовуючи шаблон програми Task03Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson3/Task03Src] - запишіть та запустіть код з вашим простором імен.
 3. Використовуйте діаграму UML для довідки:
-! [UML] (data / UML_Main1.jpg)
+![UML](data/UML_Main_Camera.jpg)
 4. Додайте вихід до консолі:
 ```
-Завдання 2
-Автор: Вася Пупкін
+Task 3
+Author: Vasya Pupkin
 ```
-5. Створіть 3 вікна за допомогою класу GLWindow
-6. Намалюйте об'єкт VBO (без текстури)
-7. Намалюйте простий масив точок glDrawArrays()
-8. Покажіть, що ви можете використовувати дві рендерні машини GLRender () та GLRendererOld2_1 ().
+5. Створіть камеру за допомогою класу ...::GraphCore::Camera* CamFree = new ...::GraphCore::GLCameraFree();
+6. Встановити перспективу CamFree->setPerspective(...);
+7. Намалюйте об'єкт VBO (з лабораторії 2)
+8. І перемістіть камеру за допомогою {x = r * cos(df); y = r * sin(df);}  
