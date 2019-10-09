@@ -57,21 +57,19 @@ namespace Knight3D {
                 {
                     colorRGB <= 180 ? colorRGB += 0.1 : colorRGB = 0;
                 }
-
-
+                
+                glColor4f(0.3, 1, 0.3, 1);
+                glEnable(GL_VERTEX_ARRAY);
+                
                 glEnable(GL_DEPTH_TEST);
 
+                //glPolygonMode( GL_FRONT_AND_BACK, GL_LINE );
 
+                
 
-                /*
-                провести сечкение 4х мерного куба
-                х>0 
-                трехмерной гиперплоскостью
-                 */
+                //glMatrixMode(GL_MODELVIEW); //set the matrix to model view mode
 
-                glMatrixMode(GL_MODELVIEW); //set the matrix to model view mode
-
-                glPushMatrix(); // push the matrix
+                //glPushMatrix(); // push the matrix
                 angle = glfwGetTime() * 50.0f;
                 //glRotatef(angle, 1.0, 1.0, 0.0); //apply transformation
 
@@ -113,6 +111,7 @@ namespace Knight3D {
                 glVertexPointer(3, GL_FLOAT, 0, NULL);
 
                 //Сделать новую VBO активным. Повторите это, в случае изменения с инициализации
+                
                 glBindBuffer(GL_ARRAY_BUFFER, Cube::VBO);
 
                 //Данный массив содержит вершины(не нормалей, цвета, текстуры и т.д.)
@@ -122,9 +121,9 @@ namespace Knight3D {
                 glDrawArrays(GL_TRIANGLES, 0, 36);
 
 
-                glPopMatrix(); //pop the matrix
+                //glPopMatrix(); //pop the matrix
 
-                glMatrixMode(GL_PROJECTION); // Apply projection matrix again
+                //glMatrixMode(GL_PROJECTION); // Apply projection matrix again
 
                 glDisableVertexAttribArray(0);
             }

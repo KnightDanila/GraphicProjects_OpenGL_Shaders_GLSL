@@ -220,8 +220,6 @@ void resize(GLFWwindow * window, int width, int height) {
     glOrtho(-ratio, ratio, -1.f, 1.f, 1.f, -1.f);
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
-    
-    
 
 }
 
@@ -296,7 +294,7 @@ int main(int argc, char** argv) {
     //Cube::init();
     Knight3D::GraphCore::Camera* CamFree = new Knight3D::GraphCore::GLCameraFree();
     //CamFree->setPerspective(45.0f, 640.0f / 480.0f, 0.5f, 1000.0f);
-    CamFree->setPerspective(45.0f, SCR_WIDTH / (float)SCR_HEIGHT, 0.5f, 1000.0f);
+    CamFree->setPerspective(glm::radians(45.0f), (float)SCR_WIDTH / SCR_HEIGHT, 0.1f, 10.0f);
 
     // Проверяем нажатие клавиши Escape или закрытие окна
     while (glfwGetKey(window, GLFW_KEY_ESCAPE) != GLFW_PRESS &&
@@ -305,7 +303,7 @@ int main(int argc, char** argv) {
         glfwMakeContextCurrent(window);
         // Главный цикл отрисовки
         //renderOldStyle(window);
-        CamFree->setPos(glm::vec3(-2, sin(angle * PI / 180), sin(angle * PI / 180)));
+        //CamFree->setPos(glm::vec3(-2, sin(angle * PI / 180), sin(angle * PI / 180)));
         //X^2+Y^2=R^2
         CamFree->setPos(glm::vec3(2 * cos(angle * PI / 180), 2, 2 * sin(angle * PI / 180)));
         renderer->render(window);

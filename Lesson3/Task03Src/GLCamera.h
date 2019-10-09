@@ -14,7 +14,7 @@
 #ifndef GLCAMERA_H
 #define GLCAMERA_H
 
-namespace Knight3D {
+namespace ... {
     namespace GraphCore {
 
         class Camera {
@@ -36,8 +36,7 @@ namespace Knight3D {
 
 
         private:
-            glm::vec3 pos = glm::vec3(0.0f, 0.0f, 0.0f);
-            glm::vec3 direction = glm::vec3(0.0f, 0.0f, 0.0f);
+            /...
         };
 
         class GLCameraFree : public Camera {
@@ -51,34 +50,30 @@ namespace Knight3D {
                 //  The closest distance to the camera before it clips, 
                 // FOV, Ratio,  The farthest distance before it stops drawing)
                  */
-                //gluPerspective(45.0f, (GLfloat) width / (GLfloat) height, 0.5f, 3000.0f);
 
-                glMatrixMode(GL_PROJECTION);
-                glm::mat4 modelproj = glm::perspective(fov, aspect, near1, far1);
-                glLoadMatrixf(glm::value_ptr(modelproj));
+                glMatrixMode(...);
+                glm::mat4 modelproj = glm::perspective(...);
+                glLoadMatrixf(...); // Подсказка - Мы должны брать указатель
 
                 
             };
 
             void setPos(glm::vec3 pos) {
-                glm::vec3 target = glm::vec3(0.0f, 0.0f, 0.0f);
-                glm::vec3 direction = glm::normalize(pos - target);
-                glm::mat4 modelview = glm::lookAt(pos, direction, glm::vec3(0, 1, 0));
-                //glMatrixMode(GL_PROJECTION);
-                //GL_PROJECTION_MATRIX
-                //glLoadMatrixf(&modelview);
-                glMatrixMode(GL_MODELVIEW);
-                glLoadMatrixf(glm::value_ptr(modelview));
+                glm::vec3 target = ...
+                glm::vec3 direction = glm::normalize(...);
+                glm::mat4 modelview = glm::lookAt(...);
+                glMatrixMode(...);
+                glLoadMatrixf(...);
                 
             }
 
             glm::vec3 getPos() {
+                ...
             };
         };
 
         class GLCameraTarget : public Camera {
-            //glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
-            //glm::vec3 cameraDirection = glm::normalize(cameraPos - cameraTarget);
+            ...
         };
 
 
