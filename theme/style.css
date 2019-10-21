@@ -1,37 +1,49 @@
 html{
-	background: url("Tree - 2000.gif") no-repeat center center fixed;
-	/*background-repeat: no-repeat;*/
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+    background: url("Tree - 2000.gif") no-repeat center center fixed;
+    /*background-repeat: no-repeat;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
-	/*image-rendering: pixelated;*/
-	image-rendering: pixelated; /* Chrome */
-	image-rendering: -moz-crisp-edges; /* Firefox */
-	image-rendering: -o-crisp-edges; /* Opera */
-	/*image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
-	-ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
-	
+    /*image-rendering: pixelated;*/
+    image-rendering: pixelated; /* Chrome */
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    /*image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+
 }
 
 .version{
-	background-color: rgba(255, 255, 255, 0.9);
-	/*opacity: 0.1;*/
-	/*color: black;*/
-	margin: 10px 10px 10px 10px;
-	padding: 10px;
-	
+    background-color: rgba(255, 255, 255, 0.9);
+    /*opacity: 0.1;*/
+    /*color: black;*/
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+
 }
 .content{
-	background-color: rgba(255, 255, 255, 0.95);
-	/*opacity: 0.1;*/
-	/*color: black;*/
-	/*position: relative;*/
-	/*height: 100%;*/
-	width: 70%;
-	margin: 10px auto 10px 10px;
-	padding: 10px;
+    background-color: rgba(255, 255, 255, 0.95);
+    /*opacity: 0.1;*/
+    /*color: black;*/
+    /*position: relative;*/
+    /*height: 100%;*/
+    width: 70%;
+    margin: 10px auto 10px 10px;
+    padding: 10px;
 }
+
+
+
+.col-container{
+    display: flex;
+}
+.col{
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 
 
