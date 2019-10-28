@@ -8,6 +8,9 @@ https://knightdanila.github.io/GraphicProjects_OpenGL_Shaders_GLSL/
 MarbleMarcher - https://codeparade.itch.io/marblemarcher  
 .kkrieger - https://www.youtube.com/watch?v=2NBG-sKFaB0
 
+## Software
+MSI Afterburner - https://ru.msi.com/page/afterburner  
+
 ## Books :books:
 ### About OpenGL
 1. [OpenGLBook - A Free OpenGL Programming Book [en]](http://openglbook.com/)
