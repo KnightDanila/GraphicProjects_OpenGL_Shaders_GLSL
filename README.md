@@ -6,7 +6,11 @@ https://knightdanila.github.io/GraphicProjects_OpenGL_Shaders_GLSL/
 ## Inspiration :unicorn:
 
 MarbleMarcher - https://codeparade.itch.io/marblemarcher  
-.kkrieger - https://www.youtube.com/watch?v=2NBG-sKFaB0
+.kkrieger - https://www.youtube.com/watch?v=2NBG-sKFaB0  
+fire-face.com - http://fire-face.com/personal/index.html
+
+## Software
+MSI Afterburner - https://ru.msi.com/page/afterburner  
 
 ## Books :books:
 ### About OpenGL
