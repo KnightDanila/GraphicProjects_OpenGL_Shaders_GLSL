@@ -10,6 +10,11 @@ GLM - https://github.com/g-truc/glm/releases
 
 ## Task
 1. Learn the base opportunities of GLM. Understand the features of the GLM library linking.
+```
+#include "glm\glm.hpp"
+#include "glm\gtc\matrix_transform.hpp"
+#include "glm\gtc\type_ptr.hpp"
+```
 2. Using the application template(pattern) Task03Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson3/Task03Src] - write and run the code with your namespace.
 3. Use UML diagram for help:
 ![UML](data/UML_Main_Camera.jpg)
