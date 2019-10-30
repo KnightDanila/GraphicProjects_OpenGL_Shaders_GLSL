@@ -7,8 +7,8 @@ https://knightdanila.github.io/GraphicProjects_OpenGL_Shaders_GLSL/
 
 MarbleMarcher - https://codeparade.itch.io/marblemarcher  
 .kkrieger - https://www.youtube.com/watch?v=2NBG-sKFaB0  
-fire-face.com - http://fire-face.com/personal/index.html
-
+fire-face.com - http://fire-face.com/personal/index.html  
+Adrian Courrèges - http://www.adriancourreges.com/  
 ## Software
 MSI Afterburner - https://ru.msi.com/page/afterburner  
 
