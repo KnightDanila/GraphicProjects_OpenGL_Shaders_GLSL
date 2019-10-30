@@ -48,6 +48,7 @@ https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL
 http://www.opengl-tutorial.org/beginners-tutorials/tutorial-4-a-colored-cube/  
 fisheye - opengl - http://strlen.com/gfxengine/fisheyequake/  
 UML - https://docs.nomagic.com/pages/viewpage.action?pageId=38044261  
+https://www.youtube.com/watch?v=e3yXl8tPVqU  
 https://www.pvsm.ru/opengl/164540  
 http://www.songho.ca/opengl/gl_transform.html  
 
