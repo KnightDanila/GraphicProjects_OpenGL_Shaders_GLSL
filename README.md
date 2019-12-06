@@ -25,6 +25,7 @@ https://www.youtube.com/user/ThinMatrix/videos
 https://alfonse.bitbucket.io/oldtut/index.html  
 https://www.pdfiles.com/pdf/ - Ctrl+F Learning Modern 3D Graphics Programming  
 http://nehe.gamedev.net/  
+https://godoc.org/github.com/go-gl/glfw/v3.0/glfw#Window.SetFocusCallback  
 #### RUS
 http://www.opengl-tutorial.org/ru/  
 https://habr.com/ru/post/310790/  
