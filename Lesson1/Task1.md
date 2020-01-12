@@ -33,7 +33,7 @@ GLAD - https://glad.dav1d.de/
 
 ## Завдання
 1. Ознайомитись з можливостями графічної бібліотеки OpenGL. Розібратися з особливостями підключення бібліотеки GLFW.
-2. За допомогою шаблону програми (RAINBOW)[https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson1/Task01Src] - розглянути та запустити код, та віконати наступні завдання.
+2. За допомогою шаблону програми (RAINBOW)[https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson1/Task01Src] - розглянути та запустити код, та виконати наступні завдання.
 3. За допомогою функції glfwWindowHint(...) підключити OpenGL 3.3 чи іншої версії, яку підтримує ваш GPU.
 4. Додати у консоль вивід:
 ```
