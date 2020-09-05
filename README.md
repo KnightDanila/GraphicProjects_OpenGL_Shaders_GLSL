@@ -8,7 +8,7 @@ https://knightdanila.github.io/GraphicProjects_OpenGL_Shaders_GLSL/
 MarbleMarcher - https://codeparade.itch.io/marblemarcher  
 .kkrieger - https://www.youtube.com/watch?v=2NBG-sKFaB0 - 
 [download 1](https://files.scene.org/view/demos/groups/farb-rausch/kkrieger-beta.zip) - 
-[download 2](http://www.pouet.net/prod.php?which=12036) 
+[download 2](http://www.pouet.net/prod.php?which=12036)  
 fire-face.com - http://fire-face.com/personal/index.html  
 Adrian Courrèges - http://www.adriancourreges.com/  
 ## Software
