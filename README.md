@@ -1,4 +1,4 @@
-# GraphicProjects_OpenGL_Shaders_GLSL Lessons
+﻿# GraphicProjects_OpenGL_Shaders_GLSL Lessons
 
 ## Presentations and Labs
 https://knightdanila.github.io/GraphicProjects_OpenGL_Shaders_GLSL/
@@ -6,7 +6,9 @@ https://knightdanila.github.io/GraphicProjects_OpenGL_Shaders_GLSL/
 ## Inspiration :unicorn:
 
 MarbleMarcher - https://codeparade.itch.io/marblemarcher  
-.kkrieger - https://www.youtube.com/watch?v=2NBG-sKFaB0  
+.kkrieger - https://www.youtube.com/watch?v=2NBG-sKFaB0 - 
+[download 1](https://files.scene.org/view/demos/groups/farb-rausch/kkrieger-beta.zip) - 
+[download 2](http://www.pouet.net/prod.php?which=12036) 
 fire-face.com - http://fire-face.com/personal/index.html  
 Adrian Courrèges - http://www.adriancourreges.com/  
 ## Software
@@ -26,6 +28,8 @@ https://alfonse.bitbucket.io/oldtut/index.html
 https://www.pdfiles.com/pdf/ - Ctrl+F Learning Modern 3D Graphics Programming  
 http://nehe.gamedev.net/  
 https://godoc.org/github.com/go-gl/glfw/v3.0/glfw#Window.SetFocusCallback  
+##### YouTube
+https://www.youtube.com/watch?v=W3gAzLwfIP0&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2
 #### RUS
 http://www.opengl-tutorial.org/ru/  
 https://habr.com/ru/post/310790/  
