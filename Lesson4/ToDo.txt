@@ -5,3 +5,5 @@
 5. Geometry, Mesh, Material=Texture+Shader
 Mesh(geometry:Geometry, material:MaterialBase = null)
 Shape(geometry:Geometry, material:MaterialBase = null)
+
+Переделать лабы на будущее на двухмерные
