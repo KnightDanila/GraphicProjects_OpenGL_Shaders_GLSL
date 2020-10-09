@@ -6,6 +6,9 @@ Futurama
 GL в OpenGL означает Good Luck – удачи. Потому что удача вам очень понадобится…
 
 
+Цитаты
+Если всегда хочешь знать в какой строке ошибка
+Пиши весь код в одну строку
 
 Tensor
 https://www.youtube.com/watch?v=f5liqUk0ZTw
