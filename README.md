@@ -59,5 +59,9 @@ https://www.pvsm.ru/opengl/164540
 http://www.songho.ca/opengl/gl_transform.html  
 http://www.songho.ca/opengl/gl_sphere.html  
 
+### MVP vs MPC
+MVP = M*V*P - https://jsantell.com/model-view-projection/  
+MVC - Pattern - https://ru.wikipedia.org/wiki/Model-View-Controller 
+
 
 
