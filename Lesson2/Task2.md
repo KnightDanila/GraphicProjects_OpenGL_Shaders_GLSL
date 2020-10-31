@@ -3,7 +3,7 @@
 
 # Lab work 2!
 
-# VBO Here We Go
+## VBO Here We Go
 
 ## Task
 1. Create your unique OpenGL Graphic Engine name - like an abbreviation of your name.  
@@ -32,7 +32,7 @@ Author: Vasya Pupkin
 
 # Лабораторна робота №2
 
-# Знайомство з VBO (та VAO)
+## Знайомство з VBO (та VAO)
 
 ## Завдання
 1. Створіть своє унікальне ім'я графічного рушія OpenGL - як абревіатуру вашого імені.
