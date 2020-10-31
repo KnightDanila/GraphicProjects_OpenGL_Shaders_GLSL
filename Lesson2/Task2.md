@@ -3,8 +3,10 @@
 
 # Lab work 2!
 
+# VBO Here We Go
+
 ## Task
-1. Create your unique OpenGL engine name - like an abbreviation of your name.  
+1. Create your unique OpenGL Graphic Engine name - like an abbreviation of your name.  
 For example GSC - Grigorovich Sergiy Constantinovic [(GSC Game World)](https://en.wikipedia.org/wiki/GSC_Game_World)
 ```
 namespace GSC{
@@ -30,9 +32,10 @@ Author: Vasya Pupkin
 
 # Лабораторна робота №2
 
+# Знайомство з VBO (та VAO)
 
 ## Завдання
-1. Створіть своє унікальне ім'я двигуна OpenGL - як абревіатуру вашого імені.
+1. Створіть своє унікальне ім'я графічного рушія OpenGL - як абревіатуру вашого імені.
 Наприклад GSC - Григорович Сергій Константинович [(GSC Game World)](https://en.wikipedia.org/wiki/GSC_Game_World)
 ```
 namespace GSC{
@@ -40,7 +43,7 @@ namespace GSC{
 ```
 2. Використовуючи шаблон програми Task02Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson2/Task02Src] - запишіть та запустіть код з вашим простором імен.
 3. Використовуйте діаграму UML для довідки:
-! [UML] (data / UML_Main1.jpg)
+![UML](data/UML_Main1.jpg)
 4. Додайте вихід до консолі:
 ```
 Завдання 2
@@ -49,4 +52,4 @@ namespace GSC{
 5. Створіть 3 вікна за допомогою класу GLWindow
 6. Намалюйте об'єкт VBO (без текстури)
 7. Намалюйте простий масив точок glDrawArrays()
-8. Покажіть, що ви можете використовувати дві рендерні машини GLRender () та GLRendererOld2_1 ().
+8. Покажіть, що ви можете використовувати дві рендерні машини GLRender() та GLRendererOld2_1().
