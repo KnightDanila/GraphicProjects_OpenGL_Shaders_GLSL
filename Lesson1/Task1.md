@@ -1,7 +1,8 @@
 #### [ENG](#Eng) --- [UKR](#Ukr)
 <a name="Eng"></a>
 
-# Lab work 1!
+# Lab 1 FIGHT!
+# GL - Good Luck and GlaD to see you ^_^
 
 ## Download OpenGL libs
 GLFW - https://www.glfw.org/download.html  
