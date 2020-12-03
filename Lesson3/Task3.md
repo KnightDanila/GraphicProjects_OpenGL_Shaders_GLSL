@@ -26,7 +26,7 @@ Author: Vasya Pupkin
 5. Create Camera by ...::GraphCore::Camera* CamFree = new ...::GraphCore::GLCameraFree();
 6. Set Perspective CamFree->setPerspective(...);
 7. Draw VBO object (from lab 2)
-8. And move your camera by {x = r * cos(df); y = r * sin(df);}  
+8. And move your camera by trajectory {x = r * cos(df); y = r * sin(df);}  
 
 
 <a name="Ukr"></a>
@@ -34,7 +34,7 @@ Author: Vasya Pupkin
 
 
 # Лабораторна робота №3
-# Світло, камера і дії! Але без світла поки: D
+# Світло, Камера, Мотор-р-р! Але без світла, поки: D
 
 ## Завдання
 1. Ознайомитись з можливостями графічної бібліотеки GLM. Розібратися з особливостями підключення бібліотеки GLM.
@@ -47,6 +47,6 @@ Task 3
 Author: Vasya Pupkin
 ```
 5. Створіть камеру за допомогою класу ...::GraphCore::Camera* CamFree = new ...::GraphCore::GLCameraFree();
-6. Встановити перспективу CamFree->setPerspective(...);
-7. Намалюйте об'єкт VBO (з лабораторії 2)
-8. І перемістіть камеру за допомогою {x = r * cos(df); y = r * sin(df);}  
+6. Встановіть перспективу CamFree->setPerspective(...);
+7. Намалюйте об'єкт VBO (з лабораторної 2)
+8. І перемістіть камеру за допомогою траекторії {x = r * cos(df); y = r * sin(df);}  
