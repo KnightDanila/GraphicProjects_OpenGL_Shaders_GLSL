@@ -32,3 +32,34 @@ void keyCallback(GLFWwindow * window, int key, int scancode, int action, int mod
 
 ```
 
+<a name="Ukr"></a>
+
+
+
+# Лабораторна робота №4
+# Перший шейдер - Яскравий та Тьмяний :D
+
+
+## Завдання
+1. Ознайомитись з можливостями "GLShader.h". Розібратися з особливостями "GLShader.h" класу.
+2. Використовуючи шаблон програми Task04Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson4/Task04Src] - запишіть та запустить код з вашим простором імен.
+3. Завантажити "BrightAndDim_VertexShader.vs", "BrightAndDim_FragmentShader.fs" до робочої папки;
+4. Додайте вивід до консолі:
+```
+Task 4
+Author: Vasya Pupkin
+```
+5. Створіть шейдер за допомогою ...::GraphCore::GLShader* shaderBrightDim = new ...::GraphCore::GLShader("BrightAndDim_VertexShader.vs", "BrightAndDim_FragmentShader.fs");
+6. Намалюйте об'єкт VBO (з лабораторної 2) - та додайте шейдер до нього
+7. Додайте дію до клавіатури, щоб змінить колір у шейдері - додайте у main glfwSetKeyCallback(window, keyCallback); та напишіть :
+```
+void keyCallback(GLFWwindow * window, int key, int scancode, int action, int mode) {
+	println((string) "key:" + key + "-scancode:" + scancode + "-action:" + action + "-mode:" + mode);
+
+    if (key == GLFW_KEY_SPACE && action == GLFW_PRESS) {
+        println("SPACE");
+        //TO DO
+    }
+}
+
+```
