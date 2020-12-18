@@ -5,12 +5,26 @@ https://knightdanila.github.io/GraphicProjects_OpenGL_Shaders_GLSL/
 
 ## Inspiration :unicorn:
 
+### Games
 MarbleMarcher - https://codeparade.itch.io/marblemarcher  
 .kkrieger - https://www.youtube.com/watch?v=2NBG-sKFaB0 - 
 [download 1](https://files.scene.org/view/demos/groups/farb-rausch/kkrieger-beta.zip) - 
 [download 2](http://www.pouet.net/prod.php?which=12036)  
 fire-face.com - http://fire-face.com/personal/index.html  
 Adrian Courrèges - http://www.adriancourreges.com/  
+
+### Movies
+1977 - Star Wars: Episode IV – A New Hope - https://en.wikipedia.org/wiki/Star_Wars_(film)
+1991 - Terminator 2: Judgment Day - https://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day
+1997 - Men in Black - https://en.wikipedia.org/wiki/Men_in_Black_(1997_film)
+1999 - The Mummy - https://en.wikipedia.org/wiki/The_Mummy_(1999_film)
+2000 - The Lord of the Rings - https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)
+2003 - Pirates of the Caribbean: The Curse of the Black Pearl - https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean:_The_Curse_of_the_Black_Pearl
+2008 - Journey to the Center of the Earth - https://en.wikipedia.org/wiki/Journey_to_the_Center_of_the_Earth_(2008_theatrical_film)
+2009 - Avatar - https://en.wikipedia.org/wiki/Avatar_(2009_film)
+2012 - Life of Pi - https://en.wikipedia.org/wiki/Life_of_Pi_(film)
+2013 - The Hobbit (film series) - https://en.wikipedia.org/wiki/The_Hobbit_(film_series)
+
 ## Software
 MSI Afterburner - https://ru.msi.com/page/afterburner  
 
