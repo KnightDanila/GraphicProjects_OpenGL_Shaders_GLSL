@@ -17,10 +17,12 @@ Adrian Courrèges - http://www.adriancourreges.com/
 1977 - Star Wars: Episode IV – A New Hope - https://en.wikipedia.org/wiki/Star_Wars_(film)  
 1985 - Back to the Future - https://en.wikipedia.org/wiki/Back_to_the_Future  
 1991 - Terminator 2: Judgment Day - https://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day  
+1993 - Jurassic Park - https://en.wikipedia.org/wiki/Jurassic_Park_(film)
 1997 - Titanic - https://en.wikipedia.org/wiki/Titanic_(1997_film)  
 1997 - Men in Black - https://en.wikipedia.org/wiki/Men_in_Black_(1997_film)  
 1999 - The Matrix - https://en.wikipedia.org/wiki/The_Matrix  
 1999 - The Mummy - https://en.wikipedia.org/wiki/The_Mummy_(1999_film)  
+2000 - Harry Potter - https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone_(film)
 2000 - The Lord of the Rings - https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)  
 2003 - Pirates of the Caribbean: The Curse of the Black Pearl - https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean:_The_Curse_of_the_Black_Pearl  
 2006 - Night at the Museum - https://en.wikipedia.org/wiki/Night_at_the_Museum  
