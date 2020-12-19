@@ -32,6 +32,14 @@ Adrian Courrèges - http://www.adriancourreges.com/
 2012 - John Carter - https://en.wikipedia.org/wiki/John_Carter_(film)  
 2013 - The Hobbit (film series) - https://en.wikipedia.org/wiki/The_Hobbit_(film_series)  
 
+### Cartoons
+1995 - Toy Story - https://en.wikipedia.org/wiki/Toy_Story  
+1998 - A Bug's Life - https://en.wikipedia.org/wiki/A_Bug%27s_Life  
+2002 - Ice Age - https://en.wikipedia.org/wiki/Ice_Age_(franchise)
+2003 - Finding Nemo - https://en.wikipedia.org/wiki/Finding_Nemo  
+2008 - WALL-E - https://en.wikipedia.org/wiki/WALL-E  
+2011 - The Adventures of Tintin (film) - https://en.wikipedia.org/wiki/The_Adventures_of_Tintin_(film)  
+2016 - Zootopia - https://en.wikipedia.org/wiki/Zootopia  
 
 ## Software
 MSI Afterburner - https://ru.msi.com/page/afterburner  
