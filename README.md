@@ -17,7 +17,7 @@ Adrian Courrèges - http://www.adriancourreges.com/
 1977 - Star Wars: Episode IV – A New Hope - https://en.wikipedia.org/wiki/Star_Wars_(film)  
 1985 - Back to the Future - https://en.wikipedia.org/wiki/Back_to_the_Future  
 1991 - Terminator 2: Judgment Day - https://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day  
-1993 - Jurassic Park - https://en.wikipedia.org/wiki/Jurassic_Park_(film)
+1993 - Jurassic Park - https://en.wikipedia.org/wiki/Jurassic_Park_(film)  
 1997 - Titanic - https://en.wikipedia.org/wiki/Titanic_(1997_film)  
 1997 - Men in Black - https://en.wikipedia.org/wiki/Men_in_Black_(1997_film)  
 1999 - The Matrix - https://en.wikipedia.org/wiki/The_Matrix  
