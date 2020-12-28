@@ -18,6 +18,7 @@ Adrian Courrèges - http://www.adriancourreges.com/
 1985 - Back to the Future - https://en.wikipedia.org/wiki/Back_to_the_Future  
 1991 - Terminator 2: Judgment Day - https://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day  
 1993 - Jurassic Park - https://en.wikipedia.org/wiki/Jurassic_Park_(film)  
+1994 - Forrest_Gump - https://en.wikipedia.org/wiki/Forrest_Gump  
 1997 - Titanic - https://en.wikipedia.org/wiki/Titanic_(1997_film)  
 1997 - Men in Black - https://en.wikipedia.org/wiki/Men_in_Black_(1997_film)  
 1999 - The Matrix - https://en.wikipedia.org/wiki/The_Matrix  
@@ -25,28 +26,29 @@ Adrian Courrèges - http://www.adriancourreges.com/
 2000 - Harry Potter - https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone_(film)  
 2000 - The Lord of the Rings - https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)  
 2003 - Pirates of the Caribbean: The Curse of the Black Pearl - https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean:_The_Curse_of_the_Black_Pearl  
+2005 - The Chronicles of Narnia: The Lion, the Witch and the Wardrobe - https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia:_The_Lion,_the_Witch_and_the_Wardrobe  
 2006 - Night at the Museum - https://en.wikipedia.org/wiki/Night_at_the_Museum  
 2008 - Journey to the Center of the Earth - https://en.wikipedia.org/wiki/Journey_to_the_Center_of_the_Earth_(2008_theatrical_film)  
 2009 - Avatar - https://en.wikipedia.org/wiki/Avatar_(2009_film)  
 2012 - Life of Pi - https://en.wikipedia.org/wiki/Life_of_Pi_(film)  
 2012 - John Carter - https://en.wikipedia.org/wiki/John_Carter_(film)  
 2013 - The Hobbit (film series) - https://en.wikipedia.org/wiki/The_Hobbit_(film_series)  
-2014 - Guardians of the galaxy - https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_(film)
+2014 - Guardians of the galaxy - https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_(film)  
 
 
 ### Cartoons
-1991 - Beauty and the Beast -https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1991_film)#Animation
+1991 - Beauty and the Beast -https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1991_film)#Animation  
 1995 - Toy Story - https://en.wikipedia.org/wiki/Toy_Story  
 1998 - A Bug's Life - https://en.wikipedia.org/wiki/A_Bug%27s_Life  
 2002 - Ice Age - https://en.wikipedia.org/wiki/Ice_Age_(franchise)  
-2003 - Finding Nemo - https://en.wikipedia.org/wiki/Finding_Nemo 
-2006 - Cars - https://en.wikipedia.org/wiki/Cars_(franchise)
+2003 - Finding Nemo - https://en.wikipedia.org/wiki/Finding_Nemo  
+2006 - Cars - https://en.wikipedia.org/wiki/Cars_(franchise)  
 2008 - WALL-E - https://en.wikipedia.org/wiki/WALL-E  
 2011 - The Adventures of Tintin (film) - https://en.wikipedia.org/wiki/The_Adventures_of_Tintin_(film)  
-2012 - Brave - https://en.wikipedia.org/wiki/Brave_(2012_film)
-2013 - Monsters, Inc - https://en.wikipedia.org/wiki/Monsters,_Inc._(franchise)
+2012 - Brave - https://en.wikipedia.org/wiki/Brave_(2012_film)  
+2013 - Monsters, Inc - https://en.wikipedia.org/wiki/Monsters,_Inc._(franchise)  
 2016 - Zootopia - https://en.wikipedia.org/wiki/Zootopia  
-2016 - Trolls - https://en.wikipedia.org/wiki/Trolls_(film)
+2016 - Trolls - https://en.wikipedia.org/wiki/Trolls_(film)  
 
 ## Software
 MSI Afterburner - https://ru.msi.com/page/afterburner  
