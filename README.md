@@ -1,4 +1,4 @@
-﻿# GraphicProjects_OpenGL_Shaders_GLSL Lessons
+# GraphicProjects_OpenGL_Shaders_GLSL Lessons
 
 ## Presentations and Labs
 https://knightdanila.github.io/GraphicProjects_OpenGL_Shaders_GLSL/
@@ -15,6 +15,7 @@ Adrian Courrèges - http://www.adriancourreges.com/
 
 ### Movies
 1977 - Star Wars: Episode IV – A New Hope - https://en.wikipedia.org/wiki/Star_Wars_(film)  
+1984 - Ghostbusters - https://en.wikipedia.org/wiki/Ghostbusters  
 1985 - Back to the Future - https://en.wikipedia.org/wiki/Back_to_the_Future  
 1991 - Terminator 2: Judgment Day - https://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day  
 1995 - Jumanji - https://en.wikipedia.org/wiki/Jumanji  
@@ -27,6 +28,7 @@ Adrian Courrèges - http://www.adriancourreges.com/
 2000 - Harry Potter - https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone_(film)  
 2000 - The Lord of the Rings - https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)  
 2003 - Pirates of the Caribbean: The Curse of the Black Pearl - https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean:_The_Curse_of_the_Black_Pearl  
+2004 - Van Helsing - https://en.wikipedia.org/wiki/Van_Helsing_(film)
 2005 - The Chronicles of Narnia: The Lion, the Witch and the Wardrobe - https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia:_The_Lion,_the_Witch_and_the_Wardrobe  
 2005 - Charlie and the Chocolate Factory - https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(film)  
 2006 - Night at the Museum - https://en.wikipedia.org/wiki/Night_at_the_Museum  
