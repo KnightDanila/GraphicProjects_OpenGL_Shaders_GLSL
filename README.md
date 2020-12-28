@@ -28,7 +28,7 @@ Adrian Courrèges - http://www.adriancourreges.com/
 2000 - The Lord of the Rings - https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)  
 2003 - Pirates of the Caribbean: The Curse of the Black Pearl - https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean:_The_Curse_of_the_Black_Pearl  
 2005 - The Chronicles of Narnia: The Lion, the Witch and the Wardrobe - https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia:_The_Lion,_the_Witch_and_the_Wardrobe  
-2005 - Charlie and the Chocolate Factory - https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(film)
+2005 - Charlie and the Chocolate Factory - https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(film)  
 2006 - Night at the Museum - https://en.wikipedia.org/wiki/Night_at_the_Museum  
 2008 - Journey to the Center of the Earth - https://en.wikipedia.org/wiki/Journey_to_the_Center_of_the_Earth_(2008_theatrical_film)  
 2009 - Avatar - https://en.wikipedia.org/wiki/Avatar_(2009_film)  
