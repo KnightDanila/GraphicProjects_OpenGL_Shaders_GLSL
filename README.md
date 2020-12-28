@@ -17,7 +17,7 @@ Adrian Courrèges - http://www.adriancourreges.com/
 1977 - Star Wars: Episode IV – A New Hope - https://en.wikipedia.org/wiki/Star_Wars_(film)  
 1985 - Back to the Future - https://en.wikipedia.org/wiki/Back_to_the_Future  
 1991 - Terminator 2: Judgment Day - https://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day  
-1995 - Jumanji - https://en.wikipedia.org/wiki/Jumanji
+1995 - Jumanji - https://en.wikipedia.org/wiki/Jumanji  
 1993 - Jurassic Park - https://en.wikipedia.org/wiki/Jurassic_Park_(film)  
 1994 - Forrest_Gump - https://en.wikipedia.org/wiki/Forrest_Gump  
 1997 - Titanic - https://en.wikipedia.org/wiki/Titanic_(1997_film)  
@@ -28,6 +28,7 @@ Adrian Courrèges - http://www.adriancourreges.com/
 2000 - The Lord of the Rings - https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)  
 2003 - Pirates of the Caribbean: The Curse of the Black Pearl - https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean:_The_Curse_of_the_Black_Pearl  
 2005 - The Chronicles of Narnia: The Lion, the Witch and the Wardrobe - https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia:_The_Lion,_the_Witch_and_the_Wardrobe  
+2005 - Charlie and the Chocolate Factory - https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(film)
 2006 - Night at the Museum - https://en.wikipedia.org/wiki/Night_at_the_Museum  
 2008 - Journey to the Center of the Earth - https://en.wikipedia.org/wiki/Journey_to_the_Center_of_the_Earth_(2008_theatrical_film)  
 2009 - Avatar - https://en.wikipedia.org/wiki/Avatar_(2009_film)  
