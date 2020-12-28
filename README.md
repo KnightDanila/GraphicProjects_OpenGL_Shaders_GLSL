@@ -31,15 +31,22 @@ Adrian Courrèges - http://www.adriancourreges.com/
 2012 - Life of Pi - https://en.wikipedia.org/wiki/Life_of_Pi_(film)  
 2012 - John Carter - https://en.wikipedia.org/wiki/John_Carter_(film)  
 2013 - The Hobbit (film series) - https://en.wikipedia.org/wiki/The_Hobbit_(film_series)  
+2014 - Guardians of the galaxy - https://en.wikipedia.org/wiki/Guardians_of_the_Galaxy_(film)
+
 
 ### Cartoons
+1991 - Beauty and the Beast -https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1991_film)#Animation
 1995 - Toy Story - https://en.wikipedia.org/wiki/Toy_Story  
 1998 - A Bug's Life - https://en.wikipedia.org/wiki/A_Bug%27s_Life  
 2002 - Ice Age - https://en.wikipedia.org/wiki/Ice_Age_(franchise)  
-2003 - Finding Nemo - https://en.wikipedia.org/wiki/Finding_Nemo  
+2003 - Finding Nemo - https://en.wikipedia.org/wiki/Finding_Nemo 
+2006 - Cars - https://en.wikipedia.org/wiki/Cars_(franchise)
 2008 - WALL-E - https://en.wikipedia.org/wiki/WALL-E  
 2011 - The Adventures of Tintin (film) - https://en.wikipedia.org/wiki/The_Adventures_of_Tintin_(film)  
+2012 - Brave - https://en.wikipedia.org/wiki/Brave_(2012_film)
+2013 - Monsters, Inc - https://en.wikipedia.org/wiki/Monsters,_Inc._(franchise)
 2016 - Zootopia - https://en.wikipedia.org/wiki/Zootopia  
+2016 - Trolls - https://en.wikipedia.org/wiki/Trolls_(film)
 
 ## Software
 MSI Afterburner - https://ru.msi.com/page/afterburner  
