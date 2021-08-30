@@ -85,9 +85,12 @@ http://www.gamedev.ru/code/articles/tags/OpenGL
 These links and info for Author only (or for you too I am only a text not a cop):  
 Learn It All
 
+Static Build and Setup of OpenGL GLEW, GLFW for Visual Studio 2019 - https://www.youtube.com/watch?v=vYtVe4lNOQ0  
 VBO & VAO - https://www.youtube.com/watch?v=WMiggUPst-Q  
 VBO & VAO - https://www.youtube.com/watch?v=z2yFlvkBbmk  
 VBO & VAO - https://www.youtube.com/watch?v=aPUbW97Bd4s  
+
+
 Normals Face&Vertex - https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/shading-normals  
 https://www.youtube.com/watch?v=x_Ph2cuEWrE  
 https://www.glfw.org/docs/latest/window_guide.html#window_size  
