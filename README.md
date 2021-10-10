@@ -62,7 +62,7 @@ MSI Afterburner - https://ru.msi.com/page/afterburner
 1. [OpenGLBook - A Free OpenGL Programming Book [en]](http://openglbook.com/)
 2. [The OpenGL® Programming Guide 9th Edition [en]](http://www.opengl-redbook.com/)
 3. [Khronos-OpenGL-Refpages](https://www.khronos.org/registry/OpenGL-Refpages/gl4/)
-4. LearnOpenGL - [LearnOpenGL Book](https://learnopengl.com/book/book_pdf.pdf)  
+4. [LearnOpenGL Book](https://learnopengl.com/book/book_pdf.pdf)  
 ### URLs - Web Courses
 #### ENG
 https://learnopengl.com/  
