@@ -1,9 +1,0 @@
-1. Doom - first shader - 
-2. Skuling CPU
-3. Key Grub
-4. Fragment
-5. Geometry, Mesh, Material=Texture+Shader
-Mesh(geometry:Geometry, material:MaterialBase = null)
-Shape(geometry:Geometry, material:MaterialBase = null)
-
-Переделать лабы на будущее на двухмерные
