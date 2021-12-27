@@ -66,6 +66,7 @@ MSI Afterburner - https://ru.msi.com/page/afterburner
 ### URLs - Web Courses
 #### ENG
 https://learnopengl.com/  
+https://docs.gl/  
 https://www.youtube.com/user/ThinMatrix/videos  
 https://alfonse.bitbucket.io/oldtut/index.html  
 https://www.pdfiles.com/pdf/ - Ctrl+F Learning Modern 3D Graphics Programming  
