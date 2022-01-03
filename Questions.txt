@@ -1,2 +1,138 @@
+Nasty, [19.01.21 22:52]
+Екатерина Потрус, такой у вас не было?
+
+Danila Knight, [19.01.21 22:53]
+[В ответ на Nasty]
+[ GIF ]
+Неа... Я всех помню :)))
+
+Nasty, [19.01.21 22:54]
+Она меня ненавидит и считает сучкой) она была студенткой хижи точно, так что если появится и будешь ставить в пример, не упоминай имени моего, а то порушишь всю магию)
+
+
+
+
+
+^ ((A > B > C) v (A < B < C))
+
+
+((A > B > C) ^ (() ()) ) v ((A < B < C) ) 
+
+S:
+
+if (A > B > C)
+ a+b+c
+ 
+elseif (A < B < C)
+ a-b-c
+ 
+S - T
+
+((A > B > C) ^ (a+b+c)) v ((A < B < C) ^ (a-b-c)) 
+
+
+
+
+
+
+
+Animal{
+}
+
+Cat : public Animal
+
+
+//comp
+class CageForCats{
+	Cat cat1;
+} 
+
+//agr
+class CageForDogs{
+	Dog* Dog1;
+	
+	add(Animal* a){
+	Dog1 = a;
+	}
+} 
+
+Main(){
+
+CageForCats cage1;
+CageForDogs cage2;
+Dog * dogNew = new Dog();
+
+cage2.add(dogNew);
+
+delete CageForCats;
+delete CageForDogs;
+
+return 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+( ((A+B+C) > (A*B*C)) ^ (Max = A ^ (()^()) v Max = B ^() ...)))V(((A+B+C) < (A*B*C)) ^ (Max =...))
+
+
+////////////////
+
+Ждал, долго, что бы вернуть тему :)))
+1) 11.09.2020 Я упоминул про Макгаффин
+https://www.youtube.com/watch?v=a65H9uff18Q
+2) Голландский угол
+https://youtu.be/1qqP_hZWESw?t=283
+3) У каждого режиссера своя рука  и особенности съемки (кстати, Режиссер Тарантино - я ещё не мог вспомнить его :D )
+https://www.youtube.com/watch?v=QFn-SC7q42U
+
+
+Прокрастинация
+https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D0%BD%D0%BD%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D0%B7%D1%80%D0%B5%D0%BD%D0%B8%D0%B5
+https://www.google.com/search?q=procrastination+ted&rlz=1C1GCEA_enUA920UA920&tbm=isch&sxsrf=ALeKk02OQjOTjNbdslBE3fYTUEmP0jkX2w:1606310530686&source=lnms&sa=X&ved=0ahUKEwitgNKE5Z3tAhWy_CoKHeILAmAQ_AUIDCgC&biw=1600&bih=757&dpr=1#imgrc=y5PXzpDiUtrfZM
+Voxel
+Tessalation
+LOD
+
+ПА-18-3
+Логический оператор ИЛИ
+https://ravesli.com/urok-43-logicheskie-operatory-i-ili-ne/#toc-2
+Побитовое ИЛИ
+https://learn.javascript.ru/bitwise-operators#pobitovoe-ili
+
 ПА-18-3
 https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D1%8B%D0%B9_%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C
+
+
+
+https://ru.wikipedia.org/wiki/SOLID_(%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%BD%D0%BE-%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
+
+https://ru.wikipedia.org/wiki/UML
+
+
+https://www.youtube.com/watch?v=mC8QoRa8y_Q
+
+x64
+
+таурин
+
+1 2 3 4 6 7 8 9 - апетит у васи 5
+
+
+
+
+https://ru.wikipedia.org/wiki/Tennis_for_Two
+https://ru.wikipedia.org/wiki/UML
+https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization
+https://en.wikipedia.org/wiki/Proxy_pattern
