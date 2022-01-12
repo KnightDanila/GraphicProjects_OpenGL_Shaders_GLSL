@@ -72,6 +72,8 @@ https://alfonse.bitbucket.io/oldtut/index.html
 https://www.pdfiles.com/pdf/ - Ctrl+F Learning Modern 3D Graphics Programming  
 http://nehe.gamedev.net/  
 https://godoc.org/github.com/go-gl/glfw/v3.0/glfw#Window.SetFocusCallback  
+https://people.eecs.ku.edu/~jrmiller/Courses/OpenGL/OpenGL.html  
+
 ##### YouTube
 https://www.youtube.com/watch?v=W3gAzLwfIP0&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2
 #### RUS
@@ -90,7 +92,7 @@ Static Build and Setup of OpenGL GLEW, GLFW for Visual Studio 2019 - https://www
 VBO & VAO - https://www.youtube.com/watch?v=WMiggUPst-Q https://youtu.be/WMiggUPst-Q?t=149  
 VBO & VAO - https://www.youtube.com/watch?v=z2yFlvkBbmk  
 VBO & VAO - https://www.youtube.com/watch?v=aPUbW97Bd4s  
-
+glDrawElements - https://people.eecs.ku.edu/~jrmiller/Courses/672/InClass/3DModeling/glDrawElements.html  
 
 Normals Face&Vertex - https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/shading-normals  
 https://www.youtube.com/watch?v=x_Ph2cuEWrE  
