@@ -73,7 +73,7 @@ https://www.pdfiles.com/pdf/ - Ctrl+F Learning Modern 3D Graphics Programming
 http://nehe.gamedev.net/  
 https://godoc.org/github.com/go-gl/glfw/v3.0/glfw#Window.SetFocusCallback  
 https://people.eecs.ku.edu/~jrmiller/Courses/OpenGL/OpenGL.html  
-https://thebookofshaders.com/08/
+https://thebookofshaders.com/08/  
 
 ##### YouTube
 https://www.youtube.com/watch?v=W3gAzLwfIP0&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2
