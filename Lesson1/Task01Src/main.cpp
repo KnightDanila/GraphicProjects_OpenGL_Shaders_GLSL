@@ -40,10 +40,8 @@
 
 
 #include "libs\GL_AL\glew.h"
-//#include "libs\GL_AL\glew.c"
-//#include <glad/glad.h>
+//#include <glad/glad.h>        // I will add it soon
 #include "libs\GL_AL\glfw3.h"
-
 #include "libs\GL_AL\glut.h"
 
 
@@ -65,17 +63,40 @@ void argsEcho(int argc, char** argv) {
 	}
 	println("____________\n");
 }
+
+void getOpenGLVerison(){
+    std::cout << "OpenGL 1.1: " << ((GLEW_VERSION_1_1 != 0) ? "Available" : "Unavailable") << std::endl;
+    std::cout << "OpenGL 1.2: " << ((GLEW_VERSION_1_2 != 0) ? "Available" : "Unavailable") << std::endl;
+    std::cout << "OpenGL 1.3: " << ((GLEW_VERSION_1_3 != 0) ? "Available" : "Unavailable") << std::endl;
+    std::cout << "OpenGL 1.4: " << ((GLEW_VERSION_1_4 != 0) ? "Available" : "Unavailable") << std::endl;
+    std::cout << "OpenGL 1.5: " << ((GLEW_VERSION_1_5 != 0) ? "Available" : "Unavailable") << std::endl;
+    std::cout << "OpenGL 2.0: " << ((GLEW_VERSION_2_0 != 0) ? "Available" : "Unavailable") << std::endl;
+    std::cout << "OpenGL 2.1: " << ((GLEW_VERSION_2_1 != 0) ? "Available" : "Unavailable") << std::endl;
+
+    std::cout << "OpenGL 3.0: " << ((GLEW_VERSION_3_0 != 0) ? "Available" : "Unavailable") << std::endl;
+    std::cout << "OpenGL 3.1: " << ((GLEW_VERSION_3_1 != 0) ? "Available" : "Unavailable") << std::endl;
+    std::cout << "OpenGL 3.2: " << ((GLEW_VERSION_3_2 != 0) ? "Available" : "Unavailable") << std::endl;
+    std::cout << "OpenGL 3.3: " << ((GLEW_VERSION_3_3 != 0) ? "Available" : "Unavailable") << std::endl;
+
+    std::cout << "OpenGL 4.0: " << ((GLEW_VERSION_4_0 != 0) ? "Available" : "Unavailable") << std::endl;
+    std::cout << "OpenGL 4.1: " << ((GLEW_VERSION_4_1 != 0) ? "Available" : "Unavailable") << std::endl;
+    std::cout << "OpenGL 4.2: " << ((GLEW_VERSION_4_3 != 0) ? "Available" : "Unavailable") << std::endl;
+    std::cout << "OpenGL 4.3: " << ((GLEW_VERSION_4_3 != 0) ? "Available" : "Unavailable") << std::endl;
+    std::cout << "OpenGL 4.4: " << ((GLEW_VERSION_4_4 != 0) ? "Available" : "Unavailable") << std::endl;
+    std::cout << "OpenGL 4.5: " << ((GLEW_VERSION_4_5 != 0) ? "Available" : "Unavailable") << std::endl;
+}
+
 /*
 * 
 */
-
 int main(int argc, char** argv) {
 	argsEcho(argc, argv);
 	println("Hello OpenGL");
 
 	if( !glfwInit() )
 	{
-		fprintf( stderr, "Ошибка при инициализации GLFW\n" );
+                // Ошибка при инициализации GLFW
+		fprintf(stderr, "GLFW - Initialization error\n");
 		return -1;
 	}
 	glfwWindowHint(GLFW_SAMPLES, 4); // 4x Сглаживание
@@ -91,11 +112,14 @@ int main(int argc, char** argv) {
 	glfwWindowHint(GLFW_GREEN_BITS, mode->greenBits);
 	glfwWindowHint(GLFW_BLUE_BITS, mode->blueBits);
 	glfwWindowHint(GLFW_REFRESH_RATE, mode->refreshRate);
+        GLFWwindow* window;
+        window = glfwCreateWindow(mode->width, mode->height, "Lesson 01", monitor, NULL);
 	*/
+        
 	// Открыть окно и создать в нем контекст OpenGL
 	GLFWwindow* window; // (В сопроводительном исходном коде эта переменная является глобальной)
 	window = glfwCreateWindow( 640, 480, "Lesson 01", NULL, NULL);
-	//window = glfwCreateWindow(mode->width, mode->height, "Lesson 01", monitor, NULL);
+	
 	if( window == NULL ){
 		fprintf( stderr, "Невозможно открыть окно GLFW. Если у вас Intel GPU, то он не поддерживает версию 3.3. Попробуйте версию уроков для OpenGL 2.1.\n" );
 		glfwTerminate();
@@ -109,12 +133,16 @@ int main(int argc, char** argv) {
 		fprintf(stderr, "Невозможно инициализировать GLEW\n");
 		return -1;
 	}
-
+        getOpenGLVerison();
+        
 	// Включим режим отслеживания нажатия клавиш, для проверки ниже
 	glfwSetInputMode(window, GLFW_STICKY_KEYS, GL_TRUE);
 
 	float colorRGB = 0.0;
-	do{
+	// Проверяем нажатие клавиши Escape или закрытие окна
+	while(glfwGetKey(window, GLFW_KEY_ESCAPE) != GLFW_PRESS && 
+              glfwWindowShouldClose(window) == 0)
+        {
 		// Пока что ничего не выводим. Это будет в уроке 2.
 		glClearColor(sin(colorRGB*PI/180), abs(cos(colorRGB*PI/180)), abs(sin(colorRGB*PI/180) + cos(colorRGB*PI/180)), 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
@@ -126,14 +154,9 @@ int main(int argc, char** argv) {
 			colorRGB<=180?colorRGB+=0.1:colorRGB=0;
 		}
 
-	} 
-	// Проверяем нажатие клавиши Escape или закрытие окна
-	while( glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS &&
-		glfwWindowShouldClose(window) == 0 );
-
+	}
 
 	glfwTerminate();
 	system("pause");        
 	return 0;
 }
-
