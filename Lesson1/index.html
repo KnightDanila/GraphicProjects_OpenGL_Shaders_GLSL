@@ -170,7 +170,10 @@ and open the template in the editor.
                 <section>
                     <section>
                         <h3>OpenGL</h3>
+                        <h4>Interface interaction API</h4>
                         <mark>GLUT</mark>, FreeGLUT, <mark>GLFW</mark> <br>
+                        <br>
+                        <h4>OpenGL Loading Library</h4>
                         <mark>GLEW, GLAD,</mark> glLoadGen, GLXW, libepoxy
                         <img class="stretch plain" src="../data/OpenGL-logo.png" class="stretch plain" alt="" />
                     </section>
@@ -187,23 +190,44 @@ and open the template in the editor.
                     <section>
                         <h3><mark>GLUT</mark>, FreeGLUT, <mark>GLFW</mark></h3>
                         GLUT - 1998 <br>
-                        GLFW - for now
+                        GLFW - for now <br>
+                        <br>
+                        It provides a simple API for:<br>
+                        Creating windows, contexts, reading input, handling events, events of mouse, keyboard, touch and etc. <br>
+                    </section>
+                    <section>
+                        <h4>OpenGL Loading Library</h4>
+                        <h4><mark>GLEW, GLAD,</mark> glLoadGen, GLXW, libepoxy</h4>
+                        GLEW - OpenGL Extension Wrangler Library <br>
+                        GLAD - Multi-Language GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs. <br>
+                        <br>
+                        <div style="font-size: 0.5em">This is a library that loads pointers to OpenGL functions at runtime.<br>
+                            Дело в том, что доступ к функциям OpenGL осуществляется через подгрузку 
+                            динамических библиотек. На разных платформах эти динамические 
+                            библиотеки загружаются по-разному, да и находятся в разных местах. 
+                            Собственно, лоадеры предназначены для того, чтобы скрыть эти различия от программиста.
+
+                            <br>
+                            <br>Windows, Linux, MacOS, Android
+                            <br>PlayStation, XBox, Nintendo, Sega Mega Drive
+                            <br>NVIDIA (ASUS, MSI, ...), AMD Radeon (ASUS, MSI, ...), PowerVR, Mali GPU
+                        </div>
+                        <div style="font-size: 0.5em">
+                            <a href="https://www.khronos.org/opengl/wiki/OpenGL_Loading_Library/">
+                                https://www.khronos.org/opengl/wiki/OpenGL_Loading_Library
+                            </a>
+                        </div>
                     </section>
                     <section>
                         <pre class="cpp"><code>
-                        // define the function's prototype
-                        typedef void (*GL_GENBUFFERS) (GLsizei, GLuint*);
-                        // find the function and assign it to a function pointer
-                        GL_GENBUFFERS glGenBuffers  = (GL_GENBUFFERS)wglGetProcAddress("glGenBuffers");
-                        // function can now be called as normal
-                        unsigned int buffer;
-                        glGenBuffers(1, &buffer);
+// define the function's prototype
+typedef void (*GL_GENBUFFERS) (GLsizei, GLuint*);
+// find the function and assign it to a function pointer
+GL_GENBUFFERS glGenBuffers  = (GL_GENBUFFERS)wglGetProcAddress("glGenBuffers");
+// function can now be called as normal
+unsigned int buffer;
+glGenBuffers(1, &buffer);
                         </code></pre>
-                    </section>
-                    <section>
-                        <h3><mark>GLEW, GLAD,</mark> glLoadGen, GLXW, libepoxy</h3>
-                        GLEW - OpenGL Extension Wrangler Library <br>
-                        GLAD - Multi-Language GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
                     </section>
                 </section>
 
@@ -235,7 +259,7 @@ and open the template in the editor.
                         <h3>Playtika</h3>
                         <img class="stretch plain" src="data/img/Playtika-Logo.jpg" alt=""/>
                     </section>
-                    
+
                 </section>
 
                 <section>
