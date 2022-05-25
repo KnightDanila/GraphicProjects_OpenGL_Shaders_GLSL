@@ -175,17 +175,17 @@ and open the template in the editor.
                         <br>
                         <h4>OpenGL Loading Library</h4>
                         <mark>GLEW, GLAD,</mark> glLoadGen, GLXW, libepoxy
-                        <img class="stretch plain" src="../data/OpenGL-logo.png" class="stretch plain" alt="" />
+                        <img src="../data/OpenGL-logo.png" alt="" class="stretch plain"/>
                     </section>
                     <section>
-                        <img class="stretch plain" src="data/gif/PFTC_Barbossa.gif" alt=""/>
+                        <img src="data/gif/PFTC_Barbossa.gif" alt="" class="stretch plain"/>
                         Кодекс - это просто свод указаний, а не жёстких законов.
                     </section>
                     <section>
-                        <img class="stretch plain" src="data/img/OpenGL-Specification-ENG.png" alt=""/>
+                        <img src="data/img/OpenGL-Specification-ENG.png" alt="" class="stretch plain"/>
                     </section>
                     <section>
-                        <img class="stretch plain" src="data/img/OpenGL-Specification.png" alt=""/>
+                        <img src="data/img/OpenGL-Specification.png" alt="" class="stretch plain"/>
                     </section>
                     <section>
                         <h3><mark>GLUT</mark>, FreeGLUT, <mark>GLFW</mark></h3>
@@ -219,14 +219,14 @@ and open the template in the editor.
                         </div>
                     </section>
                     <section>
-                        <pre class="cpp"><code>
-// define the function's prototype
-typedef void (*GL_GENBUFFERS) (GLsizei, GLuint*);
-// find the function and assign it to a function pointer
-GL_GENBUFFERS glGenBuffers  = (GL_GENBUFFERS)wglGetProcAddress("glGenBuffers");
-// function can now be called as normal
-unsigned int buffer;
-glGenBuffers(1, &buffer);
+                        <pre style="white-space: pre-line;" class="cpp"><code>
+                            // define the function's prototype
+                            typedef void (*GL_GENBUFFERS) (GLsizei, GLuint*);
+                            // find the function and assign it to a function pointer
+                            GL_GENBUFFERS glGenBuffers  = (GL_GENBUFFERS)wglGetProcAddress("glGenBuffers");
+                            // function can now be called as normal
+                            unsigned int buffer;
+                            glGenBuffers(1, &buffer);
                         </code></pre>
                     </section>
                 </section>
@@ -249,15 +249,19 @@ glGenBuffers(1, &buffer);
                     </section>
                     <section>
                         <h3>AMC Bridge</h3>
-                        <img class="stretch plain" src="data/img/AMCBridge-Logo.jpg" alt=""/>
+                        <img src="data/img/AMCBridge-Logo.jpg" alt="" class="stretch plain"/>
                     </section>
                     <section>
-                        <h3>Black Wing Foundation</h3>
-                        <img class="stretch plain" src="data/img/BWF-Logo.png" alt=""/>
+                        <h3>Black Wing Foundation (REBRANDING - now Pingle Studio)</h3>
+                        <img src="data/img/BWF-Logo.png" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Pingle Studio (old Black Wing Foundation)</h3>
+                        <img src="data/img/PingleStudio-Logo.png" alt="" class="stretch plain"/>
                     </section>
                     <section>
                         <h3>Playtika</h3>
-                        <img class="stretch plain" src="data/img/Playtika-Logo.jpg" alt=""/>
+                        <img src="data/img/Playtika-Logo.jpg" alt="" class="stretch plain"/>
                     </section>
 
                 </section>
@@ -267,30 +271,30 @@ glGenBuffers(1, &buffer);
                         <h3>Lab Work 1</h3>
                     </section>
                     <section>     
-                        <pre class="cpp"><code>
-glfwWindowHint(GLFW_SAMPLES, 4); // 4x Сглаживание
-glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3); // Мы хотим использовать OpenGL 3.3
-glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
-</code></pre>
+                        <pre style="white-space: pre-line;" class="cpp"><code>
+                            glfwWindowHint(GLFW_SAMPLES, 4); // 4x Сглаживание
+                            glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3); // Мы хотим использовать OpenGL 3.3
+                            glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+                        </code></pre>
                     </section>
                     <section>
                         glfwWindowHint - имеет очень простую сигнатуру, первым аргументом необходимо передать идентификатор параметра, который подвергается изменению, а вторым параметром передается значение, которое устанавливается соответствующему параметру.
                     </section>
                     <section>
-                        <pre class="cpp"><code>
-GLFWwindow * 	glfwCreateWindow (int width, int height, const char *title, GLFWmonitor *monitor, GLFWwindow *share)
-</code></pre> 
+                        <pre style="white-space: pre-line;" class="cpp"><code>
+                            GLFWwindow * glfwCreateWindow (int width, int height, const char *title, GLFWmonitor *monitor, GLFWwindow *share)
+                        </code></pre> 
                     </section>
                     <section>
-                        <pre class="cpp"><code>
-GLFWwindow* window; // (В сопроводительном исходном коде эта переменная является глобальной)
-window = glfwCreateWindow( 640, 480, "Lesson 01", NULL, NULL);
-</code></pre>
+                        <pre style="white-space: pre-line;" class="cpp"><code>
+                            GLFWwindow* window; // (В сопроводительном исходном коде эта переменная является глобальной)
+                            window = glfwCreateWindow( 640, 480, "Lesson 01", NULL, NULL);
+                        </code></pre>
                     </section>
                     <section>
-                        <pre class="cpp"><code>
-glfwTerminate();
-</code></pre>
+                        <pre style="white-space: pre-line;" class="cpp"><code>
+                            glfwTerminate();
+                        </code></pre>
                     </section>
 
                 </section>
