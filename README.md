@@ -95,7 +95,8 @@ VBO & VAO - https://www.youtube.com/watch?v=z2yFlvkBbmk
 VBO & VAO - https://www.youtube.com/watch?v=aPUbW97Bd4s  
 glDrawElements - https://people.eecs.ku.edu/~jrmiller/Courses/672/InClass/3DModeling/glDrawElements.html  
 
-Normals Face&Vertex - https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/shading-normals  
+### Normals Face&Vertex
+https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/shading-normals  
 https://www.youtube.com/watch?v=x_Ph2cuEWrE  
 https://www.glfw.org/docs/latest/window_guide.html#window_size  
 https://github.com/JoeyDeVries/LearnOpenGL  
@@ -109,9 +110,19 @@ https://www.pvsm.ru/opengl/164540
 http://www.songho.ca/opengl/gl_transform.html  
 http://www.songho.ca/opengl/gl_sphere.html  
 
+### Parallax
+https://casual-effects.com/research/McGuire2005Parallax/  
+
+http://fire-face.com/personal/index.html  
+
 ### MVP vs MPC
 MVP = M * V * P - https://jsantell.com/model-view-projection/  
 MVC - Pattern - https://ru.wikipedia.org/wiki/Model-View-Controller 
 
 
+# Other Cool stuff
+## Unity
+https://catlikecoding.com/unity/tutorials/  
 
+## Blender
+https://blender3d.com.ua/tag/particles/  
