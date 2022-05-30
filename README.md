@@ -110,6 +110,9 @@ https://www.pvsm.ru/opengl/164540
 http://www.songho.ca/opengl/gl_transform.html  
 http://www.songho.ca/opengl/gl_sphere.html  
 
+### Math
+https://www.whitman.edu/mathematics/calculus_online/section16.06.html#:~:text=One%20common%20type%20of%20surface,for%20every%20value%20of%20z
+
 ### Parallax
 https://casual-effects.com/research/McGuire2005Parallax/  
 
