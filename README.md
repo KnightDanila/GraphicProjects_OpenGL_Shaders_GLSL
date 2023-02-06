@@ -76,7 +76,11 @@ https://people.eecs.ku.edu/~jrmiller/Courses/OpenGL/OpenGL.html
 https://thebookofshaders.com/08/  
 
 ##### YouTube
-https://www.youtube.com/watch?v=W3gAzLwfIP0&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2
+https://www.youtube.com/watch?v=W3gAzLwfIP0&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2  
+
+##### YouTube Channels:
+https://www.youtube.com/@TheCherno  
+
 #### RUS
 http://www.opengl-tutorial.org/ru/  
 https://habr.com/ru/post/310790/  
