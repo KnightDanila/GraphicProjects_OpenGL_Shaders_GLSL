@@ -29,6 +29,6 @@ ipch/
 *.VC.VC.opendb
 
 # NetBeans
-*.o
-*.d
+**.o
+**.d
 private/
