@@ -9,6 +9,7 @@ Lesson5
 Lesson6
 Lesson7
 LessonN
+NeedToShow
 
 Libs/Java/lwjgl-3.2.3.zip
 
@@ -29,6 +30,6 @@ ipch/
 *.VC.VC.opendb
 
 # NetBeans
-**.o
-**.d
+*.o
+*.d
 private/
