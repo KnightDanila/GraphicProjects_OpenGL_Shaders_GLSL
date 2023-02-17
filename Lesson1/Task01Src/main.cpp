@@ -84,6 +84,7 @@ void getOpenGLVerison(){
     std::cout << "OpenGL 4.3: " << ((GLEW_VERSION_4_3 != 0) ? "Available" : "Unavailable") << std::endl;
     std::cout << "OpenGL 4.4: " << ((GLEW_VERSION_4_4 != 0) ? "Available" : "Unavailable") << std::endl;
     std::cout << "OpenGL 4.5: " << ((GLEW_VERSION_4_5 != 0) ? "Available" : "Unavailable") << std::endl;
+    std::cout << "OpenGL 4.6: " << ((GLEW_VERSION_4_6 != 0) ? "Available" : "Unavailable") << std::endl;
 }
 
 /*
