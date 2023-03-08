@@ -21,6 +21,8 @@ Author: Vasya Pupkin
 ```
 5. Create a 640x480 glfwCreateWindow (...) window, named "Lesson 01 - RAINBOW - Vasya Pupkin AC-13-03".
 
+Addons:
+Linux: ```g++ main.cpp -o rainbow -lGLEW -lGL -lglfw```
 
 <a name="Ukr"></a>
 
