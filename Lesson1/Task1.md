@@ -21,8 +21,8 @@ Author: Vasya Pupkin
 ```
 5. Create a 640x480 glfwCreateWindow (...) window, named "Lesson 01 - RAINBOW - Vasya Pupkin AC-13-03".
 
-Addons:
-Linux: ```g++ main.cpp -o rainbow -lGLEW -lGL -lglfw```
+### Addons:
+**Unix\Linux** build commands: ```g++ main.cpp -o rainbow -lGLEW -lGL -lglfw```  
 
 <a name="Ukr"></a>
 
@@ -45,6 +45,7 @@ Author: Vasya Pupkin
 ```
 5. Створити вікно glfwCreateWindow(...) розміром 640х480, та назвою "Lesson 01 - RAINBOW - Вася Пупкін ПК-13-03".
 
-
+### Доповнення:
+**Unix\Linux** build commands: ```g++ main.cpp -o rainbow -lGLEW -lGL -lglfw```  
 
 
