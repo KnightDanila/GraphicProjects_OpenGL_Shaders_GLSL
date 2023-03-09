@@ -5,7 +5,8 @@
 
 > "In OpenGL - the GL part means Good Luck, 
 not Graphic Library, so I'm GlaD to see you ^_^"
-> <p align="right"> — GlaDOS</p> 
+>
+> <p align="right"> — GlaDOS</p>
 
 ## Download OpenGL libs
 GLFW - https://www.glfw.org/download.html  
