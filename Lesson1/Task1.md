@@ -2,7 +2,10 @@
 <a name="Eng"></a>
 
 # Lab 1 FIGHT!
-## GL - Good Luck and GlaD to see you ^_^
+
+> "In OpenGL - the GL part means Good Luck, 
+not Graphic Library, so I'm GlaD to see you ^_^"
+> <p align="right"> — GlaDOS</p> 
 
 ## Download OpenGL libs
 GLFW - https://www.glfw.org/download.html  
@@ -22,7 +25,11 @@ Author: Vasya Pupkin
 5. Create a 640x480 glfwCreateWindow (...) window, named "Lesson 01 - RAINBOW - Vasya Pupkin AC-13-03".
 
 ### Addons:
-**Unix\Linux** build commands: ```g++ main.cpp -o rainbow -lGLEW -lGL -lglfw```  
+**Unix|Linux** build commands:  
+> ```g++ main.cpp -o rainbow -lGLEW -lGL -lglfw```
+
+**Windows** MinGW g++ commands:
+> ```g++ --static-libgcc -static-libstdc++ -lglew32s -lglew32 -l:glfw3.a -lglut32 -lopengl32 -lgdi32```
 
 <a name="Ukr"></a>
 
@@ -46,6 +53,9 @@ Author: Vasya Pupkin
 5. Створити вікно glfwCreateWindow(...) розміром 640х480, та назвою "Lesson 01 - RAINBOW - Вася Пупкін ПК-13-03".
 
 ### Доповнення:
-**Unix\Linux** build commands: ```g++ main.cpp -o rainbow -lGLEW -lGL -lglfw```  
+**Unix|Linux** build commands:  
+> ```g++ main.cpp -o rainbow -lGLEW -lGL -lglfw```
 
+**Windows** MinGW g++ commands:
+> ```g++ --static-libgcc -static-libstdc++ -lglew32s -lglew32 -l:glfw3.a -lglut32 -lopengl32 -lgdi32```
 
