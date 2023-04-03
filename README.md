@@ -101,6 +101,11 @@ VBO & VAO - https://www.youtube.com/watch?v=z2yFlvkBbmk
 VBO & VAO - https://www.youtube.com/watch?v=aPUbW97Bd4s  
 glDrawElements - https://people.eecs.ku.edu/~jrmiller/Courses/672/InClass/3DModeling/glDrawElements.html  
 
+# Stanford and OpenGL and Audio
+https://ccrma.stanford.edu/courses/256a-fall-2014/lectures/5a/code/starfield.cpp  
+RTAudio - https://github.com/thestk/rtaudio  
+OpenAL - https://github.com/kcat/openal-soft  
+
 ### Normals Face&Vertex
 https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/shading-normals  
 https://www.youtube.com/watch?v=x_Ph2cuEWrE  
