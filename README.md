@@ -105,6 +105,7 @@ glDrawElements - https://people.eecs.ku.edu/~jrmiller/Courses/672/InClass/3DMode
 https://ccrma.stanford.edu/courses/256a-fall-2014/lectures/5a/code/starfield.cpp  
 RTAudio - https://github.com/thestk/rtaudio  
 OpenAL - https://github.com/kcat/openal-soft  
+HRTF - https://en.wikipedia.org/wiki/Head-related_transfer_function  
 
 ### Normals Face&Vertex
 https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/shading-normals  
