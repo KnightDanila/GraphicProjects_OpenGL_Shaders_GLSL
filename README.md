@@ -63,13 +63,15 @@ MSI Afterburner - https://ru.msi.com/page/afterburner
 2. [The OpenGL® Programming Guide 9th Edition [en]](http://www.opengl-redbook.com/)
 3. [Khronos-OpenGL-Refpages](https://www.khronos.org/registry/OpenGL-Refpages/gl4/)
 4. [LearnOpenGL Book](https://learnopengl.com/book/book_pdf.pdf)  
+5. [Learning Modern 3D Graphics Programming](https://www.cse.chalmers.se/edu/year/2018/course/TDA361/LearningModern3DGraphicsProgramming.pdf)
 ### URLs - Web Courses
 #### ENG
 https://learnopengl.com/  
 https://docs.gl/  
 https://www.youtube.com/user/ThinMatrix/videos  
 https://alfonse.bitbucket.io/oldtut/index.html  
-https://www.pdfiles.com/pdf/ - Ctrl+F Learning Modern 3D Graphics Programming  
+[https://paroj.github.io/gltut/](https://paroj.github.io/gltut/) - Learning Modern 3D Graphics Programming  
+[https://github.com/paroj/gltut](https://github.com/paroj/gltut) - Learning Modern 3D Graphics Programming Github  
 http://nehe.gamedev.net/  
 https://godoc.org/github.com/go-gl/glfw/v3.0/glfw#Window.SetFocusCallback  
 https://people.eecs.ku.edu/~jrmiller/Courses/OpenGL/OpenGL.html  
@@ -98,6 +100,12 @@ VBO & VAO - https://www.youtube.com/watch?v=WMiggUPst-Q https://youtu.be/WMiggUP
 VBO & VAO - https://www.youtube.com/watch?v=z2yFlvkBbmk  
 VBO & VAO - https://www.youtube.com/watch?v=aPUbW97Bd4s  
 glDrawElements - https://people.eecs.ku.edu/~jrmiller/Courses/672/InClass/3DModeling/glDrawElements.html  
+
+### Stanford and OpenGL and Audio
+https://ccrma.stanford.edu/courses/256a-fall-2014/lectures/5a/code/starfield.cpp  
+RTAudio - https://github.com/thestk/rtaudio  
+OpenAL - https://github.com/kcat/openal-soft  
+HRTF - https://en.wikipedia.org/wiki/Head-related_transfer_function  
 
 ### Normals Face&Vertex
 https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/shading-normals  
