@@ -22,12 +22,17 @@ namespace Knight3D {
         GLWindow(const std::string& title, uint32_t width, uint32_t height, GLFWwindow* share);
 
         ~GLWindow() {
-            glfwDestroyWindow(handle);
+            // glfwDestroyWindow(handle); // only for one-single window app
+			glfwSetWindowShouldClose(_handle, true); // for multiple windows app
         };
         uint32_t getWidth() const;
         uint32_t getHeight() const;
+		// ...
 
         GLFWwindow* getGLFWHandle() const;
+		void makeCurrent();
+		
+		
     private:
         // TODO
 
