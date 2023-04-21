@@ -144,3 +144,6 @@ https://catlikecoding.com/unity/tutorials/
 
 ## Blender
 https://blender3d.com.ua/tag/particles/  
+
+## Pixar
+https://graphics.pixar.com/library/
