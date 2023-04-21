@@ -146,4 +146,5 @@ https://catlikecoding.com/unity/tutorials/
 https://blender3d.com.ua/tag/particles/  
 
 ## Pixar
-https://graphics.pixar.com/library/
+https://graphics.pixar.com/library/  
+Merida: https://graphics.pixar.com/library/CurlyHairA/paper.pdf
