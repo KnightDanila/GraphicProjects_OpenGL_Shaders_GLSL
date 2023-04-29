@@ -148,3 +148,6 @@ https://blender3d.com.ua/tag/particles/
 ## Pixar
 https://graphics.pixar.com/library/  
 Merida: https://graphics.pixar.com/library/CurlyHairA/paper.pdf
+
+## CGI
+https://www.iheartmyart.com/tagged/gif
