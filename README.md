@@ -89,7 +89,7 @@ https://habr.com/ru/post/310790/
 https://eax.me/opengl-vbo-vao-shaders/  
 https://code.google.com/archive/p/gl33lessons/  
 http://www.gamedev.ru/code/articles/tags/OpenGL  
-
+https://ravesli.com/uroki-po-opengl/  
 
 ## Other
 These links and info for Author only (or for you too I am only a text not a cop):  
