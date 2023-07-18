@@ -123,7 +123,8 @@ http://www.songho.ca/opengl/gl_transform.html
 http://www.songho.ca/opengl/gl_sphere.html  
 
 ### Math
-https://www.whitman.edu/mathematics/calculus_online/section16.06.html#:~:text=One%20common%20type%20of%20surface,for%20every%20value%20of%20z
+https://www.whitman.edu/mathematics/calculus_online/section16.06.html#:~:text=One%20common%20type%20of%20surface,for%20every%20value%20of%20z  
+https://www.mathwarehouse.com/  
 
 ### Quaternions
 https://gamedev.dou.ua/articles/mathematics-gamedev-quaternion/?from=tg-gamedev&utm_source=telegram&utm_medium=social
