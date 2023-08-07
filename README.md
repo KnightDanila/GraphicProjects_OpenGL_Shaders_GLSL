@@ -153,5 +153,12 @@ Merida: https://graphics.pixar.com/library/CurlyHairA/paper.pdf
 ## CGI
 https://www.iheartmyart.com/tagged/gif
 
-# ThreeJS
+## ThreeJS
 https://helloenjoy.itch.io/hellorun
+
+# Resources
+
+## Sprites:
+CC: https://opengameart.org/
+Non CC: https://www.spriters-resource.com/pc_computer/heroes3/
+
