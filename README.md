@@ -89,7 +89,7 @@ https://habr.com/ru/post/310790/
 https://eax.me/opengl-vbo-vao-shaders/  
 https://code.google.com/archive/p/gl33lessons/  
 http://www.gamedev.ru/code/articles/tags/OpenGL  
-
+https://ravesli.com/uroki-po-opengl/  
 
 ## Other
 These links and info for Author only (or for you too I am only a text not a cop):  
@@ -123,7 +123,8 @@ http://www.songho.ca/opengl/gl_transform.html
 http://www.songho.ca/opengl/gl_sphere.html  
 
 ### Math
-https://www.whitman.edu/mathematics/calculus_online/section16.06.html#:~:text=One%20common%20type%20of%20surface,for%20every%20value%20of%20z
+https://www.whitman.edu/mathematics/calculus_online/section16.06.html#:~:text=One%20common%20type%20of%20surface,for%20every%20value%20of%20z  
+https://www.mathwarehouse.com/  
 
 ### Quaternions
 https://gamedev.dou.ua/articles/mathematics-gamedev-quaternion/?from=tg-gamedev&utm_source=telegram&utm_medium=social
@@ -152,5 +153,12 @@ Merida: https://graphics.pixar.com/library/CurlyHairA/paper.pdf
 ## CGI
 https://www.iheartmyart.com/tagged/gif
 
-# ThreeJS
+## ThreeJS
 https://helloenjoy.itch.io/hellorun
+
+# Resources
+
+## Sprites:
+CC: https://opengameart.org/
+Non CC: https://www.spriters-resource.com/pc_computer/heroes3/
+
