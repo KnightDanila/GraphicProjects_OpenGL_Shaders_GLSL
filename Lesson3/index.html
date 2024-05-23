@@ -84,7 +84,7 @@ void foo(){
 	vec4 v(0.0f);
 	mat4 m(1.0f);
 	...
-	glVertex3fv(value_ptr(v))
+	glVertex3fv(value_ptr(v));
 	glLoadMatrixfv(value_ptr(m));
 }                        
 </code></pre>
@@ -97,7 +97,7 @@ void foo(){
 void foo(){
 	glm::vec4 Position = glm::vec4(glm:: vec3(0.0f), 1.0f);
 	glm::mat4 Model = glm::translate(glm::mat4(1.0f), glm::vec3(1.0f));
-	Model = glm::rotate(Model,45,0,1,0);
+	Model = glm::rotate(Model, 45.0f, glm::vec3(1.0f, 1.0f, 1.0f));
 	glm::vec4 Transformed = Model * Position;
 }                
 </code></pre>
@@ -136,7 +136,7 @@ void foo(){
                         <h3>Camera Target (trajectory) - Tomb Raider 1996</h3>
                         <img class="stretch plain" src="data/Games_LowPoly_Wireframe_Lara_Croft.gif" alt=""/>
                     </section> 
-                     <section>
+                    <section>
                         <h3>Camera Target (trajectory) -  Colin McRae Rally 1998</h3>
                         <img class="stretch plain" src="data/Games_LowPoly_Wireframe_Colin_McRae_Rally (8).gif" alt=""/>
                     </section> 
@@ -290,7 +290,7 @@ void foo(){
                         Lenses by focal length - фокус камери
                         <img src="data/CG_FOV_of_lenses_by_focal_length.gif" alt="" class="stretch plain"/>
                     </section>
-                    
+
                     <section>
                         <h3>Camera - FOV</h3> 
                         Lenses by focal length - фокус камери
@@ -298,6 +298,16 @@ void foo(){
                             <source src="data/CG_FOV_Udacity -  Focal Length and Field of View.mp4" type="video/mp4">
                             Your browser does not support the <code>video</code> tag.
                         </video>
+                    </section>
+
+                    <section>
+                        <h3>Camera - FOV - Predator vs Prey</h3> 
+                        Foreign Planet
+                        
+                    </section>
+                    <section>
+                        <h3>Camera - FOV - Predator vs Prey</h3> 
+                        <img src="data/Animals_Predator_Prey_FOV_0.jpg" alt="" class="stretch plain"/>
                     </section>
 
                     <section>
@@ -381,15 +391,14 @@ public:
                 <section>
                     <section>
                         <h3>Controller - Device</h3>
-
                         <br>E:\Learn It\GAMES-Programming\Engine\MyEngine\CORE_SimpleCore
                     </section>
 
                     <section>
-                        <img src="data/UML_Main1.jpg" alt="" class="stretch plain"/>
+                        <img src="data/UML_Main_Camera1.jpg" alt="" class="stretch plain"/>
                     </section>
                     <section>
-                        <img src="data/UML_Main2.jpg" alt="" class="stretch plain"/>
+                        <img src="data/UML_Main_Camera2.jpg" alt="" class="stretch plain"/>
                     </section>
                 </section>
 
@@ -397,7 +406,7 @@ public:
                     <section>
                         <h3>Camera - Methods</h3>
                     </section>
-                    
+
                     <!-- Bullet time -->
                     <section>
                         <h3>Bullet time</h3>
@@ -406,7 +415,7 @@ public:
                         <h3>Bullet time</h3>
                         <img src="data/Movie_The_Matrix_BulletTime.gif" alt="" class="stretch plain"/>
                     </section>
-                    
+
                     <!-- Dutch angle -->
                     <section>
                         <h3>Dutch angle - Голландский кут - Голландский угол</h3>
@@ -440,8 +449,8 @@ public:
                         <h3>Dutch angle</h3>
                         <img src="data/Movie_VFX_Dutch_Angle_5.jpg" alt="" class="stretch plain"/>
                     </section>
-                    
-                    
+
+
                     <!-- Links -->
                     <section>
                         https://www.film.ru/articles/kinoslovar-speceffekty
@@ -450,7 +459,7 @@ public:
                         <br>
                         https://youtu.be/R9FUEScjB1U
                     </section>
-                    
+
                 </section>
 
                 <section>
