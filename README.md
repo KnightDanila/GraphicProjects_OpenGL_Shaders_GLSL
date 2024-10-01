@@ -6,7 +6,7 @@ https://knightdanila.github.io/GraphicProjects_OpenGL_Shaders_GLSL/
 ## Inspiration :unicorn:
 
 ## Libs
-C++: OpenGL
+C++: OpenGL  
 C#: OpenTK - https://opentk.net/
 
 ### Games
