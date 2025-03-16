@@ -18,7 +18,7 @@ namespace GSC{
 4. Add output to the console:
 ```
 Task 2
-Author: Vasya Pupkin
+Author: The student of the faculty of Applied Mathematics (Harry James Potter/Hermione Jean Granger)
 ```
 5. Create 3 windows by class GLWindow
 6. Draw VBO object (without texture)
@@ -46,8 +46,8 @@ namespace GSC{
 ![UML](data/UML_Main1.jpg)
 4. Додайте вихід до консолі:
 ```
-Завдання 2
-Автор: Вася Пупкін
+Task 2
+Author: The student of the faculty of Applied Mathematics (Harry James Potter/Hermione Jean Granger)
 ```
 5. Створіть 3 вікна за допомогою класу GLWindow
 6. Намалюйте об'єкт VBO (без текстури)
