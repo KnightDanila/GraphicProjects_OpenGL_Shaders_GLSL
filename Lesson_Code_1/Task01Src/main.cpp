@@ -148,7 +148,7 @@ int main(int argc, char** argv) {
 
 	// Открыть окно и создать в нем контекст OpenGL
 	GLFWwindow* window; // (В сопроводительном исходном коде эта переменная является глобальной)
-	window = glfwCreateWindow(640, 480, "Lesson 01", NULL, NULL);
+	window = glfwCreateWindow(640, 480, "Lesson 01 - RAINBOW - (Harry James Potter/Hermione Jean Granger)", NULL, NULL);
 
 	if (window == NULL) {
 		fprintf(stderr, "It is not possible to open the window GLFW. If you have Intel GPU, then it does not support the OpenGL 3.3. Try OpenGL 2.1.\n");

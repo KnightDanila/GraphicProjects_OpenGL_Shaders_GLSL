@@ -1,0 +1,18 @@
+ToDo\_Singleton
+
+Парус - этаж висота - креслення
+
+https://www.khronos.org/opengl/wiki/Face_Culling
+
+
+opengl clockwise
+
+
+FIX IT 32|64 for 2019
+Test it on 2022
+Add libs for 32|64
+
+
+Яна Лавушник: 
+Install libs for Unix OS - Ubuntu
+sudo apt install freeglut3-dev libglew-dev libglfw3-dev

@@ -20,10 +20,10 @@ GLAD - https://glad.dav1d.de/
 3. Use glfwWindowHint (...) to connect OpenGL 3.3 or another version supported by your GPU.
 4. Add output to the console:
 ```
-Hello OpenGL
-Author: Vasya Pupkin
+Hello OpenGL – I am Glad to see you
+Author: The student of the faculty of Applied Mathematics (Harry James Potter/Hermione Jean Granger)
 ```
-5. Create a 640x480 glfwCreateWindow (...) window, named "Lesson 01 - RAINBOW - Vasya Pupkin AC-13-03".
+5. Create a 640x480 glfwCreateWindow (...) window, named "Lesson 01 - RAINBOW - (Harry James Potter/Hermione Jean Granger) AC-13-03".
 
 ### Addons:
 **Unix|Linux** build commands:  
@@ -48,10 +48,10 @@ GLAD - https://glad.dav1d.de/
 3. За допомогою функції glfwWindowHint(...) підключити OpenGL 3.3 чи іншої версії, яку підтримує ваш GPU.
 4. Додати у консоль вивід:
 ```
-Hello OpenGL
-Author: Vasya Pupkin
+Hello OpenGL – I am Glad to see you
+Author: The student of the faculty of Applied Mathematics (Harry James Potter/Hermione Jean Granger)
 ```
-5. Створити вікно glfwCreateWindow(...) розміром 640х480, та назвою "Lesson 01 - RAINBOW - Вася Пупкін ПК-13-03".
+5. Створити вікно glfwCreateWindow(...) розміром 640х480, та назвою "Lesson 01 - RAINBOW - (Harry James Potter/Hermione Jean Granger) ПК-13-03".
 
 ### Доповнення:
 **Unix|Linux** build commands:  
