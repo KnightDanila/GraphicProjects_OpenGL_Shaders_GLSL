@@ -1,6 +1,0 @@
-LIDAR.EXE - Paint Dark Spaces with Lidar Scans in this LIDAR Garry's Mod Inspired Horror Game!
-https://www.youtube.com/watch?v=3mg8vmcW3OU
-
-https://knightdanila.github.io/GraphicProjects_ThreeJS_Shaders_GLSL/
-
-E:\Learn It\GreatWork\GraphicProjects_OpenGL_Shaders_GLSL\ToDo
