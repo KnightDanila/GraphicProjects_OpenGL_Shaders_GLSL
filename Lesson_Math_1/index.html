@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Presentation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../favicon.ico">
+
+        <link rel="stylesheet" href="../js/libs/reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="../js/libs/reveal.js/css/theme/night.css">
+        <link href="../js/libs/highlight.js/styles/arduino-light.min.css" rel="stylesheet" type="text/css"/>
+
+        <!--<script src="../js/libs/jquery/jquery.js" type="text/javascript"></script>-->
+        <link href="../theme/style.css" rel="stylesheet" type="text/css"/>
+
+        <!--<link href="theme/iframeWebpagePreview/iframeWebpagePreview.css" rel="stylesheet" type="text/css"/>-->
+        <!--<script src="theme/iframeWebpagePreview/iframeWebpagePreview.js" type="text/javascript"></script>-->
+
+        <link href="../js/ClockJS/SimpleTimer.css" rel="stylesheet" type="text/css"/>
+        <script src="../js/ClockJS/SimpleTimer.js" type="text/javascript"></script>
+        <!--<link href="theme/xClose.css" rel="stylesheet" type="text/css"/>-->
+
+        <!-- Math Jax -->
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <!--To add inline mode-->
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+            tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            processEscapes: true
+            }
+            });
+        </script>
+        <script type="text/javascript"
+                src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        <!--To add inline mode-->
+        <!-- Math Jax -->
+    </head>
+    <body id="MainPresentation">
+        <div id="Timer1" class="simpleTimer simpleTimer-white simpleTimer-alignLeft simpleTimer-fly simpleTimer-box">timer1</div>
+
+        <div class="reveal">
+            <div class="slides">
+                <!--<section>
+                    Single Horizontal Slide
+                </section>-->
+                <!--<section>
+                        <section>Vertical Slide 1</section>
+                        <section>Vertical Slide 2</section>
+                </section>-->
+
+                <section>
+                    <h2>Fullscreen mode</h2>
+                    <p>
+                        Just press »F« on your keyboard to show your presentation in fullscreen mode. Press the »ESC« key to exit fullscreen mode.
+                    </p>
+                    <h2>Overview mode</h2>
+                    <p>
+                        Press "Esc" or "o" keys to toggle the overview mode on and off. While you're in this mode, you can still navigate between slides, as if you were at 1,000 feet above your presentation.
+                    </p>
+                </section>
+
+                <section>
+                    <br>
+                    <h3>
+                        Computational Geometry and Computer Graphics
+                    </h3>
+                    <img src="../data/OpenGL-logo.png" alt="" class="stretch plain"/>
+                    <br>
+                    Lesson 1
+                    <br>
+                    <br>
+                    <div style="font-size: xx-large;">
+                        Author: Egoshkin Danila Igorevich
+                    </div>
+                </section>
+
+                <!--Topic N-->
+                <section>
+                    <section>
+                        <h3>Metric space</h3>
+                        <img src="data/Gravity_wave_visualization.gif" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Metric space</h3>
+                        What is a metric?
+                    </section>
+                    <section>
+                        <h3>Metric space</h3>
+                        Space and how to measure
+                        <img src="data/Space_And_Ruler_WebpToJpg.jpg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Metric space</h3>
+                        Different (d(x) - distance) - how to measure?
+                    </section>
+                    <section>
+                        <h3>Metric space</h3>
+                        Different d(x)
+                        <br>
+                        <img src="data/metric_vs_english.jpg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Metric space</h3>
+                        Different M - Metric space?
+                    </section>
+                    <section>
+                        <h3>Metric space</h3>
+                        Different M
+                        <br>
+                        <img src="data/Notes_A4_440hz.png" alt="" class="stretch plain"/>
+                    </section>
+
+
+                    <section>
+                        <h3>Metric space</h3>
+                        Metric space is an ordered pair (M, d) where M is a set and d is a metric on M
+                    </section>
+                    <section>
+                        <h3>Metric space</h3>
+                        (M, d) - M - Metric space - where, d - function how to measure.
+                    </section>
+
+                    <section>
+                        <h3>Metric Space Axioms</h3>
+                    </section>
+                    <section>
+                        <h3>Metric Space Axioms</h3>
+                        <p>1. <em>Identity Axiom:</em> \( d(x, y) = 0 \iff x = y \)</p>
+                    </section>
+                    <section>
+                        <h3>Metric Space Axioms</h3>
+                        <p>2. <em>Non-Negativity Axiom:</em> \( d(x, y) \geq 0 \)</p>
+                    </section>
+                    <section>
+                        <h3>Metric Space Axioms</h3>
+                        <p>3. <em>Symmetry Axiom:</em> \( d(x, y) = d(y, x) \)</p>
+                    </section>
+                    <section>
+                        <h3>Metric Space Axioms</h3>
+                        <p>4. <em>Triangle Axiom (Triangle Inequality):</em> \( d(x, z) \leq d(x, y) + d(y, z) \)</p>
+                    </section>
+                    <section>
+                        <h3>Metric Space Axioms</h3>
+                        <p>1. <em>Identity Axiom:</em> \( d(x, y) = 0 \iff x = y \)</p>
+                        <p>2. <em>Non-Negativity Axiom:</em> \( d(x, y) \geq 0 \)</p>
+                        <p>3. <em>Symmetry Axiom:</em> \( d(x, y) = d(y, x) \)</p>
+                        <p>4. <em>Triangle Axiom (Triangle Inequality):</em> \( d(x, z) \leq d(x, y) + d(y, z) \)</p>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h3>When do we use Metric?</h3>
+
+                    </section>
+
+                    <section>
+                        <h3>38 Parrots</h3>
+                        <img src="data/f19a0424ae1bfbe1b8b0dc87f1fe2ca8.jpg" alt="" class="stretch plain"/>
+                        <br>
+                        <p>— Два слоненяти, п’ять мавпочок, 38 папуг!</p>
+                        <p>— А в папугах-то я гора-а-аздо довший!</p>
+                    </section>
+
+                    <section>
+                        \[
+                        |x|
+                        \]
+                    </section>
+
+                    <section>
+                        <p>Norm - The magnitude of a vector is also known as the length or norm of the vector</p>
+                        <br>
+                        \[
+                        |x| = {\|x\|}_1
+                        \]
+                    </section>
+
+                    <section>
+                        <p>The length or norm of the vector</p>
+                        <p>
+                            \( \|x\|_1 = |x_1| + |x_2| + \cdots + |x_n| \)
+                        </p>
+                    </section>
+
+                    <section>
+                        <h3>1. Евклідова метрика</h3>
+                        <p>Стандартна відстань у просторі:</p>
+                        \[
+                        d(x, y) = \sqrt{(x_1 - y_1)^2 + (x_2 - y_2)^2}
+                        \]
+                        <p><strong>Приклад:</strong> Для точок (1,2) і (4,6):</p>
+                        \[
+                        d((1,2), (4,6)) = \sqrt{(4-1)^2 + (6-2)^2} = \sqrt{9 + 16} = 5
+                        \]
+                    </section>
+
+                    <section>
+                        <h3>Евклидова метрика ( \(L_2\)-норма):</h3>
+                        <p>
+                            \[
+                            d_2(x, y) = \| x - y \|_2 = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}
+                            \]
+                        </p>
+                    </section>
+
+                    <section>
+                        But is it always works?
+                    </section>
+
+                    <section>
+                        <h3>Manhattan city</h3>
+                        <img src="data/istockphoto-638789804-612x612.jpg" alt="" class="stretch plain"/>
+                    </section>
+
+                    <section>
+                        <h3>Manhattan city</h3>
+                        <img src="data/26-lens-aerials-slide-WXCK-superJumbo.jpg" alt="" class="stretch plain"/>
+                    </section>
+
+                    <section>
+                        <h3>Mexico City</h3>
+                        <img src="data/City_Mexico_federal.jpeg" alt="" class="stretch plain"/>
+                        <br>
+                        https://www.thepolisblog.org/2012/12/urban-morphology-in-mexico-city.html
+                    </section>
+
+                    <section>
+                        <h3>2. Манхеттенська метрика (L1-норма)</h3>
+                        <p>Визначається як сума абсолютних різниць координат:</p>
+                        \[
+                        d(x, y) = |x_1 - y_1| + |x_2 - y_2|
+                        \]
+                        <p><strong>Приклад:</strong> Для тих самих точок:</p>
+                        \[
+                        d((1,2), (4,6)) = |1-4| + |2-6| = 3 + 4 = 7
+                        \]
+                        <p>📌 Використовується в навігації по містах із прямокутною забудовою.</p>
+                    </section>
+
+                    <section>
+                        <h2>Манхэттенская норма ( \(L_1\)-норма):</h2>
+                        <p>
+                            \[
+                            d_1(x, y) = \| x - y \|_1 = \sum_{i=1}^{n} |x_i - y_i|
+                            \]
+                        </p>
+                    </section>
+                    <section>
+                        <h3>3. Чебишевська метрика (L∞-норма)</h3>
+                        <p>Визначається як найбільша абсолютна різниця між координатами:</p>
+                        \[
+                        d(x, y) = \max(|x_1 - y_1|, |x_2 - y_2|)
+                        \]
+                        <p><strong>Приклад:</strong></p>
+                        \[
+                        d((1,2), (4,6)) = \max(|1-4|, |2-6|) = \max(3, 4) = 4
+                        \]
+                        <p>📌 Використовується в шахах для моделювання ходу короля.</p>
+                    </section>
+
+                    <section>
+                        <h2>Чебышёвская норма ( \(L_\infty\)-норма):</h2>
+                        <p>
+                            \[
+                            d_\infty(x, y) = \| x - y \|_\infty = \max_i |x_i - y_i|
+                            \]
+                        </p>
+                    </section>
+                    <section>
+
+                        <img src="data/Minkowski_distance_examples.svg.png" alt="" class="stretch plain"/>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Metric_space#Metrics_on_Euclidean_spaces">Wiki - Metrics on Euclidean spaces</a>
+
+                    </section>
+
+
+                    <section>
+                        <h3>4. Косинусна відстань (Cosine distance)</h3>
+                        <div style="font-size: x-large">
+                            <p>Визначається як міра кутової відмінності між векторами:</p>
+                            \[
+                            d(x, y) = 1 - \text{cosine similarity} = 1 - \cos(\theta) = 1 - \frac{x \cdot y}{\|x\| \cdot \|y\|}
+                            \]
+                            <p><strong>Приклад:</strong> Нехай \( x = (1,2) \), \( y = (4,6) \):</p>
+                            \[
+                            x \cdot y = 1 \cdot 4 + 2 \cdot 6 = 4 + 12 = 16
+                            \]
+                            \[
+                            \|x\| = \sqrt{1^2 + 2^2} = \sqrt{5}, \quad \|y\| = \sqrt{4^2 + 6^2} = \sqrt{52}
+                            \]
+                            \[
+                            d(x, y) = 1 - \frac{16}{\sqrt{5} \cdot \sqrt{52}}
+                            \]
+                            <p>📌 Використовується у пошуку схожих об'єктів у ШІ.</p>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>Cosine similarity</h3>
+                        <p>
+                            \[
+                            \text{cosine similarity} = S_C(x, y) := \cos(\theta) = \frac{\mathbf{x} \cdot \mathbf{y}}{\|\mathbf{x}\| \|\mathbf{y}\|}
+                            \]
+                        </p>
+                        <img src="data/cosine-similarity-vectors.original.jpg" alt="" class="stretch plain"/>
+                        <a href="https://www.learndatasci.com/glossary/cosine-similarity/" target="_blank">
+                            Cosine Similarity - LearnDataSci
+                        </a>
+                    </section>
+                    <section>
+                        <h3>5. Метрика Хеммінга</h3>
+                        <p>Підраховує кількість позицій, у яких символи відрізняються:</p>
+                        \[
+                        d(x, y) = \sum_{i=1}^{n} [x_i \neq y_i]
+                        \]
+                        <p><strong>Приклад:</strong> Для слів <code>10111011</code> і <code>10010011</code>:</p>
+                        \[
+                        d(10111011, 10010011) = 2
+                        \]
+                        <p>📌 Використовується у теорії кодування для виявлення помилок.</p>
+                    </section>
+                </section>
+
+
+                <section>
+                    <section>
+                        <h3>When Metric important in practice?</h3>
+                    </section>
+                    <section>
+                        <h3>British Gauge War</h3>
+                        <img src="data/Movie_The_General_Buster_Keaton_train.gif" alt="" class="stretch plain"/>
+                        <br>
+                        Buster Keaton "The General" - 1926
+                    </section>
+                    <section>
+                        <img src="data/British_Gauge_War.jpg" alt="" class="stretch plain"/>
+                        https://en.wikipedia.org/wiki/British_Gauge_War
+                    </section>
+                    <section>
+                        <img src="data/Track_gauge_1.png" style="background-color: white" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <img src="data/Track_gauge_0.png" alt="" class="stretch plain"/>
+                        <img src="data/Track_gauge_2.png" alt="" class="stretch plain"/>
+                        https://en.wikipedia.org/wiki/Track_gauge
+                    </section>
+                    <section>
+                        <h3>Bridges</h3>
+                        <img src="data/Bridge.jpg" alt=""/>
+                    </section>
+                    <section>
+                        <h3>NASA</h3>
+                        https://spacemath.gsfc.nasa.gov/weekly/6Page53.pdf
+                    </section>
+                    <section>
+                        <h3>Coastline paradox</h3>
+                        https://en.wikipedia.org/wiki/Coastline_paradox
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        How does matrics binded with CG?
+                    </section>
+                    <section>
+                        There are many technologies for representing images on a canvas (display). It depends on the API and technology used.
+                    </section>
+
+                    <section>
+                        <h3>Pixel</h3>
+                        <img src="data/MagicaVoxel.ico" alt="MagicaVoxel Icon" class="stretch plain"/>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Pixel" target="_blank">Pixel (Wikipedia)</a>  
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Pixel_art" target="_blank">Pixel Art (Wikipedia)</a>
+                    </section>
+                    <section>
+                        <h3>Pixel - Measurements on Screen</h3>
+                        <p>
+                            Pixels Per Inch (PPI) – количество пикселей на дюйм экрана.  
+                            <br>
+                            DPI (Dots Per Inch) – используется для печати, но иногда применяется и к экранам.  
+                            <br>
+                            Resolution – общее количество пикселей по ширине и высоте (например, 1920×1080).  
+                        </p>
+                    </section>
+
+                    <section>
+                        <h3>Pixels by Polar coordinate system</h3>
+                        Hologram fans
+                        <br>
+                        <img src="data/Hologram_fan.gif" alt=""/>
+                    </section>
+
+                    <section>
+                        <h3>Polygon</h3>
+                        <img src="data/Games_LowPoly_Wireframe_Colin_McRae_Rally_1998 (8).gif" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Polygon</h3>
+                        <p>Polygons are the fundamental building blocks of 3D computer graphics, representing surfaces using vertices, edges, and faces.</p>
+                        <a href="https://en.wikipedia.org/wiki/Polygon_mesh" target="_blank">Polygon Mesh (Wikipedia)</a>
+                    </section>
+                    <section>
+                        <h3>Polygon - Measurements on Screen</h3>
+                        <p>
+                            Polygons are measured in terms of vertex count, triangle count, and mesh density.  
+                            <br>
+                            Level of Detail (LOD) controls how many polygons are displayed depending on distance.  
+                            <br>
+                            Pixel coverage: A single polygon can span multiple pixels depending on camera projection and resolution.  
+                        </p>
+                    </section>
+
+                    <section>
+                        <h3>Console Art - ASCII Graphics</h3>
+                        <img src="data/Console_I_think_Pixel_Art_Gif_ByGreynvi.gif" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Console Art - ASCII Graphics</h3>
+                        <p>ASCII art uses characters to create images and is often seen in retro computer graphics and early digital art.</p>
+                        <a href="https://en.wikipedia.org/wiki/ASCII_art" target="_blank">ASCII Art (Wikipedia)</a>
+                    </section>
+                    <section>
+                        <h3>ASCII Graphics - Measurements on Screen</h3>
+                        <p>
+                            Measured in terms of character grid:  
+                            <br>
+                            - Screen resolution in characters (e.g., 80×25, 132×43).  
+                            <br>
+                            - Font size determines how many characters fit on the screen.  
+                            <br>
+                            - Character aspect ratio affects image proportions.  
+                        </p>
+                    </section>
+
+                    <section>
+                        <h3>Voxel (3D Pixel)</h3>
+                        <img src="data/MV_snap2016-03-07-02-53-23.png" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Voxel (3D Pixel)</h3>
+                        <p>Voxels are volumetric pixels used in 3D graphics, similar to pixels but in a three-dimensional space.</p>
+                        <a href="https://en.wikipedia.org/wiki/Voxel" target="_blank">Voxel (Wikipedia)</a>
+                    </section>
+                    <section>
+                        <h3>Voxel - Measurements on Screen</h3>
+                        <p>
+                            Measured in voxel grid resolution:  
+                            <br>
+                            - Voxel Size: Defined in world space (e.g., 1mm³ per voxel).  
+                            <br>
+                            - Voxel Density: Number of voxels per unit of space (e.g., 256×256×256).  
+                            <br>
+                            - Screen Projection: A voxel may occupy multiple screen pixels based on viewing angle and resolution.  
+                        </p>
+                    </section>
+
+                    <section>
+                        <h3>E-ink Cell</h3>
+                        <img src="data/E-ink_display_refresh_(animation).gif" alt="" class="stretch plain"/>
+                    </section>
+
+                    <section>
+                        <h3>E-ink Cell</h3>
+                        <p>E-ink technology mimics the appearance of ink on paper and is commonly used in e-readers.</p>
+                        <a href="https://en.wikipedia.org/wiki/Electronic_paper" target="_blank">Electronic Paper (Wikipedia)</a>
+                    </section>
+                    <section>
+                        <h3>E-ink - Measurements on Screen</h3>
+                        <p>
+                            - E-ink screens use pixel-based measurements similar to LCDs.  
+                            <br>
+                            - Resolution is measured in pixels (e.g., 1448×1072).  
+                            <br>
+                            - PPI is typically high (e.g., 300 PPI for Kindle Paperwhite).  
+                        </p>
+                    </section>
+
+                    <section>
+                        <h3>Ferrolic Screen</h3>
+                        <p>The Ferrolic display uses ferrofluid, controlled by magnets, to create dynamic visuals.</p>
+                        <a href="https://youtu.be/02gkRSCJ5Ww" target="_blank">Ferrolic Screen (YouTube)</a>
+                    </section>
+                    <section>
+                        <h3>Ferrolic Screen - Measurements on Screen</h3>
+                        Pixels???
+                    </section>
+
+                </section>
+                <section>
+                    <section>
+                        <h3>Types of Digital Images in Computer Graphics (CG)</h3>
+                        <ol>
+
+                            <li><mark>Raster (Bitmap) Images</mark></li>
+                            <li><mark>Vector Images</mark></li>
+                            <li><mark>Fractal Graphic</mark></li>
+                            <li>*ASCII Graphics</li>
+                            <li>*Multi-layered Images</li>
+                            <li>*High Dynamic Range (HDR) Images</li>
+                            <li>*3D Models</li>
+                        </ol>
+                    </section>
+                    <section>
+                        <h3>1. Raster (Bitmap) Images</h3>
+                        <img src="data/rgb_title_image.png" alt="" class="stretch plain"/>
+                    </section>  
+                    <section>
+                        <h3>1. Raster (Bitmap) Images</h3>
+                        <div style="font-size: x-large">
+                            <p>Raster images are made up of a grid of pixels, with each pixel having a specific color and intensity. They are typically used for photos and complex images.</p>
+                            <ul>
+                                <li><strong>RGB (Red, Green, Blue)</strong>: Common in digital color images, where each pixel is defined by the combination of these three primary colors.</li>
+                                <li><strong>Grayscale</strong>: Images with varying shades of gray, typically from black to white.</li>
+                                <li><strong>Indexed Color</strong>: Uses a predefined color palette, with each pixel referencing a color in the palette.</li>
+                                <li><strong>CMYK (Cyan, Magenta, Yellow, Black)</strong>: Mainly used in printing, using four color channels.</li>
+                            </ul>
+                            <p><strong>Common Formats:</strong> JPEG, PNG, GIF, BMP, TIFF.</p>
+                        </div>
+                    </section>
+                    <section>
+                        <h3>1. Problems of Raster (Bitmap) Images</h3>
+                        <ul>
+                            <li>
+                                Anti-aliasing: MSAA, FXAA, SMAA, TAA
+                            </li>
+                            <li>
+                                Filtering (Math: Interpolation) (Target: Upscaling) (Overmind: Resampling): Bilinear, Trilinear, Lanczos
+                            </li>
+                            <li>
+                                Anti-aliasing + Upscaling: FSR, DLSS
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Anti-aliasing (MSAA, FXAA, SMAA, TAA)?</h3>
+                    </section>
+                    <section>
+                        <h3>Anti-aliasing (MSAA, FXAA, SMAA, TAA)</h3>
+                        <img src="data/Anti_Aliasing_Fonts.jpg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Anti-aliasing (MSAA, FXAA, SMAA, TAA)</h3>
+                        <img src="data/Anti_Aliasing_Smooth_MSAA.jpg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Anti-aliasing (MSAA, FXAA, SMAA, TAA)</h3>
+                        <img src="data/Anti_Aliasing.gif" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Anti-aliasing (MSAA, FXAA, SMAA, TAA)</h3>
+                        <img src="data/Anti_Aliasing_Minecraft_WebpToJpg.jpg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Filtering: Bilinear, Trilinear, Lanczos</h3>
+                        <img src="data/filtering_resample_01.gif" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Filtering: Bilinear, Trilinear, Lanczos</h3>
+                        <img src="data/filtering_interpolation_all.gif" alt="" class="stretch plain"/>
+                        https://bartwronski.com/2020/04/14/bilinear-texture-filtering-artifacts-alternatives-and-frequency-domain-analysis/
+                    </section>
+                    <section>
+                        <ul>
+                            <li> > Filtering</li>
+                            <li> > Math: Interpolation</li>
+                            <li> > Target: Upscaling</li>
+                            <li> > Overmind: Resampling</li>
+                        </ul>
+                        <img src="data/Meme_vince_mcmahon_reaction_wglowing_eyes_red_eyes.jpg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Anti-aliasing + Upscaling: FSR, DLSS</h3>
+
+                        https://www.overclockers.ua/video/amd-fidelityfx-super-resolution/
+                        https://www.nvidia.com/en-us/geforce/news/nvidia-dlss-2-0-a-big-leap-in-ai-rendering/
+                    </section>
+
+                    <section>
+                        <h2>2. Vector Images</h2>
+                        <img src="data/Vector.jpg" alt="" class="stretch plain"/>
+                    </section>
+
+                    <section>
+                        <h2>2. Vector Images</h2>
+                        <p>Vector images are created using mathematical equations to define geometric shapes. They are resolution-independent and can be scaled infinitely without losing quality.</p>
+                        <p><strong>Common Formats:</strong> SVG, EPS, TTF, PDF, AI (Adobe Illustrator).</p>
+                    </section>
+                    <section>
+                        <h2>2. Vector Images: TTF</h2>
+                        https://ru.wikipedia.org/wiki/TrueType
+                    </section>
+                    <section>
+                        <h2>2. Vector Images: SVG</h2>
+                        https://de.wikipedia.org/wiki/Scalable_Vector_Graphics
+                    </section>
+                    <section>
+                        <h2>2. Vector Images: SVG</h2>
+                        <pre class="xml" style="white-space: pre-line;" ><code>
+                              &ltsvg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+                                &ltcircle cx="75" cy="75" r="50" fill="red" fill-opacity="0.5" stroke="red" stroke-width="2"/>
+                              &lt/svg>
+                        </code></pre>
+                        <br>
+                        <img src="data/Vector_Circle.svg" alt="" class="stretch plain"/>
+                        <br>
+                        <a href="data/Vector_Circle.svg">Vector_Circle.svg</a>
+
+                    </section>
+                    <section>
+                        <h2>2. Vector Images: SVG</h2>
+                        <img src="data/Vector_dinosaur_svgrepo_com.svg" alt="" class="stretch plain"/>
+                        <br>
+                        https://www.svgrepo.com/
+                    </section>
+                    <section>
+                        <h2>2. Vector Images: SVG</h2>
+                        <img src="data/Vector_Tiger.svg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h2>2. Vector Images: SVG</h2>
+                        <img src="data/Vector_Machine.svg" style="background-color: white" alt="" class="stretch plain"/>
+                    </section>
+
+                    <section>
+                        <h2>2. Vector Images: SVG animation</h2>
+                        <pre class="xml" style="white-space: pre-line;" ><code>
+                            &ltsvg width="200" height="180" xmlns="http://www.w3.org/2000/svg">
+                                &ltrect x="30" y="30" height="110" width="110" style="stroke:green;fill:red">
+                                  &ltanimateTransform
+                                    attributeName="transform"
+                                    begin="0s"
+                                    dur="10s"
+                                    type="rotate"
+                                    from="0 85 85"
+                                    to="360 85 85"
+                                    repeatCount="indefinite" />
+                                &lt/rect>
+                            &lt/svg>
+                        </code></pre>
+                        <img src="data/Vector_Rectangle_Animation.svg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h2>2. Vector Images: SVG animation</h2>
+                        <img src="data/Vector_Rectangle_Animation.svg" alt="" class="stretch plain"/>
+                    </section>
+
+                    <section>
+                        <h2>Math function image</h2>
+                        https://www.desmos.com/art
+                    </section>
+                    <section>
+                        <h2>“Creation and Destruction”
+                            от Alex Dang, United States</h2>
+                        https://www.desmos.com/calculator/mdqhuvrsux
+                    </section>
+                    <section>
+                        <h2>“Sunset”
+                            от Andrew Black, United States</h2>
+                        https://www.desmos.com/calculator/yicqy4xung
+                    </section>
+                    <section>
+                        <h2>3. Fractals</h2>
+                        <img src="data/Math_Code_Fractal_Mandelbrot_Set_Color_Cycling_Output_64ColorsStyle.gif" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h2>3. Fractals</h2>
+                        <p>Fractals are complex, self-replicating structures that can be generated using mathematical formulas. They are often used to create intricate patterns and textures in CG.</p>
+                        <p><strong>Common Formats:</strong> PNG, JPEG (after rendering), fractal-specific files like .fsc (for some fractal software).</p>
+                    </section>
+
+                    <section>
+                        <h2>3. Fractals vs SVG?</h2>
+                    </section>
+                    <section>
+                        <h2>3. Fractals</h2>
+
+                    </section>
+
+
+                </section>
+
+                <section>
+                    <h3>Links: </h3>
+
+                    <ul>
+                        <li> 
+                            <a href="https://www.uio.no/studier/emner/matnat/math/MAT2400/v11/Metric.pdf" target="_blank">Metric.pdf</a>
+                        </li>
+                        <li>
+                            <a href="https://www.math.ucdavis.edu/~hunter/m125a/intro_analysis_ch7.pdf" target="_blank">Intro Analysis Chapter 7</a>
+                        </li>
+                    </ul>
+
+                </section>
+
+                <section>
+                    Thanks for your attention :)<br>
+                    <img class="stretch plain" src="../data/THANK_amazon_corgi_surprise_dribbble.gif" alt=""/>
+                </section>
+
+            </div>
+        </div>
+
+        <script src="../js/libs/reveal.js/js/reveal.js"></script>
+        <script>
+                    Reveal.initialize({
+                        // Display controls in the bottom right corner
+                        controls: true,
+                        // Display a presentation progress bar
+                        progress: true,
+                        // Set default timing of 2 minutes per slide
+                        defaultTiming: 120,
+                        // Display the page number of the current slide
+                        slideNumber: true,
+                        // Push each slide change to the browser history
+                        history: false,
+                        // Enable keyboard shortcuts for navigation
+                        keyboard: true,
+                        // Enable the slide overview mode
+                        overview: true,
+                        // Vertical centering of slides
+                        center: true,
+                        // Enables touch navigation on devices with touch input
+                        touch: true,
+                        // Loop the presentation
+                        loop: false,
+                        // Change the presentation direction to be RTL
+                        rtl: false,
+                        // Randomizes the order of slides each time the presentation loads
+                        shuffle: false,
+                        // Turns fragments on and off globally
+                        fragments: true,
+                        // Flags if the presentation is running in an embedded mode,
+                        // i.e. contained within a limited portion of the screen
+                        embedded: false,
+                        // Flags if we should show a help overlay when the questionmark
+                        // key is pressed
+                        help: true,
+                        // Flags if speaker notes should be visible to all viewers
+                        showNotes: false,
+                        // Global override for autolaying embedded media (video/audio/iframe)
+                        // - null: Media will only autoplay if data-autoplay is present
+                        // - true: All media will autoplay, regardless of individual setting
+                        // - false: No media will autoplay, regardless of individual setting
+                        autoPlayMedia: null,
+                        // Number of milliseconds between automatically proceeding to the
+                        // next slide, disabled when set to 0, this value can be overwritten
+                        // by using a data-autoslide attribute on your slides
+                        autoSlide: 0,
+                        // Stop auto-sliding after user input
+                        autoSlideStoppable: true,
+                        // Use this method for navigation when auto-sliding
+                        autoSlideMethod: Reveal.navigateNext,
+                        // Enable slide navigation via mouse wheel
+                        mouseWheel: false,
+                        // Hides the address bar on mobile devices
+                        hideAddressBar: true,
+                        // Opens links in an iframe preview overlay
+                        previewLinks: false,
+                        // Transition style
+                        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+                        // Transition speed
+                        transitionSpeed: 'default', // default/fast/slow
+
+                        // Transition style for full page slide backgrounds
+                        backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+
+                        // Number of slides away from the current that are visible
+                        viewDistance: 3,
+                        // Parallax background image
+                        //parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+                        // Parallax background size
+                        //parallaxBackgroundSize: '1600px 1200px', // CSS syntax, e.g. "2100px 900px"
+
+                        // Number of pixels to move the parallax background per slide
+                        // - Calculated automatically unless specified
+                        // - Set to 0 to disable movement along an axis
+                        parallaxBackgroundHorizontal: null,
+                        parallaxBackgroundVertical: null,
+                        // The display mode that will be used to show slides
+                        display: 'block',
+
+                        dependencies: [
+                            {src: '../js/libs/highlight.js/highlight.min.js', async: true, callback: function () {
+                                    hljs.initHighlightingOnLoad();
+                                }}
+                        ]
+                    });
+        </script>
+        <!--<script src="theme/keysActions.js" type="text/javascript"></script>-->
+        <script>
+            document.body.onload = function () {
+                //iframeWP.iframeWPInit("MainPresentation");
+
+                timer1 = new SimpleTimer();
+                timer1.init("Timer1");
+                slideNumberFieldDisplay();
+            };
+            Reveal.addEventListener('BirdAI', function () {
+                iframeWP.iframeWPSetHref('../../BirdAI/test_1.html');
+            }, false);
+            // Update slide number to reflect actual horizontal/vertical slide numbers (indexh/indexv are zero-based)
+            Reveal.addEventListener('slidechanged', function (event) {
+                slideNumberFieldDisplay();
+            });
+            function slideNumberFieldDisplay() {
+                var slideNumberField = document.querySelector('.reveal .slide-number'),
+                        slideNumber = (Reveal.getIndices().h + 1) + "." + (Reveal.getIndices().v + 1) + '/' + Reveal.getTotalSlides(),
+                        interval;
+                // Unable to set innerHTML straightaway without use of setInterval() as element may be re-created after event
+                interval = window.setInterval(
+                        function () {
+                            slideNumberField.innerHTML = slideNumber;
+                            clearInterval(interval);
+                        }, 10);
+            }
+
+        </script>
+
+
+
+    </body>
+</html>
