@@ -1,0 +1,25 @@
+Metrix
+	Topology
+	Bereg
+	Shvarc
+
+	Евклидова метрика,
+	Манхэттенская метрика (L1-норма),
+	Чебышевская метрика (L∞-норма), 
+	Косинусное расстояние: мера углового различия между векторами,
+	Хэммингова метрика.
+
+
+
+Coordinate Systems
+Cartesian Coordinate Systems
+O
+Vector
+Sum and Min
+Movement
+
+
+
+
+Raster Images, Vector, Fractal
+2D and 3D

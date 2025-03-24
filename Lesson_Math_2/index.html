@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Presentation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../favicon.ico">
+
+        <link rel="stylesheet" href="../js/libs/reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="../js/libs/reveal.js/css/theme/night.css">
+        <link href="../js/libs/highlight.js/styles/arduino-light.min.css" rel="stylesheet" type="text/css"/>
+
+        <!--<script src="../js/libs/jquery/jquery.js" type="text/javascript"></script>-->
+        <link href="../theme/style.css" rel="stylesheet" type="text/css"/>
+
+        <!--<link href="theme/iframeWebpagePreview/iframeWebpagePreview.css" rel="stylesheet" type="text/css"/>-->
+        <!--<script src="theme/iframeWebpagePreview/iframeWebpagePreview.js" type="text/javascript"></script>-->
+
+        <link href="../js/ClockJS/SimpleTimer.css" rel="stylesheet" type="text/css"/>
+        <script src="../js/ClockJS/SimpleTimer.js" type="text/javascript"></script>
+        <!--<link href="theme/xClose.css" rel="stylesheet" type="text/css"/>-->
+
+        <!-- Math Jax -->
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <!--To add inline mode-->
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+            tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            processEscapes: true
+            }
+            });
+        </script>
+        <script type="text/javascript"
+                src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        <!--To add inline mode-->
+        <!-- Math Jax -->
+    </head>
+    <body id="MainPresentation">
+        <div id="Timer1" class="simpleTimer simpleTimer-white simpleTimer-alignLeft simpleTimer-fly simpleTimer-box">timer1</div>
+
+        <div class="reveal">
+            <div class="slides">
+                <!--<section>
+                    Single Horizontal Slide
+                </section>-->
+                <!--<section>
+                        <section>Vertical Slide 1</section>
+                        <section>Vertical Slide 2</section>
+                </section>-->
+
+                <section>
+                    <h2>Fullscreen mode</h2>
+                    <p>
+                        Just press »F« on your keyboard to show your presentation in fullscreen mode. Press the »ESC« key to exit fullscreen mode.
+                    </p>
+                    <h2>Overview mode</h2>
+                    <p>
+                        Press "Esc" or "o" keys to toggle the overview mode on and off. While you're in this mode, you can still navigate between slides, as if you were at 1,000 feet above your presentation.
+                    </p>
+                </section>
+
+                <section>
+                    <br>
+                    <h3>
+                        Computational Geometry and Computer Graphics
+                    </h3>
+                    <img src="../data/OpenGL-logo.png" alt="" class="stretch plain"/>
+                    <br>
+                    Lesson 2
+                    <br>
+                    <br>
+                    <div style="font-size: xx-large;">
+                        Author: Egoshkin Danila Igorevich
+                    </div>
+                </section>
+
+                <!--Topic N-->
+                <section>
+                    <section>
+                        <h3>Image representations, Color Models, Color Depth</h3>
+                        <img src="data/Pixels.gif" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Pixels</h3>
+                        <img src="data/pixels_girl.gif" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>RGB</h3>
+                        <img src="data/rgb_title_image.png" alt="" class="stretch plain"/>
+
+
+                    </section>
+                    <section>
+                        <h3>Color Depth in RGB</h3>
+                        <img src="data/Color_Depth_bit_depth.gif" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Color Depth in RGB</h3>
+                        <img src="data/Color_Depth_8Color-depth.jpg" alt="" class="stretch plain"/>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Color_depth" target="_blank">Color Depth</a> and <br>
+                        <a href="https://en.wikipedia.org/wiki/List_of_monochrome_and_RGB_color_formats" target="_blank">List of Monochrome and RGB Color Formats</a>.
+
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h3>How humans see colors?</h3>
+                    </section>
+                    <section>
+                        <h3>How humans see colors?</h3>
+                        <img src="data/Human_Vision_diagram.png" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>How humans see colors?</h3>
+                        <img src="data/Human_Vision_color_sensitivity_Cbsm2g9x.jpg" alt=""  class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>How humans see colors?</h3>
+                        <img src="data/Human_Vision_Vs_Dogs.jpg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Does humans eyes have color bugs?</h3>
+                    </section>
+                    <section>
+                        <h3>Does humans eyes have color bugs?</h3>
+
+                        <h5>Rates of Color Blindness</h5>
+                        <table style="font-size: x-large">
+                            <tr>
+                                <th></th>
+                                <th>Males</th>
+                                <th>Females</th>
+                            </tr>
+                            <tr>
+                                <th colspan="3">Dichromacy</th>
+                            </tr>
+                            <tr>
+                                <td>Protanopia</td>
+                                <td>1.3%</td>
+                                <td>0.02%</td>
+                            </tr>
+                            <tr>
+                                <td>Deuteranopia</td>
+                                <td>1.2%</td>
+                                <td>0.01%</td>
+                            </tr>
+                            <tr>
+                                <td>Tritanopia</td>
+                                <td>0.008%</td>
+                                <td>0.008%</td>
+                            </tr>
+                            <tr>
+                                <th colspan="3">Anomalous Trichromacy</th>
+                            </tr>
+                            <tr>
+                                <td>Protanomaly</td>
+                                <td>1.3%</td>
+                                <td>0.02%</td>
+                            </tr>
+                            <tr>
+                                <td>Deuteranomaly</td>
+                                <td>5.0%</td>
+                                <td>0.35%</td>
+                            </tr>
+                            <tr>
+                                <td>Tritanomaly</td>
+                                <td>0.0001%</td>
+                                <td>0.0001%</td>
+                            </tr>
+                        </table>
+                        <a href="https://en.wikipedia.org/wiki/Color_blindness" target="_blank">Color Blindness</a>
+                    </section>
+                    <section>
+                        <h3>What chromosome do you know?</h3>
+                        <a href="http://news.bbc.co.uk/2/hi/health/3929071.stm" target="_blank">BBC News - Health</a>
+                    </section>
+                    <section>
+                        <h3>OPN1LW</h3>
+                        <a href="https://en.wikipedia.org/wiki/OPN1LW" target="_blank">OPN1LW</a>
+                        <!--                        OPN1LW woman more-->
+                    </section>
+
+                    <section>
+                        <h3>How do you see this bird?</h3>
+                        <img src="data/Tetrachromacy_Aussie-Animals-Raven-vs-Crow.jpg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>How do you see this bird?</h3>
+                        <img src="data/Tetrachromacy_Raven-vs-Crow-Physical-appearance_Inforgaphics.jpg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>How do you see this bird?</h3>
+                        <img src="data/Tetrachromacy_a_halifax_crow_of_many_colours_happy_friday.jpg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>How birds see</h3>
+                        <img src="data/Tetrachromacy.jpg" alt="" class="stretch plain"/>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Tetrachromacy" target="_blank">Tetrachromacy</a>
+                    </section>
+                    <section>
+                        <h3>How birds see</h3>
+                        <img src="data/Tetrachromacy_GLxIII5XoAA6-fU.jpg" alt="" class="stretch plain"/>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Tetrachromacy" target="_blank">Tetrachromacy</a>
+                    </section>
+                    <section>
+                        <h3>How birds see</h3>
+                        <img src="data/Tetrachromacy_photo.jpg" alt="" class="stretch plain"/>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Tetrachromacy" target="_blank">Tetrachromacy</a>
+                    </section>
+                    <section>
+                        <h3>How birds see</h3>
+                        <img src="data/Tetrachromacy_human_vs_bird_vision.jpg" alt="" class="stretch plain"/>
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Tetrachromacy" target="_blank">Tetrachromacy</a>
+                    </section>
+                    <section>
+                        <h3>How humans see colors?</h3>
+                        X-Men are already among us.
+                        <br>
+                        <a href="https://www.segmation.com/blog/the-worlds-first-tetrachromat-artist" target="_blank">The World's First Tetrachromat Artist</a>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h3>RGB Model</h3>
+                        <img src="data/rgb_title_image.png" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>RGB Model</h3>
+                        <img src="data/RGB_color-model@2x.png" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>RGB Model</h3>
+                        <img src="data/RGB_colours-and-additive-colour-mixing.png" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>RGB Model</h3>
+                        <img src="data/RGB_Cube.gif" alt="" class="stretch plain"/>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h3>CMYK</h3>
+                    </section>
+                    <section>
+                        <h3>How to use RGB Model in printers for paper?</h3>
+                        <img src="data/RGB_color-model@2x.png" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>CMYK vs RGB</h3>
+                        <img src="data/RGB_cmyk-vs-rgb-advanced-comparison.jpg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>CMYK vs RGB</h3>
+                        <img src="data/RGB_vs_CMYK_ch6_color_models_1.jpg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>CMYK vs RGB</h3>
+                        <img src="data/RGB_vs_CMYK_ch6_color_models_2.jpg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>CMYK vs RGB</h3>
+                        <img src="data/RGB_vs_CMYK_200921-D-PA656-0002.jpg" alt="" class="stretch plain"/>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h3>HSV</h3>
+                    </section>     
+                    <section>
+                        <h3>How to use RGB Model to make rainbow effect?</h3>
+                        <img src="data/RGB_color-model@2x.png" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>How to use RGB Model to make rainbow effect?</h3>
+                        <img src="data/Rainbow_hero.2019-01-24-15_12_35-1.gif" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>HSV</h3>
+                        <img src="data/HSV_cone_surface01_5step_72frames_30msss.gif" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>HSV</h3>
+                        <img src="data/HSV_w1200.jpeg" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>HSV</h3>
+                        <img src="data/HSV_Cylinder.gif" alt="" class="stretch plain"/>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h3>HSL</h3>
+                        <img src="data/Sims.gif" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>HSL vs HSV</h3>
+                        <img src="data/HSL_hsv_hsl.png" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>HSL vs HSV</h3>
+                        <img src="data/HSL_The_HSV_colour_model_mapped_to_a_cylinder_and.png" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>HSL vs HSV</h3>
+                        <img src="data/HSL_Cylinder.gif" alt="" class="stretch plain"/>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h3>XYZ</h3>
+                        Mathematically defined color spaces is the CIE XYZ color space (also known as CIE 1931 color space), created by the International Commission on Illumination in 1931.
+                        <br>
+                        Used for compatibility and transferring between models
+                        <br>
+                        <a href="https://en.wikipedia.org/wiki/Color_model" target="_blank">Color model</a>
+                    </section>
+                </section>
+
+                <section>
+                    <h3>Links:</h3>
+                    <ul>
+                        <li><a href="https://en.wikipedia.org/wiki/Color_model" target="_blank">Color Model</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/List_of_monochrome_and_RGB_color_formats" target="_blank">List of Monochrome and RGB Color Formats</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Color_depth" target="_blank">Color Depth</a></li>
+                        <li><a href="https://www.physics.ntua.gr/~konstant/HetCluster/intel12.1/ipp/ipp_manual/IPPI/ippi_ch6/ch6_color_models.htm" target="_blank">Color Models</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/HSL_and_HSV" target="_blank">HSL and HSV</a></li>
+                    </ul>
+                    <h3>Other Models:</h3>
+                    <ul>
+                        <li><a href="https://en.wikipedia.org/wiki/YCbCr" target="_blank">YCbCr</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Y%E2%80%B2UV" target="_blank">YUV</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/James_Clerk_Maxwell" target="_blank">James Clerk Maxwell</a></li>
+
+                    </ul>
+                </section>
+
+                <section>
+                    Thanks for your attention :)<br>
+                    <img class="stretch plain" src="../data/THANK_amazon_corgi_surprise_dribbble.gif" alt=""/>
+                </section>
+
+            </div>
+        </div>
+
+        <script src="../js/libs/reveal.js/js/reveal.js"></script>
+        <script>
+                    Reveal.initialize({
+                        // Display controls in the bottom right corner
+                        controls: true,
+                        // Display a presentation progress bar
+                        progress: true,
+                        // Set default timing of 2 minutes per slide
+                        defaultTiming: 120,
+                        // Display the page number of the current slide
+                        slideNumber: true,
+                        // Push each slide change to the browser history
+                        history: false,
+                        // Enable keyboard shortcuts for navigation
+                        keyboard: true,
+                        // Enable the slide overview mode
+                        overview: true,
+                        // Vertical centering of slides
+                        center: true,
+                        // Enables touch navigation on devices with touch input
+                        touch: true,
+                        // Loop the presentation
+                        loop: false,
+                        // Change the presentation direction to be RTL
+                        rtl: false,
+                        // Randomizes the order of slides each time the presentation loads
+                        shuffle: false,
+                        // Turns fragments on and off globally
+                        fragments: true,
+                        // Flags if the presentation is running in an embedded mode,
+                        // i.e. contained within a limited portion of the screen
+                        embedded: false,
+                        // Flags if we should show a help overlay when the questionmark
+                        // key is pressed
+                        help: true,
+                        // Flags if speaker notes should be visible to all viewers
+                        showNotes: false,
+                        // Global override for autolaying embedded media (video/audio/iframe)
+                        // - null: Media will only autoplay if data-autoplay is present
+                        // - true: All media will autoplay, regardless of individual setting
+                        // - false: No media will autoplay, regardless of individual setting
+                        autoPlayMedia: null,
+                        // Number of milliseconds between automatically proceeding to the
+                        // next slide, disabled when set to 0, this value can be overwritten
+                        // by using a data-autoslide attribute on your slides
+                        autoSlide: 0,
+                        // Stop auto-sliding after user input
+                        autoSlideStoppable: true,
+                        // Use this method for navigation when auto-sliding
+                        autoSlideMethod: Reveal.navigateNext,
+                        // Enable slide navigation via mouse wheel
+                        mouseWheel: false,
+                        // Hides the address bar on mobile devices
+                        hideAddressBar: true,
+                        // Opens links in an iframe preview overlay
+                        previewLinks: false,
+                        // Transition style
+                        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+                        // Transition speed
+                        transitionSpeed: 'default', // default/fast/slow
+
+                        // Transition style for full page slide backgrounds
+                        backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+
+                        // Number of slides away from the current that are visible
+                        viewDistance: 3,
+                        // Parallax background image
+                        //parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+                        // Parallax background size
+                        //parallaxBackgroundSize: '1600px 1200px', // CSS syntax, e.g. "2100px 900px"
+
+                        // Number of pixels to move the parallax background per slide
+                        // - Calculated automatically unless specified
+                        // - Set to 0 to disable movement along an axis
+                        parallaxBackgroundHorizontal: null,
+                        parallaxBackgroundVertical: null,
+                        // The display mode that will be used to show slides
+                        display: 'block',
+
+                        dependencies: [
+                            {src: '../js/libs/highlight.js/highlight.min.js', async: true, callback: function () {
+                                    hljs.initHighlightingOnLoad();
+                                }}
+                        ]
+                    });
+        </script>
+        <!--<script src="theme/keysActions.js" type="text/javascript"></script>-->
+        <script>
+            document.body.onload = function () {
+                //iframeWP.iframeWPInit("MainPresentation");
+
+                timer1 = new SimpleTimer();
+                timer1.init("Timer1");
+                slideNumberFieldDisplay();
+            };
+            Reveal.addEventListener('BirdAI', function () {
+                iframeWP.iframeWPSetHref('../../BirdAI/test_1.html');
+            }, false);
+            // Update slide number to reflect actual horizontal/vertical slide numbers (indexh/indexv are zero-based)
+            Reveal.addEventListener('slidechanged', function (event) {
+                slideNumberFieldDisplay();
+            });
+            function slideNumberFieldDisplay() {
+                var slideNumberField = document.querySelector('.reveal .slide-number'),
+                        slideNumber = (Reveal.getIndices().h + 1) + "." + (Reveal.getIndices().v + 1) + '/' + Reveal.getTotalSlides(),
+                        interval;
+                // Unable to set innerHTML straightaway without use of setInterval() as element may be re-created after event
+                interval = window.setInterval(
+                        function () {
+                            slideNumberField.innerHTML = slideNumber;
+                            clearInterval(interval);
+                        }, 10);
+            }
+
+        </script>
+
+
+
+    </body>
+</html>
