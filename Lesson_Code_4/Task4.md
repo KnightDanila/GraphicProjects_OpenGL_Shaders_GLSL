@@ -10,7 +10,7 @@ GLM - https://github.com/g-truc/glm/releases
 
 ## Task
 1. Learn the base opportunities of "GLShader.h". Understand the features of the "GLShader.h" class.
-2. Using the application template(pattern) Task04Src download "GLShader.h" [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson4/Task04Src] - write and run the code with your namespace.
+2. Using the application template(pattern) Task04Src download "GLShader.h" [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson_Code_4/Task04Src] - write and run the code with your namespace.
 3. Download "BrightAndDim_VertexShader.vs", "BrightAndDim_FragmentShader.fs" to working folder;
 4. Add output to the console:
 ```
@@ -42,7 +42,7 @@ void keyCallback(GLFWwindow * window, int key, int scancode, int action, int mod
 
 ## Завдання
 1. Ознайомитись з можливостями "GLShader.h". Розібратися з особливостями "GLShader.h" класу.
-2. Використовуючи шаблон програми Task04Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson4/Task04Src] - запишіть та запустить код з вашим простором імен.
+2. Використовуючи шаблон програми Task04Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson_Code_4/Task04Src] - запишіть та запустить код з вашим простором імен.
 3. Завантажити "BrightAndDim_VertexShader.vs", "BrightAndDim_FragmentShader.fs" до робочої папки;
 4. Додайте вивід до консолі:
 ```

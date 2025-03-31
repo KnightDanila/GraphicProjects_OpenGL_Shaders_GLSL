@@ -12,7 +12,7 @@ For example GSC - Grigorovich Sergiy Constantinovic [(GSC Game World)](https://e
 namespace GSC{
 }
 ```
-2. Using the application template(pattern) Task02Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson2/Task02Src] - write and run the code with our namespace.
+2. Using the application template(pattern) Task02Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson_Code_2/Task02Src] - write and run the code with our namespace.
 3. Use UML diagram for help:
 ![UML](data/UML_Main1.jpg)
 4. Add output to the console:
@@ -41,7 +41,7 @@ Author: The student of the faculty of Applied Mathematics (Harry James Potter/He
 namespace GSC{
 }
 ```
-2. Використовуючи шаблон програми Task02Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson2/Task02Src] - запишіть та запустіть код з вашим простором імен.
+2. Використовуючи шаблон програми Task02Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson_Code_2/Task02Src] - запишіть та запустіть код з вашим простором імен.
 3. Використовуйте діаграму UML для довідки:
 ![UML](data/UML_Main1.jpg)
 4. Додайте вихід до консолі:

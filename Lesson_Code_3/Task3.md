@@ -15,7 +15,7 @@ GLM - https://github.com/g-truc/glm/releases
 #include "glm\gtc\matrix_transform.hpp"
 #include "glm\gtc\type_ptr.hpp"
 ```
-2. Using the application template(pattern) Task03Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson3/Task03Src] - write and run the code with your namespace.
+2. Using the application template(pattern) Task03Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson_Code_3/Task03Src] - write and run the code with your namespace.
 3. Use UML diagram for help:
 ![UML](data/UML_Main_Camera.jpg)
 4. Add output to the console:
@@ -38,7 +38,7 @@ Author: Vasya Pupkin
 
 ## Завдання
 1. Ознайомитись з можливостями графічної бібліотеки GLM. Розібратися з особливостями підключення бібліотеки GLM.
-2. Використовуючи шаблон програми Task03Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson3/Task03Src] - запишіть та запустіть код з вашим простором імен.
+2. Використовуючи шаблон програми Task03Src [https://github.com/KnightDanila/GraphicProjects_OpenGL_Shaders_GLSL/tree/master/Lesson_Code_3/Task03Src] - запишіть та запустіть код з вашим простором імен.
 3. Використовуйте діаграму UML для довідки:
 ![UML](data/UML_Main_Camera.jpg)
 4. Додайте вихід до консолі:
