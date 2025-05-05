@@ -1,3 +1,10 @@
+Shaders
+https://thndl.com/square-shaped-shaders.html
+https://iquilezles.org/articles/distfunctions2d/
+https://lygia.xyz/sdf/circleSDF
+SDF - Signed Distance Function
+https://numfactory.upc.edu/web/Geometria/signedDistances.html
+
 Vangers: One For The Road
 
 beamng drive
@@ -25,3 +32,11 @@ https://www.youtube.com/watch?v=Q3oItpVa9fs
 
 Shader Basics, Blending & Textures • Shaders for Game Devs [Part 1]
 https://www.youtube.com/watch?v=kfM-yu0iQBk&feature=youtu.be
+
+Тексты, переводы, типа
+
+Алексей Глушко: Катценберг, Джеффри
+
+
+BIM
+PMI drawing
