@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Presentation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="../favicon.ico">
+
+        <link rel="stylesheet" href="../js/libs/reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="../js/libs/reveal.js/css/theme/night.css">
+        <link href="../js/libs/highlight.js/styles/arduino-light.min.css" rel="stylesheet" type="text/css"/>
+
+        <!--<script src="../js/libs/jquery/jquery.js" type="text/javascript"></script>-->
+        <link href="../theme/style.css" rel="stylesheet" type="text/css"/>
+
+        <!--<link href="theme/iframeWebpagePreview/iframeWebpagePreview.css" rel="stylesheet" type="text/css"/>-->
+        <!--<script src="theme/iframeWebpagePreview/iframeWebpagePreview.js" type="text/javascript"></script>-->
+
+        <link href="../js/ClockJS/SimpleTimer.css" rel="stylesheet" type="text/css"/>
+        <script src="../js/ClockJS/SimpleTimer.js" type="text/javascript"></script>
+        <!--<link href="theme/xClose.css" rel="stylesheet" type="text/css"/>-->
+
+        <!-- Math Jax -->
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <!--To add inline mode-->
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+            tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            processEscapes: true
+            }
+            });
+        </script>
+        <script type="text/javascript"
+                src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        <!--To add inline mode-->
+        <!-- Math Jax -->
+    </head>
+    <body id="MainPresentation">
+        <div id="Timer1" class="simpleTimer simpleTimer-white simpleTimer-alignLeft simpleTimer-fly simpleTimer-box">timer1</div>
+
+        <div class="reveal">
+            <div class="slides">
+                <!--<section>
+                    Single Horizontal Slide
+                </section>-->
+                <!--<section>
+                        <section>Vertical Slide 1</section>
+                        <section>Vertical Slide 2</section>
+                </section>-->
+
+                <section>
+                    <h2>Fullscreen mode</h2>
+                    <p>
+                        Just press »F« on your keyboard to show your presentation in fullscreen mode. Press the »ESC« key to exit fullscreen mode.
+                    </p>
+                    <h2>Overview mode</h2>
+                    <p>
+                        Press "Esc" or "o" keys to toggle the overview mode on and off. While you're in this mode, you can still navigate between slides, as if you were at 1,000 feet above your presentation.
+                    </p>
+                </section>
+
+                <section>
+                    <br>
+                    <h3>
+                        Computational Geometry and Computer Graphics
+                    </h3>
+                    <img src="../data/OpenGL-logo.png" alt="" class="stretch plain"/>
+                    <br>
+                    Lesson 5
+                    <br>
+                    <br>
+                    <div style="font-size: xx-large;">
+                        Author: Egoshkin Danila Igorevich
+                    </div>
+                </section>
+
+                <!--Topic N-->
+                <section>
+                    <section>
+                        <h3>Plan</h3>
+                        <div>
+                            <ol>
+                                <li>Vectors again</li>
+                                <li>Matrices</li>
+                                <li>Transformation matrices & Affine Transformation</li>
+                                <li>Linear vs Nonlinear Transformations</li>
+                                <li>Projection matrix</li>
+                                <li>Tensors</li>
+                                <li>Euler angles</li>
+                                <li>Quaternions</li>
+                            </ol>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h3>Vectors again</h3>
+
+                    </section>
+                    <section>
+                        <h3>Vectors</h3>
+                        \[
+                        \vec{v} = \begin{pmatrix} \color{#FF8080}{x} \\ \color{#80FF80}{y} \\ \color{#80C0FF}{z} \end{pmatrix}
+                        \]
+
+                    </section>
+                    <section>
+                        <h3>Scalar vector operations</h3>
+                        \[
+                        \begin{pmatrix} 
+                        \color{#FF8080}{1} \\ 
+                        \color{#80FF80}{2} \\ 
+                        \color{#80C0FF}{3} 
+                        \end{pmatrix} 
+                        + x 
+                        \rightarrow 
+                        \begin{pmatrix} 
+                        \color{#FF8080}{1} \\ 
+                        \color{#80FF80}{2} \\ 
+                        \color{#80C0FF}{3} 
+                        \end{pmatrix} 
+                        + 
+                        \begin{pmatrix} 
+                        x \\ 
+                        x \\ 
+                        x 
+                        \end{pmatrix}  
+                        = 
+                        \begin{pmatrix} 
+                        \color{#FF8080}{1 + x} \\ 
+                        \color{#80FF80}{2 + x} \\ 
+                        \color{#80C0FF}{3 + x} 
+                        \end{pmatrix}
+                        \]
+
+                        <br>
+                        Where $$+ can be +, -, \cdot or \div$$ 
+                    </section>
+                    <section>
+                        <h3>Vector negation</h3>
+                        \[
+                        -\bar{v} = -\begin{pmatrix} 
+                        \color{#FF8080}{v_x} \\ 
+                        \color{#80C0FF}{v_y} \\ 
+                        \color{#80FF80}{v_z} 
+                        \end{pmatrix} 
+                        = 
+                        \begin{pmatrix} 
+                        \color{#FF8080}{-v_x} \\ 
+                        \color{#80C0FF}{-v_y} \\ 
+                        \color{#80FF80}{-v_z} 
+                        \end{pmatrix}
+                        \]
+                    </section>
+                    <section>
+                        https://learnopengl.com/Getting-started/Transformations
+                    </section>
+
+                </section>
+
+                <section>
+                    <section>
+                        <h3>Transformation: translations</h3>
+                        <img src="data/Translation.gif" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Transformation: translations</h3>
+                        \[
+                        \vec{point} = \begin{pmatrix} \color{#FF8080}{1} \\ \color{#80FF80}{1} \end{pmatrix}
+                        \]
+                        \[
+                        \vec{point_{new}} = \begin{pmatrix} \color{#FF8080}{2} \\ \color{#80FF80}{2} \end{pmatrix}
+                        \]
+                    </section>
+                    <section>
+                        <h3>Transformation: translations</h3>
+                        \[
+                        \vec{point_{new}} = \begin{pmatrix} \color{#FF8080}{point_{x}} + \color{#FF8080}{T_x} \\ \color{#80FF80}{point_{y}} + \color{#80FF80}{T_y} \end{pmatrix}
+                        \]
+                    </section>
+
+                    <section>
+                        <h3>Transformation: translations</h3>
+                        \[
+                        \begin{bmatrix}  
+                        \color{#FF8080}{1} & \color{#FF8080}{0} & \color{#FF8080}{T_x} \\ 
+                        \color{#80FF80}{0} & \color{#80FF80}{1} & \color{#80FF80}{T_y} \\ 
+                        \color{#D0A0FF}{0} & \color{#D0A0FF}{0} & \color{#D0A0FF}{1} 
+                        \end{bmatrix}
+                        \cdot 
+                        \begin{pmatrix} x \\ y \\ 1 \end{pmatrix} 
+                        = 
+                        \begin{pmatrix} 
+                        x + \color{#FF8080}{T_x} \\ 
+                        y + \color{#80FF80}{T_y} \\ 
+                        1 
+                        \end{pmatrix}
+                        \]
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h3>Transformation: Rotation</h3>
+                        <img src="data/Rotation.gif" alt="" class="stretch plain"/>
+                    </section>
+                    <section>
+                        <h3>Transformation: Rotation</h3>
+                        A rotation matrix is used to rotate objects in a coordinate system. Let's rotate a point Q(1, 1) by 90 degrees counterclockwise.
+
+                        Given point Q = (1, 1) and rotation angle θ = 90 degrees, the rotation matrix is:
+                        \[
+                        \vec{point} = \begin{pmatrix} \color{#FF8080}{1} \\ \color{#80FF80}{1} \end{pmatrix}
+                        \]
+                        \[
+                        \vec{point_{new}} = \begin{pmatrix} \color{#FF8080}{-1} \\ \color{#80FF80}{1} \end{pmatrix}
+                        \]
+                    </section>
+                    <section>
+                        <h3>Transformation: Rotation</h3>
+                        <img src="data/derivation_of_the_2d_rotation_matrix.png" alt="" class="stretch plain"/>
+                    </section>
+
+                    <section>
+                        <h3>Transformation: Rotation</h3>
+                        <img src="data/derivation_of_the_2d_rotation_matrix.png" alt="" class="stretch plain"/>
+                        <br>
+                        Expressing (x, y) in the polar form, we get:
+                        \[
+                        \color{#FF8080}{x = L \cos a} \\
+                        \color{#80FF80}{y = L \sin a}
+                        \]
+                    </section>
+                    <section>
+                        <h3>Transformation: Rotation</h3>
+                        <img src="data/derivation_of_the_2d_rotation_matrix.png" alt="" class="stretch plain"/>
+                        <br>
+                        Similarly, expressing (x', y') in polar form
+                        \[
+                        \color{#FF8080}{x' = L \cos (a + θ)} \\
+                        \color{#80FF80}{y' = L \sin (a + θ)}
+                        \]
+                    </section>
+                    <section>
+                        <h3>Transformation: Rotation</h3>
+                        <img src="data/trigonometry_formulas.png" alt="" class="stretch plain"/>
+                    </section>
+
+                    <section>
+                        <h3>Transformation: Rotation</h3>
+
+                        Using trigonometric identities we get,
+                        \[
+                        \begin{aligned}
+                        \text{x'} = L (\cos a \cos \theta - \sin a \sin \theta) \\
+                        = L \cos a \cos \theta - L \sin a \sin \theta \\
+                        \end{aligned}
+                        \]
+                        Substituting the values from equations (1) and (2):
+                        \[
+                        \text{x'} = x \cos \theta - y \sin \theta \qquad \text{(3)}
+                        \]
+                    </section>
+                    <section>
+                        <h3>Transformation: Rotation</h3>
+                        For the y-coordinate,
+                        \[
+                        \begin{aligned}
+                        \text{y'} = L (\sin a \cos \theta + \cos a \sin \theta) \\
+                        = L \sin a \cos \theta + L \cos a \sin \theta \\
+                        = y \cos \theta + x \sin \theta \qquad \text{(4)}
+                        \end{aligned}
+                        \]
+                    </section>
+                    <section>
+                        <h3>Transformation: Rotation</h3>
+                        \[
+                        \begin{bmatrix}
+                        \color{#FF8080}{\cos\theta} & \color{#FF8080}{-\sin\theta} & \color{#FF8080}{0} \\
+                        \color{#80FF80}{\sin\theta} & \color{#80FF80}{\cos\theta} & \color{#80FF80}{0} \\
+                        \color{#D0A0FF}{0} & \color{#D0A0FF}{0} & \color{#D0A0FF}{1}
+                        \end{bmatrix}
+                        \cdot
+                        \begin{pmatrix}
+                        x \\
+                        y \\
+                        1
+                        \end{pmatrix}
+                        =
+                        \begin{pmatrix}
+                        x \cos\theta - y \sin\theta \\
+                        x \sin\theta + y \cos\theta \\
+                        1
+                        \end{pmatrix}
+                        \]
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h3>Transformation: Affine Transformations</h3>
+                        <div style="font-size: x-large">
+                            Affine transformations are the simplest form of transformation. These transformations are also linear in the sense that they satisfy the following properties:
+
+                            <br>
+                            <ul>
+                                <li>Lines map to lines</li>
+                                <li>Points map to points</li>
+                                <li>Parallel lines stay parallel</li>
+                            </ul>
+                            <br>
+                            Some familiar examples of affine transforms are translations, dilations, rotations, shearing, and reflections. Furthermore, any composition of these transformations (like a rotation after a dilation) is another affine transform.
+                        </div>
+                    </section>
+                </section>
+
+
+                <section>
+                    <h3>Links: </h3>
+                    <ul>
+                        <li>
+                            <a href="https://learnopengl.com/Getting-started/Transformations" target="_blank">
+                            </a>
+                        </li>
+                        https://en.wikipedia.org/wiki/Transformation_matrix
+                        https://www.geeksforgeeks.org/rotation-matrix/
+                        https://www.geeksforgeeks.org/transformation-matrix/
+                        https://towardsdatascience.com/understanding-transformations-in-computer-vision
+                        https://xaktly.com/Matrix2Dtransformation.html
+                        https://graphicscompendium.com/opengl/12-geometric-transforms
+                        https://articulatedrobotics.xyz/tutorials/coordinate-transforms/linear-transforms/
+                        
+                        
+                        https://www.youtube.com/watch?v=zc8b2Jo7mno&ab_channel=GuerrillaCG
+                        https://www.youtube.com/watch?v=zjMuIxRvygQ&ab_channel=3Blue1Brown
+                        https://gameprogrammingpatterns.com/
+                    </ul>
+                </section>
+
+                <section>
+                    Thanks for your attention :)<br>
+                    <img class="stretch plain" src="../data/THANK_amazon_corgi_surprise_dribbble.gif" alt=""/>
+                </section>
+
+            </div>
+        </div>
+
+        <script src="../js/libs/reveal.js/js/reveal.js"></script>
+        <script>
+                    Reveal.initialize({
+                        // Display controls in the bottom right corner
+                        controls: true,
+                        // Display a presentation progress bar
+                        progress: true,
+                        // Set default timing of 2 minutes per slide
+                        defaultTiming: 120,
+                        // Display the page number of the current slide
+                        slideNumber: true,
+                        // Push each slide change to the browser history
+                        history: false,
+                        // Enable keyboard shortcuts for navigation
+                        keyboard: true,
+                        // Enable the slide overview mode
+                        overview: true,
+                        // Vertical centering of slides
+                        center: true,
+                        // Enables touch navigation on devices with touch input
+                        touch: true,
+                        // Loop the presentation
+                        loop: false,
+                        // Change the presentation direction to be RTL
+                        rtl: false,
+                        // Randomizes the order of slides each time the presentation loads
+                        shuffle: false,
+                        // Turns fragments on and off globally
+                        fragments: true,
+                        // Flags if the presentation is running in an embedded mode,
+                        // i.e. contained within a limited portion of the screen
+                        embedded: false,
+                        // Flags if we should show a help overlay when the questionmark
+                        // key is pressed
+                        help: true,
+                        // Flags if speaker notes should be visible to all viewers
+                        showNotes: false,
+                        // Global override for autolaying embedded media (video/audio/iframe)
+                        // - null: Media will only autoplay if data-autoplay is present
+                        // - true: All media will autoplay, regardless of individual setting
+                        // - false: No media will autoplay, regardless of individual setting
+                        autoPlayMedia: null,
+                        // Number of milliseconds between automatically proceeding to the
+                        // next slide, disabled when set to 0, this value can be overwritten
+                        // by using a data-autoslide attribute on your slides
+                        autoSlide: 0,
+                        // Stop auto-sliding after user input
+                        autoSlideStoppable: true,
+                        // Use this method for navigation when auto-sliding
+                        autoSlideMethod: Reveal.navigateNext,
+                        // Enable slide navigation via mouse wheel
+                        mouseWheel: false,
+                        // Hides the address bar on mobile devices
+                        hideAddressBar: true,
+                        // Opens links in an iframe preview overlay
+                        previewLinks: false,
+                        // Transition style
+                        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+                        // Transition speed
+                        transitionSpeed: 'default', // default/fast/slow
+
+                        // Transition style for full page slide backgrounds
+                        backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+
+                        // Number of slides away from the current that are visible
+                        viewDistance: 3,
+                        // Parallax background image
+                        //parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+                        // Parallax background size
+                        //parallaxBackgroundSize: '1600px 1200px', // CSS syntax, e.g. "2100px 900px"
+
+                        // Number of pixels to move the parallax background per slide
+                        // - Calculated automatically unless specified
+                        // - Set to 0 to disable movement along an axis
+                        parallaxBackgroundHorizontal: null,
+                        parallaxBackgroundVertical: null,
+                        // The display mode that will be used to show slides
+                        display: 'block',
+
+                        dependencies: [
+                            {src: '../js/libs/highlight.js/highlight.min.js', async: true, callback: function () {
+                                    hljs.initHighlightingOnLoad();
+                                }}
+                        ]
+                    });
+        </script>
+        <!--<script src="theme/keysActions.js" type="text/javascript"></script>-->
+        <script>
+            document.body.onload = function () {
+                //iframeWP.iframeWPInit("MainPresentation");
+
+                timer1 = new SimpleTimer();
+                timer1.init("Timer1");
+                slideNumberFieldDisplay();
+            };
+            Reveal.addEventListener('BirdAI', function () {
+                iframeWP.iframeWPSetHref('../../BirdAI/test_1.html');
+            }, false);
+            // Update slide number to reflect actual horizontal/vertical slide numbers (indexh/indexv are zero-based)
+            Reveal.addEventListener('slidechanged', function (event) {
+                slideNumberFieldDisplay();
+            });
+            function slideNumberFieldDisplay() {
+                var slideNumberField = document.querySelector('.reveal .slide-number'),
+                        slideNumber = (Reveal.getIndices().h + 1) + "." + (Reveal.getIndices().v + 1) + '/' + Reveal.getTotalSlides(),
+                        interval;
+                // Unable to set innerHTML straightaway without use of setInterval() as element may be re-created after event
+                interval = window.setInterval(
+                        function () {
+                            slideNumberField.innerHTML = slideNumber;
+                            clearInterval(interval);
+                        }, 10);
+            }
+
+        </script>
+
+
+
+    </body>
+</html>
